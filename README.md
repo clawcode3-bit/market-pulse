@@ -1,5 +1,7 @@
 # 市场脉搏 · Market Pulse
 
+[![CI](https://github.com/clawcode3-bit/market-pulse/actions/workflows/ci.yml/badge.svg)](https://github.com/clawcode3-bit/market-pulse/actions/workflows/ci.yml)
+
 > A self-hosted, zero-dependency market dashboard: global indices, long-horizon research,
 > market-cap maps, and single-stock analysis. Data from Eastmoney public endpoints; runs entirely
 > on your own machine.

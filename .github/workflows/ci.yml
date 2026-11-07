@@ -1,0 +1,88 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Node ${{ matrix.node }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [18, 20, 22]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: Validate JSON
+        run: |
+          node -e "JSON.parse(require('node:fs').readFileSync('package.json','utf8'))"
+          node -e "JSON.parse(require('node:fs').readFileSync('data/indices.json','utf8'))"
+
+      - name: Syntax check
+        run: node --check server.js
+
+      - name: Start server
+        run: |
+          HOST=127.0.0.1 PORT=5173 node server.js > server.log 2>&1 &
+          echo $! > server.pid
+          for i in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:5173/api/health >/dev/null 2>&1; then
+              echo "server up after ${i}s"
+              exit 0
+            fi
+            sleep 1
+          done
+          echo "server did not start"
+          cat server.log
+          exit 1
+
+      - name: Smoke test
+        run: |
+          set -euo pipefail
+          for path in / /research.html /markets.html /stock.html /api/health /api/index-list; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" "http://127.0.0.1:5173${path}")
+            echo "${path} -> ${code}"
+            test "${code}" = "200"
+          done
+          curl -fsS http://127.0.0.1:5173/api/index-list | node -e "
+            let s = '';
+            process.stdin.on('data', (d) => (s += d));
+            process.stdin.on('end', () => {
+              const j = JSON.parse(s);
+              if (!Array.isArray(j.items) || j.items.length !== 15) {
+                console.error('expected 15 indices, got', j.items && j.items.length);
+                process.exit(1);
+              }
+              console.log('index-list ok:', j.items.length);
+            });
+          "
+
+      - name: Server log on failure
+        if: failure()
+        run: cat server.log || true
+
+      - name: Stop server
+        if: always()
+        run: kill "$(cat server.pid)" 2>/dev/null || true
+
+  docker:
+    name: Docker build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build image
+        run: docker build -t market-pulse:ci .

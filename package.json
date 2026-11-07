@@ -22,5 +22,13 @@
     "svg",
     "self-hosted"
   ],
-  "author": "Market Pulse contributors"
+  "author": "Market Pulse contributors",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:clawcode3-bit/market-pulse.git"
+  },
+  "homepage": "https://github.com/clawcode3-bit/market-pulse",
+  "bugs": {
+    "url": "https://github.com/clawcode3-bit/market-pulse/issues"
+  }
 }

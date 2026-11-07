@@ -1,0 +1,423 @@
+/* ==========================================================================
+   市场脉搏 · 市场规模
+   ========================================================================== */
+
+.kpi-grid.four { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+/* ------------------------------ 市值地图 ------------------------------ */
+
+.treemap {
+  position: relative;
+  height: 540px;
+  border: 1px solid var(--line-soft);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--bg-2) 55%, transparent);
+  overflow: hidden;
+}
+
+.treemap svg { display: block; width: 100%; height: 100%; }
+
+.tm-tile { cursor: pointer; }
+
+.tm-tile rect {
+  transition: fill-opacity 0.18s, stroke-opacity 0.18s;
+}
+
+.tm-tile:hover rect {
+  fill-opacity: 0.27;
+  stroke-opacity: 0.85;
+}
+
+.tm-tile text { pointer-events: none; }
+
+.tm-name {
+  font-family: var(--sans);
+  font-weight: 600;
+  fill: color-mix(in srgb, var(--tile, #8b94a7) 72%, var(--text));
+}
+.tm-value { font-family: var(--mono); font-weight: 600; font-variant-numeric: tabular-nums; fill: var(--text); }
+.tm-meta { font-family: var(--mono); font-variant-numeric: tabular-nums; fill: var(--muted); }
+
+.tm-foot {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.tm-legend { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+
+.tm-lg {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10px;
+  color: var(--text-2);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.tm-lg i {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.tm-lg.dim { opacity: 0.4; }
+
+.tm-hint {
+  margin-left: auto;
+  font-size: 9.5px;
+  color: var(--muted);
+}
+
+.tm-tip {
+  position: absolute;
+  z-index: 5;
+  min-width: 170px;
+  padding: 9px 11px;
+  border: 1px solid var(--line-strong);
+  border-radius: 9px;
+  background: color-mix(in srgb, var(--panel-2) 97%, transparent);
+  box-shadow: 0 18px 40px -16px #000;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.12s;
+  font-size: 10.5px;
+  color: var(--text-2);
+}
+
+.tm-tip.show { opacity: 1; }
+
+.tm-tip .tt-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.tm-tip .tt-title i { width: 8px; height: 8px; border-radius: 2px; }
+
+.tm-tip .tt-line {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  line-height: 1.85;
+  font-family: var(--mono);
+}
+
+.tm-tip .tt-line span:last-child { color: var(--text); }
+
+/* ------------------------------ 汇率 ------------------------------ */
+
+.fx-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.fx-card {
+  padding: 11px 12px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: color-mix(in srgb, var(--panel-2) 55%, transparent);
+}
+
+.fx-card i {
+  display: block;
+  font-style: normal;
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+
+.fx-card b {
+  font-family: var(--mono);
+  font-size: 19px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+.fx-card small {
+  display: block;
+  margin-top: 3px;
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--muted);
+}
+
+.fx-chart { height: 76px; margin-top: 10px; }
+.fx-chart svg { display: block; width: 100%; height: 100%; }
+
+/* ------------------------------ 说明 ------------------------------ */
+
+.note-list {
+  margin: 0;
+  padding: 0 0 0 16px;
+  color: var(--muted);
+  font-size: 10.5px;
+  line-height: 1.8;
+}
+
+.note-list li { margin-bottom: 7px; }
+.note-list li:last-child { margin-bottom: 0; }
+.note-list b { color: var(--text-2); font-weight: 550; }
+
+/* ------------------------------ 表格 ------------------------------ */
+
+.th-share { width: 120px; }
+
+.share-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.share-track {
+  width: 54px;
+  height: 4px;
+  border-radius: 99px;
+  background: var(--panel-3);
+  overflow: hidden;
+  flex: none;
+}
+
+.share-fill {
+  display: block;
+  height: 100%;
+  border-radius: 99px;
+  background: var(--accent);
+  opacity: 0.7;
+}
+
+.share-num {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  color: var(--text-2);
+  min-width: 38px;
+  text-align: right;
+}
+
+/* ------------------------------ 响应式 ------------------------------ */
+
+@media (max-width: 1180px) {
+  .kpi-grid.four { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 760px) {
+  .treemap { height: 420px; }
+  .tm-hint { display: none; }
+  .fx-grid { grid-template-columns: 1fr; }
+  .th-share { width: auto; }
+  .share-track { display: none; }
+
+  #marketTable { min-width: 0; }
+  #marketTable .col-region,
+  #marketTable .col-local,
+  #marketTable .col-count { display: none; }
+  #marketTable th,
+  #marketTable td { padding: 9px 6px; font-size: 10.5px; }
+  #marketTable td.name-cell { padding-left: 8px; }
+}
+
+@media (max-width: 560px) {
+  .treemap { height: 340px; }
+}
+
+/* ------------------------------ 全球口径补充 ------------------------------ */
+
+.scope-note {
+  margin-left: auto;
+  font-size: 9.5px;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
+
+.base-cell { font-size: 9.5px; color: var(--muted); font-family: var(--mono); }
+
+#regionChips { gap: 4px; }
+
+#modeTabs[hidden], #regionChips[hidden] { display: none; }
+
+@media (max-width: 760px) {
+  .scope-note { display: none; }
+  #regionChips, #indexChips { width: 100%; flex-wrap: nowrap; overflow-x: auto; }
+}
+
+html[data-theme="light"] .tm-name {
+  fill: color-mix(in srgb, var(--tile, #8b94a7) 42%, #0d1526);
+}
+
+/* ------------------------------ 指数成分 ------------------------------ */
+
+.idx-meta {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  overflow: hidden;
+  background: var(--line-soft);
+  margin-bottom: 12px;
+}
+
+.idx-meta div {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 10px 11px;
+  background: var(--panel);
+}
+
+.idx-meta i {
+  font-style: normal;
+  font-size: 8.5px;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+}
+
+.idx-meta b {
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--text);
+  font-family: var(--mono);
+}
+
+.idx-desc {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.8;
+  color: var(--text-2);
+}
+
+.idx-badge-warn { color: var(--accent); }
+
+.tm-notice {
+  margin-bottom: 9px;
+  padding: 8px 11px;
+  border: 1px solid color-mix(in srgb, var(--accent) 32%, transparent);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  color: var(--text-2);
+  font-size: 10.5px;
+  line-height: 1.6;
+}
+
+@media (max-width: 760px) {
+  .idx-meta { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+.idx-list {
+  white-space: normal;
+  font-size: 9.5px;
+  color: var(--muted);
+  max-width: 220px;
+  line-height: 1.5;
+}
+
+@media (max-width: 760px) {
+  #marketTable .col-indices { display: none; }
+}
+
+
+/* ------------------------------ 指数排名 ------------------------------ */
+
+.rank-row { cursor: pointer; }
+.rank-row:hover .rank-bar { opacity: 1; }
+.rank-row:hover .rank-name { fill: var(--text); }
+
+.rank-name { fill: var(--text-2); font-size: 11.5px; font-family: var(--sans); }
+.rank-sub { fill: var(--muted); font-size: 8.5px; font-family: var(--mono); }
+.rank-val { fill: var(--text); font-size: 11px; font-family: var(--mono); font-weight: 600; }
+
+
+/* ------------------------------ 指数历史 ------------------------------ */
+
+.hist-chart { height: 300px; }
+.hist-chart svg, .hist-years svg { display: block; width: 100%; height: 100%; }
+
+.hist-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  margin: 10px 0 4px;
+  font-size: 10px;
+  color: var(--muted);
+}
+
+.hist-stats b {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--text);
+  margin-left: 5px;
+}
+
+.hist-years { height: 130px; margin-top: 6px; }
+
+
+/* ------------------------------ 指数权重 ------------------------------ */
+
+.idx-weights {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line-soft);
+}
+
+.iw-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 10px;
+  color: var(--muted);
+  margin-bottom: 7px;
+}
+
+.iw-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 4px 16px;
+}
+
+.iw-row { display: flex; align-items: baseline; gap: 5px; font-size: 10.5px; min-width: 0; }
+
+.iw-row span {
+  width: 14px;
+  flex: none;
+  font-family: var(--mono);
+  font-size: 8.5px;
+  color: var(--muted);
+}
+
+.iw-row b {
+  flex: 1;
+  min-width: 0;
+  font-weight: 500;
+  color: var(--text-2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.iw-row em { font-style: normal; font-family: var(--mono); color: var(--text); font-size: 10px; }
+
+.iw-warn { margin: 9px 0 0; font-size: 10px; line-height: 1.65; color: var(--accent); }
+
+@media (max-width: 760px) {
+  .iw-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  #marketTable .col-weight { display: none; }
+}
+
+.stock-row { cursor: pointer; }
+.iw-row[data-secid] { cursor: pointer; border-radius: 4px; transition: background 0.15s; }
+.iw-row[data-secid]:hover { background: color-mix(in srgb, var(--panel-3) 70%, transparent); }

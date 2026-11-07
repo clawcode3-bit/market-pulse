@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>市场规模 · 市场脉搏</title>
+<meta name="description" content="全球 40+ 个股票市场的总市值，统一折算为美元，以面积比较市场规模" />
+<meta name="theme-color" content="#06070b" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230d1017'/%3E%3Cpath d='M6 20h5l3-8 4 12 3-6h5' fill='none' stroke='%23ffb020' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+<link rel="stylesheet" href="/styles.css" />
+<link rel="stylesheet" href="/research.css" />
+<link rel="stylesheet" href="/markets.css" />
+</head>
+<body>
+<div class="bg-grid" aria-hidden="true"></div>
+
+<header class="topbar">
+  <a class="brand" href="/" aria-label="市场脉搏首页">
+    <span class="brand-mark" aria-hidden="true">
+      <svg viewBox="0 0 32 32" width="30" height="30">
+        <rect width="32" height="32" rx="9" fill="url(#gm3)" />
+        <path d="M5.5 20.5h5l3.2-9 4.1 13 2.9-6.2h5.8" fill="none" stroke="#1a1206" stroke-width="2.1"
+              stroke-linecap="round" stroke-linejoin="round" />
+        <defs>
+          <linearGradient id="gm3" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#ffd166" /><stop offset="1" stop-color="#f0a11a" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </span>
+    <span class="brand-text">
+      <strong>市场脉搏</strong>
+      <small>MARKET PULSE</small>
+    </span>
+  </a>
+
+  <nav class="nav" aria-label="主导航">
+    <a class="nav-link" href="/">行情总览</a>
+    <a class="nav-link" href="/research.html">历史研究</a>
+    <a class="nav-link on" href="/markets.html">市场规模</a>
+    <a class="nav-link" href="/stock.html">个股分析</a>
+  </nav>
+
+  <div class="top-actions">
+    <span class="asof" id="asof"></span>
+    <button class="icon-btn" id="themeToggle" title="切换明暗主题" aria-label="切换明暗主题">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
+        <path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8Z" />
+      </svg>
+    </button>
+  </div>
+</header>
+
+<main class="wrap r-wrap">
+  <div class="banner" id="netBanner" hidden>
+    <span class="banner-dot"></span>
+    <span id="netBannerText">数据加载失败</span>
+    <button class="banner-btn" id="retryBtn">重试</button>
+  </div>
+
+  <section class="r-intro">
+    <div>
+      <span class="eyebrow">MARKET SIZE</span>
+      <h1>市场规模</h1>
+      <p>覆盖全球 40+ 个股票市场，把各市场市值统一折算成美元，用方块面积比较大小。汇率每日更新，市值随汇率与指数变动。</p>
+    </div>
+    <div class="r-intro-meta">
+      <span class="meta-item"><i>口径</i><b id="metaMode">全球统一</b></span>
+      <span class="meta-item"><i>汇率</i><b id="metaFx">—</b></span>
+      <span class="meta-item"><i>更新</i><b id="metaTime">—</b></span>
+    </div>
+  </section>
+
+  <section class="r-controls">
+    <div class="seg" id="scopeTabs" role="tablist" aria-label="口径">
+      <button data-scope="world" class="on">全球</button>
+      <button data-scope="live">中美港实时</button>
+      <button data-scope="index">指数成分</button>
+    </div>
+    <div class="chips" id="regionChips"></div>
+    <div class="chips" id="indexChips" hidden></div>
+    <span class="scope-note" id="scopeNote">世界银行年度市值 × 指数推算 × 当日汇率</span>
+  </section>
+
+  <section class="kpi-grid four" id="sizeCards">
+    <div class="kpi"><i>加载中</i><b>—</b><small>&nbsp;</small></div>
+    <div class="kpi"><i>加载中</i><b>—</b><small>&nbsp;</small></div>
+    <div class="kpi"><i>加载中</i><b>—</b><small>&nbsp;</small></div>
+    <div class="kpi"><i>加载中</i><b>—</b><small>&nbsp;</small></div>
+  </section>
+  <p class="kpi-sub" id="sizeSub">正在汇总全球市场市值…</p>
+
+  <section class="panel">
+    <div class="panel-head">
+      <div class="ph-title">
+        <h2 id="tmTitle">市值地图</h2>
+        <span id="tmHint">面积 = 美元市值</span>
+      </div>
+      <div class="seg seg-mini" id="modeTabs" hidden>
+        <button data-mode="float" class="on">流通市值</button>
+        <button data-mode="total">总市值</button>
+      </div>
+    </div>
+    <div class="tm-notice" id="tmNotice" hidden></div>
+    <div class="treemap" id="treemap">
+      <div class="chart-loading"><span></span></div>
+    </div>
+    <div class="tm-foot">
+      <div class="tm-legend" id="tmLegend"></div>
+      <span class="tm-hint" id="tmFootHint">点击方块 → 对应指数的历史研究</span>
+    </div>
+  </section>
+
+  <section class="panel" id="indexHistory" hidden>
+    <div class="panel-head">
+      <div class="ph-title"><h2>历史走势</h2><span id="histHint"></span></div>
+      <div class="seg seg-mini" id="histRanges">
+        <button data-range="1y">1年</button>
+        <button data-range="3y">3年</button>
+        <button data-range="5y" class="on">5年</button>
+        <button data-range="10y">10年</button>
+      </div>
+    </div>
+    <div class="hist-chart" id="histChart"></div>
+    <div class="hist-stats" id="histStats"></div>
+    <div class="hist-years" id="histYears"></div>
+    <p class="chart-note" id="histNote">指数点位走势（非复权）；下方柱状为年度涨跌幅。</p>
+  </section>
+
+  <section class="panel" id="indexDetail" hidden>
+    <div class="panel-head">
+      <div class="ph-title"><h2 id="idxName">—</h2><span id="idxEn"></span></div>
+      <span class="ph-hint" id="idxBadge"></span>
+    </div>
+    <div class="idx-meta" id="idxMeta"></div>
+    <p class="idx-desc" id="idxDesc"></p>
+    <div class="idx-weights" id="idxWeights" hidden></div>
+  </section>
+
+  <div class="r-2col">
+    <section class="panel">
+      <div class="panel-head">
+        <div class="ph-title"><h2>汇率</h2><span>每日更新 · 美元折算基准</span></div>
+      </div>
+      <div class="fx-grid" id="fxGrid"></div>
+      <p class="chart-note" id="fxNote">汇率来自 open.er-api.com，每日一次；市值按最新汇率折算。</p>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <div class="ph-title"><h2>口径说明</h2><span>在看图之前值得先读</span></div>
+      </div>
+      <ul class="note-list" id="noteList">
+        <li><b>全球口径</b>：世界银行「上市公司总市值」年度数据（多数为 2025 年），先换回本币，再按当地指数自基准年以来的涨跌推算到最新，最后按当日汇率折算美元。</li>
+        <li><b>实时对照</b>：中美港三家按全市场个股逐日汇总，含 ADR 与 ETF，和全球口径会有差异，可切换查看。</li>
+        <li><b>汇率</b>：美元兑各币种每日更新；市值本身随指数变化，不是逐笔实时。</li>
+        <li><b>指数成分</b>：A50、恒生、标普500、纳指100、道指、DAX、CAC40 已按境内基金 2026 年中报全持仓更新（含权重）；其余指数仍为 Top 10 或部分覆盖。</li>
+        <li><b>未覆盖</b>：台湾（缺少公开年度市值）、芬兰（世界银行口径异常）等少数市场暂未纳入；IBEX、MIB、ASX、Nifty、Bovespa 缺少本地个股清单，仅用 ADR 覆盖部分成分股。</li>
+      </ul>
+    </section>
+  </div>
+
+  <section class="panel">
+    <div class="panel-head">
+      <div class="ph-title"><h2>明细</h2><span id="tableHint"></span></div>
+    </div>
+    <div class="table-scroll">
+      <table class="r-table" id="marketTable">
+        <thead id="marketHead"></thead>
+        <tbody id="marketBody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <p class="r-disclaimer">
+    「全球口径」为估算值：世界银行年度总市值 × 当地指数涨跌 × 当日汇率，不同市场基准年份不同（见明细表「基准」列），
+    不适合当作精确的实时市值。跨市场比较未做企业双重上市调整；中美港实时口径含 ADR/ETF，与全球口径不可直接相加。
+    数据仅供研究，不构成投资建议。
+  </p>
+</main>
+
+<div class="toast" id="toast" hidden></div>
+
+<nav class="tabbar" aria-label="移动端导航">
+  <a href="/">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h3l2.5-7 4 14 2.5-7H21"/></svg>
+    <span>行情</span>
+  </a>
+  <a href="/research.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 20V10M12 20V4M19 20v-7"/></svg>
+    <span>研究</span>
+  </a>
+  <a class="on" href="/markets.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3.5" y="3.5" width="7" height="7" rx="1.4"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.4"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.4"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.4"/></svg>
+    <span>规模</span>
+  </a>
+  <a href="/stock.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <span>分析</span>
+  </a>
+</nav>
+
+<script type="module" src="/markets.js"></script>
+</body>
+</html>

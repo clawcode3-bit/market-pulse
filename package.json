@@ -1,0 +1,26 @@
+{
+  "name": "market-pulse",
+  "version": "0.1.0",
+  "private": true,
+  "description": "市场脉搏 · Market Pulse — 自托管行情、研究、市场规模与个股分析面板",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "keywords": [
+    "stock",
+    "market",
+    "dashboard",
+    "eastmoney",
+    "indices",
+    "nodejs",
+    "svg",
+    "self-hosted"
+  ],
+  "author": "Market Pulse contributors"
+}

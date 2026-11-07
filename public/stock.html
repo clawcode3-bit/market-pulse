@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>个股分析 · 市场脉搏</title>
+<meta name="description" content="从盈利、成长、财务健康、效率、估值、股东回报六个维度分析个股" />
+<meta name="theme-color" content="#06070b" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230d1017'/%3E%3Cpath d='M6 20h5l3-8 4 12 3-6h5' fill='none' stroke='%23ffb020' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+<link rel="stylesheet" href="/styles.css" />
+<link rel="stylesheet" href="/research.css" />
+<link rel="stylesheet" href="/stock.css" />
+</head>
+<body>
+<div class="bg-grid" aria-hidden="true"></div>
+
+<header class="topbar">
+  <a class="brand" href="/" aria-label="市场脉搏首页">
+    <span class="brand-mark" aria-hidden="true">
+      <svg viewBox="0 0 32 32" width="30" height="30">
+        <rect width="32" height="32" rx="9" fill="url(#gm4)" />
+        <path d="M5.5 20.5h5l3.2-9 4.1 13 2.9-6.2h5.8" fill="none" stroke="#1a1206" stroke-width="2.1"
+              stroke-linecap="round" stroke-linejoin="round" />
+        <defs>
+          <linearGradient id="gm4" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#ffd166" /><stop offset="1" stop-color="#f0a11a" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </span>
+    <span class="brand-text">
+      <strong>市场脉搏</strong>
+      <small>MARKET PULSE</small>
+    </span>
+  </a>
+
+  <nav class="nav" aria-label="主导航">
+    <a class="nav-link" href="/">行情总览</a>
+    <a class="nav-link" href="/research.html">历史研究</a>
+    <a class="nav-link" href="/markets.html">市场规模</a>
+    <a class="nav-link on" href="/stock.html">个股分析</a>
+  </nav>
+
+  <div class="top-actions">
+    <span class="asof" id="asof"></span>
+    <button class="icon-btn" id="themeToggle" title="切换明暗主题" aria-label="切换明暗主题">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
+        <path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8Z" />
+      </svg>
+    </button>
+  </div>
+</header>
+
+<main class="wrap r-wrap">
+  <div class="banner" id="netBanner" hidden>
+    <span class="banner-dot"></span>
+    <span id="netBannerText">数据加载失败</span>
+    <button class="banner-btn" id="retryBtn">重试</button>
+  </div>
+
+  <section class="r-intro">
+    <div>
+      <span class="eyebrow">STOCK ANALYZER</span>
+      <h1>个股分析</h1>
+      <p>从盈利、成长、财务健康、运营效率、估值、股东回报六个维度拆解一家公司，先把数字放在一起，再谈判断。</p>
+    </div>
+    <div class="r-intro-meta">
+      <span class="meta-item"><i>市场</i><b id="metaMarket">—</b></span>
+      <span class="meta-item"><i>财务口径</i><b>年报 / 后复权</b></span>
+      <span class="meta-item"><i>更新</i><b id="metaTime">—</b></span>
+    </div>
+  </section>
+
+  <section class="r-controls">
+    <div class="chips-wrap" id="stockChips"></div>
+    <div class="asset-add">
+      <input id="stockInput" type="text" autocomplete="off" spellcheck="false"
+             placeholder="+ 搜索个股（代码 / 名称 / 拼音）" aria-label="搜索个股" />
+      <div class="asset-dropdown" id="stockDropdown" hidden></div>
+    </div>
+  </section>
+
+  <section class="stock-head" id="stockHead">
+    <div class="sh-main">
+      <div class="sh-title">
+        <h2 id="shName">—</h2>
+        <span class="mkt-badge" id="shMarket">—</span>
+        <span class="tag" id="shIndustry" hidden></span>
+      </div>
+      <div class="sh-sub" id="shSub">—</div>
+    </div>
+    <div class="sh-price">
+      <div class="sh-value" id="shPrice">—</div>
+      <div class="sh-delta" id="shDelta">—</div>
+    </div>
+    <div class="sh-stats" id="shStats"></div>
+    <div class="sh-actions">
+      <button class="btn" id="watchBtn">加入自选</button>
+      <a class="btn" id="researchLink" href="/research.html">历史研究</a>
+      <a class="btn" id="siteLink" target="_blank" rel="noopener noreferrer" hidden>官网 ↗</a>
+    </div>
+  </section>
+
+  <section class="score-wrap" id="scoreWrap">
+    <div class="panel">
+      <div class="panel-head">
+        <div class="ph-title"><h2>六维评分</h2><span>规则化打分 · 满分 100</span></div>
+        <span class="ph-hint" id="scoreHint"></span>
+      </div>
+      <div class="score-body">
+        <div class="radar-box"><div class="radar" id="radar"></div></div>
+        <div class="score-list" id="scoreList"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="kpi-grid six" id="kpiGrid"></section>
+  <p class="kpi-sub" id="kpiSub"></p>
+
+  <section class="panel" id="histPanel">
+    <div class="panel-head">
+      <div class="ph-title"><h2>历史走势与收益</h2><span id="histHint">后复权</span></div>
+      <div class="hist-controls">
+        <div class="seg seg-mini" id="histModes">
+          <button data-mode="return" class="on">累计收益</button>
+          <button data-mode="price">价格</button>
+        </div>
+        <div class="seg seg-mini" id="histRanges">
+          <button data-range="1y">1年</button>
+          <button data-range="3y">3年</button>
+          <button data-range="5y" class="on">5年</button>
+          <button data-range="10y">10年</button>
+        </div>
+        <label class="hist-bench">对比
+          <select id="histBench">
+            <option value="auto">自动</option>
+            <option value="none">无</option>
+            <option value="sh300">沪深300</option>
+            <option value="hsi">恒生指数</option>
+            <option value="spx">标普500</option>
+          </select>
+        </label>
+      </div>
+    </div>
+    <div class="hist-legend" id="histLegend" hidden></div>
+    <div class="hist-chart" id="histChart"></div>
+    <div class="hist-stats" id="histStats"></div>
+    <div class="hist-years" id="histYears"></div>
+    <p class="chart-note" id="histNote">后复权收盘价；累计收益以区间起点为 0%，年度柱为每年涨跌幅。</p>
+  </section>
+
+  <section class="panel" id="finPanel">
+    <div class="panel-head">
+      <div class="ph-title"><h2>营收 / 利润 / 利润率</h2><span id="finHint">年报数据</span></div>
+      <div class="legend" id="finLegend"></div>
+    </div>
+    <div class="fin-chart" id="finChart"></div>
+    <p class="chart-note">柱：营业收入与归母净利润（左轴，亿元）；线：毛利率与净利率（右轴，%）。</p>
+  </section>
+
+  <div class="r-2col">
+    <section class="panel" id="cashPanel">
+      <div class="panel-head">
+        <div class="ph-title"><h2>现金流质量</h2><span>每股经营现金流 ÷ EPS</span></div>
+      </div>
+      <div class="cash-chart" id="cashChart"></div>
+      <p class="chart-note">大于 1 表示利润有现金支撑；长期低于 1 需要留意应收账款或存货占用。</p>
+    </section>
+
+    <section class="panel" id="valPanel">
+      <div class="panel-head">
+        <div class="ph-title"><h2>估值与回报</h2><span>当前值</span></div>
+      </div>
+      <div class="val-grid" id="valGrid"></div>
+      <p class="chart-note" id="valNote"></p>
+    </section>
+  </div>
+
+  <section class="panel" id="profilePanel">
+    <div class="panel-head">
+      <div class="ph-title"><h2>公司简介</h2><span id="profileName"></span></div>
+      <a class="ph-link" id="profileSite" target="_blank" rel="noopener noreferrer" hidden>官网 ↗</a>
+    </div>
+    <div class="profile-grid">
+      <div class="profile-left"><div class="profile-text" id="profileText"></div></div>
+      <div class="info-grid" id="infoGrid"></div>
+    </div>
+  </section>
+
+  <div class="r-2col">
+    <section class="panel" id="holdersPanel">
+      <div class="panel-head">
+        <div class="ph-title"><h2>十大股东</h2><span id="holdersHint"></span></div>
+      </div>
+      <div class="table-scroll">
+        <table class="r-table">
+          <thead><tr><th class="th-left">股东</th><th>持股比例</th><th>变动</th></tr></thead>
+          <tbody id="holdersBody"></tbody>
+        </table>
+      </div>
+      <p class="chart-note" id="holderCountNote"></p>
+    </section>
+
+    <section class="panel" id="divPanel">
+      <div class="panel-head">
+        <div class="ph-title"><h2>分红记录</h2><span>近 10 次</span></div>
+      </div>
+      <div class="table-scroll">
+        <table class="r-table">
+          <thead><tr><th class="th-left">公告日</th><th class="th-left">方案</th><th>进度</th><th>除权日</th></tr></thead>
+          <tbody id="divBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <p class="r-disclaimer">
+    评分为规则化打分：每个维度由 2–4 个公开财务指标按阈值线性映射后加权，缺失指标不参与计算，因此不同公司的可比性有限。
+    银行、保险等金融企业的负债率与周转率口径和制造业差异很大，跨行业比较请尤其谨慎。
+    数据来自东方财富公开接口，延迟与口径以数据源为准；港股、美股暂不提供完整财务数据。本页仅供研究，不构成投资建议。
+  </p>
+</main>
+
+<div class="toast" id="toast" hidden></div>
+
+<nav class="tabbar" aria-label="移动端导航">
+  <a href="/">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h3l2.5-7 4 14 2.5-7H21"/></svg>
+    <span>行情</span>
+  </a>
+  <a href="/research.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 20V10M12 20V4M19 20v-7"/></svg>
+    <span>研究</span>
+  </a>
+  <a href="/markets.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3.5" y="3.5" width="7" height="7" rx="1.4"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.4"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.4"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.4"/></svg>
+    <span>规模</span>
+  </a>
+  <a class="on" href="/stock.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <span>分析</span>
+  </a>
+</nav>
+
+<script type="module" src="/stock.js"></script>
+</body>
+</html>

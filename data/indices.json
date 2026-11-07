@@ -1,0 +1,9673 @@
+[
+ {
+  "id": "a50",
+  "name": "富时中国A50",
+  "en": "FTSE China A50",
+  "publisher": "富时罗素 FTSE Russell",
+  "inception": "2003-12",
+  "count": 50,
+  "desc": "选取沪深两市市值最大的 50 家公司，是海外资金配置 A 股的核心指数之一。名单与权重取自嘉实富时中国A50ETF 2026 年中期报告全持仓。",
+  "constituents": [
+   {
+    "name": "宁德时代",
+    "ticker": "300750",
+    "secid": "0.300750"
+   },
+   {
+    "name": "贵州茅台",
+    "ticker": "600519",
+    "secid": "1.600519"
+   },
+   {
+    "name": "中际旭创",
+    "ticker": "300308",
+    "secid": "0.300308"
+   },
+   {
+    "name": "寒武纪",
+    "ticker": "688256",
+    "secid": "1.688256"
+   },
+   {
+    "name": "海光信息",
+    "ticker": "688041",
+    "secid": "1.688041"
+   },
+   {
+    "name": "新易盛",
+    "ticker": "300502",
+    "secid": "0.300502"
+   },
+   {
+    "name": "工业富联",
+    "ticker": "601138",
+    "secid": "1.601138"
+   },
+   {
+    "name": "招商银行",
+    "ticker": "600036",
+    "secid": "1.600036"
+   },
+   {
+    "name": "长江电力",
+    "ticker": "600900",
+    "secid": "1.600900"
+   },
+   {
+    "name": "北方华创",
+    "ticker": "002371",
+    "secid": "0.002371"
+   },
+   {
+    "name": "兆易创新",
+    "ticker": "603986",
+    "secid": "1.603986"
+   },
+   {
+    "name": "农业银行",
+    "ticker": "601288",
+    "secid": "1.601288"
+   },
+   {
+    "name": "工商银行",
+    "ticker": "601398",
+    "secid": "1.601398"
+   },
+   {
+    "name": "紫金矿业",
+    "ticker": "601899",
+    "secid": "1.601899"
+   },
+   {
+    "name": "立讯精密",
+    "ticker": "002475",
+    "secid": "0.002475"
+   },
+   {
+    "name": "中国平安",
+    "ticker": "601318",
+    "secid": "1.601318"
+   },
+   {
+    "name": "东山精密",
+    "ticker": "002384",
+    "secid": "0.002384"
+   },
+   {
+    "name": "比亚迪",
+    "ticker": "002594",
+    "secid": "0.002594"
+   },
+   {
+    "name": "澜起科技",
+    "ticker": "688008",
+    "secid": "1.688008"
+   },
+   {
+    "name": "中信证券",
+    "ticker": "600030",
+    "secid": "1.600030"
+   },
+   {
+    "name": "兴业银行",
+    "ticker": "601166",
+    "secid": "1.601166"
+   },
+   {
+    "name": "交通银行",
+    "ticker": "601328",
+    "secid": "1.601328"
+   },
+   {
+    "name": "恒瑞医药",
+    "ticker": "600276",
+    "secid": "1.600276"
+   },
+   {
+    "name": "阳光电源",
+    "ticker": "300274",
+    "secid": "0.300274"
+   },
+   {
+    "name": "天孚通信",
+    "ticker": "300394",
+    "secid": "0.300394"
+   },
+   {
+    "name": "东方财富",
+    "ticker": "300059",
+    "secid": "0.300059"
+   },
+   {
+    "name": "药明康德",
+    "ticker": "603259",
+    "secid": "1.603259"
+   },
+   {
+    "name": "洛阳钼业",
+    "ticker": "603993",
+    "secid": "1.603993"
+   },
+   {
+    "name": "胜宏科技",
+    "ticker": "300476",
+    "secid": "0.300476"
+   },
+   {
+    "name": "五 粮 液",
+    "ticker": "000858",
+    "secid": "0.000858"
+   },
+   {
+    "name": "浦发银行",
+    "ticker": "600000",
+    "secid": "1.600000"
+   },
+   {
+    "name": "国泰海通",
+    "ticker": "601211",
+    "secid": "1.601211"
+   },
+   {
+    "name": "中国船舶",
+    "ticker": "600150",
+    "secid": "1.600150"
+   },
+   {
+    "name": "中国银行",
+    "ticker": "601988",
+    "secid": "1.601988"
+   },
+   {
+    "name": "中国神华",
+    "ticker": "601088",
+    "secid": "1.601088"
+   },
+   {
+    "name": "中国石油",
+    "ticker": "601857",
+    "secid": "1.601857"
+   },
+   {
+    "name": "万华化学",
+    "ticker": "600309",
+    "secid": "1.600309"
+   },
+   {
+    "name": "京沪高铁",
+    "ticker": "601816",
+    "secid": "1.601816"
+   },
+   {
+    "name": "建设银行",
+    "ticker": "601939",
+    "secid": "1.601939"
+   },
+   {
+    "name": "陕西煤业",
+    "ticker": "601225",
+    "secid": "1.601225"
+   },
+   {
+    "name": "中国太保",
+    "ticker": "601601",
+    "secid": "1.601601"
+   },
+   {
+    "name": "牧原股份",
+    "ticker": "002714",
+    "secid": "0.002714"
+   },
+   {
+    "name": "潍柴动力",
+    "ticker": "000338",
+    "secid": "0.000338"
+   },
+   {
+    "name": "中远海控",
+    "ticker": "601919",
+    "secid": "1.601919"
+   },
+   {
+    "name": "邮储银行",
+    "ticker": "601658",
+    "secid": "1.601658"
+   },
+   {
+    "name": "格力电器",
+    "ticker": "000651",
+    "secid": "0.000651"
+   },
+   {
+    "name": "中国石化",
+    "ticker": "600028",
+    "secid": "1.600028"
+   },
+   {
+    "name": "中信银行",
+    "ticker": "601998",
+    "secid": "1.601998"
+   },
+   {
+    "name": "中国人保",
+    "ticker": "601319",
+    "secid": "1.601319"
+   },
+   {
+    "name": "百济神州",
+    "ticker": "688235",
+    "secid": "1.688235"
+   }
+  ],
+  "partial": false,
+  "secid": "100.XIN9",
+  "weights": {
+   "asOf": "2026-06-30",
+   "source": "嘉实富时中国A50ETF（512550）2026年中期报告 · 全持仓",
+   "items": [
+    {
+     "code": "300750",
+     "name": "宁德时代",
+     "weight": 7.82
+    },
+    {
+     "code": "600519",
+     "name": "贵州茅台",
+     "weight": 6.71
+    },
+    {
+     "code": "300308",
+     "name": "中际旭创",
+     "weight": 6.4
+    },
+    {
+     "code": "688256",
+     "name": "寒武纪",
+     "weight": 4.5
+    },
+    {
+     "code": "688041",
+     "name": "海光信息",
+     "weight": 3.9
+    },
+    {
+     "code": "300502",
+     "name": "新易盛",
+     "weight": 3.8
+    },
+    {
+     "code": "601138",
+     "name": "工业富联",
+     "weight": 3.73
+    },
+    {
+     "code": "600036",
+     "name": "招商银行",
+     "weight": 3.3
+    },
+    {
+     "code": "600900",
+     "name": "长江电力",
+     "weight": 2.92
+    },
+    {
+     "code": "002371",
+     "name": "北方华创",
+     "weight": 2.9
+    },
+    {
+     "code": "603986",
+     "name": "兆易创新",
+     "weight": 2.46
+    },
+    {
+     "code": "601288",
+     "name": "农业银行",
+     "weight": 2.43
+    },
+    {
+     "code": "601398",
+     "name": "工商银行",
+     "weight": 2.42
+    },
+    {
+     "code": "601899",
+     "name": "紫金矿业",
+     "weight": 2.33
+    },
+    {
+     "code": "002475",
+     "name": "立讯精密",
+     "weight": 2.31
+    },
+    {
+     "code": "601318",
+     "name": "中国平安",
+     "weight": 2.3
+    },
+    {
+     "code": "002384",
+     "name": "东山精密",
+     "weight": 2.18
+    },
+    {
+     "code": "002594",
+     "name": "比亚迪",
+     "weight": 1.95
+    },
+    {
+     "code": "688008",
+     "name": "澜起科技",
+     "weight": 1.62
+    },
+    {
+     "code": "600030",
+     "name": "中信证券",
+     "weight": 1.58
+    },
+    {
+     "code": "601166",
+     "name": "兴业银行",
+     "weight": 1.58
+    },
+    {
+     "code": "601328",
+     "name": "交通银行",
+     "weight": 1.55
+    },
+    {
+     "code": "600276",
+     "name": "恒瑞医药",
+     "weight": 1.5
+    },
+    {
+     "code": "300274",
+     "name": "阳光电源",
+     "weight": 1.49
+    },
+    {
+     "code": "300394",
+     "name": "天孚通信",
+     "weight": 1.49
+    },
+    {
+     "code": "300059",
+     "name": "东方财富",
+     "weight": 1.45
+    },
+    {
+     "code": "603259",
+     "name": "药明康德",
+     "weight": 1.39
+    },
+    {
+     "code": "603993",
+     "name": "洛阳钼业",
+     "weight": 1.38
+    },
+    {
+     "code": "300476",
+     "name": "胜宏科技",
+     "weight": 1.36
+    },
+    {
+     "code": "000858",
+     "name": "五 粮 液",
+     "weight": 1.3
+    },
+    {
+     "code": "600000",
+     "name": "浦发银行",
+     "weight": 1.29
+    },
+    {
+     "code": "601211",
+     "name": "国泰海通",
+     "weight": 1.16
+    },
+    {
+     "code": "600150",
+     "name": "中国船舶",
+     "weight": 1.15
+    },
+    {
+     "code": "601988",
+     "name": "中国银行",
+     "weight": 1.13
+    },
+    {
+     "code": "601088",
+     "name": "中国神华",
+     "weight": 1.04
+    },
+    {
+     "code": "601857",
+     "name": "中国石油",
+     "weight": 1.03
+    },
+    {
+     "code": "600309",
+     "name": "万华化学",
+     "weight": 0.97
+    },
+    {
+     "code": "601816",
+     "name": "京沪高铁",
+     "weight": 0.94
+    },
+    {
+     "code": "601939",
+     "name": "建设银行",
+     "weight": 0.92
+    },
+    {
+     "code": "601225",
+     "name": "陕西煤业",
+     "weight": 0.89
+    },
+    {
+     "code": "601601",
+     "name": "中国太保",
+     "weight": 0.88
+    },
+    {
+     "code": "002714",
+     "name": "牧原股份",
+     "weight": 0.86
+    },
+    {
+     "code": "000338",
+     "name": "潍柴动力",
+     "weight": 0.83
+    },
+    {
+     "code": "601919",
+     "name": "中远海控",
+     "weight": 0.75
+    },
+    {
+     "code": "601658",
+     "name": "邮储银行",
+     "weight": 0.72
+    },
+    {
+     "code": "000651",
+     "name": "格力电器",
+     "weight": 0.68
+    },
+    {
+     "code": "600028",
+     "name": "中国石化",
+     "weight": 0.62
+    },
+    {
+     "code": "601998",
+     "name": "中信银行",
+     "weight": 0.4
+    },
+    {
+     "code": "601319",
+     "name": "中国人保",
+     "weight": 0.32
+    },
+    {
+     "code": "688235",
+     "name": "百济神州",
+     "weight": 0.15
+    }
+   ]
+  }
+ },
+ {
+  "id": "hsi",
+  "name": "恒生指数",
+  "en": "Hang Seng Index",
+  "publisher": "恒生指数公司 Hang Seng Indexes",
+  "inception": "1969-11-24",
+  "count": 93,
+  "desc": "香港市场最具代表性的蓝筹指数，覆盖市值最大、流动性最好的港股公司。",
+  "constituents": [
+   {
+    "name": "汇丰控股",
+    "ticker": "00005",
+    "secid": "116.00005"
+   },
+   {
+    "name": "腾讯控股",
+    "ticker": "00700",
+    "secid": "116.00700"
+   },
+   {
+    "name": "阿里巴巴-W",
+    "ticker": "09988",
+    "secid": "116.09988"
+   },
+   {
+    "name": "建设银行",
+    "ticker": "00939",
+    "secid": "116.00939"
+   },
+   {
+    "name": "友邦保险",
+    "ticker": "01299",
+    "secid": "116.01299"
+   },
+   {
+    "name": "工商银行",
+    "ticker": "01398",
+    "secid": "116.01398"
+   },
+   {
+    "name": "中国移动",
+    "ticker": "00941",
+    "secid": "116.00941"
+   },
+   {
+    "name": "香港交易所",
+    "ticker": "00388",
+    "secid": "116.00388"
+   },
+   {
+    "name": "小米集团-W",
+    "ticker": "01810",
+    "secid": "116.01810"
+   },
+   {
+    "name": "美团-W",
+    "ticker": "03690",
+    "secid": "116.03690"
+   },
+   {
+    "name": "中芯国际",
+    "ticker": "00981",
+    "secid": "116.00981"
+   },
+   {
+    "name": "中国银行",
+    "ticker": "03988",
+    "secid": "116.03988"
+   },
+   {
+    "name": "中国平安",
+    "ticker": "02318",
+    "secid": "116.02318"
+   },
+   {
+    "name": "网易",
+    "ticker": "09999",
+    "secid": "116.09999"
+   },
+   {
+    "name": "中国海洋石油",
+    "ticker": "00883",
+    "secid": "116.00883"
+   },
+   {
+    "name": "比亚迪股份",
+    "ticker": "01211",
+    "secid": "116.01211"
+   },
+   {
+    "name": "百济神州",
+    "ticker": "06160",
+    "secid": "116.06160"
+   },
+   {
+    "name": "中国人寿",
+    "ticker": "02628",
+    "secid": "116.02628"
+   },
+   {
+    "name": "创科实业",
+    "ticker": "00669",
+    "secid": "116.00669"
+   },
+   {
+    "name": "中国石油股份",
+    "ticker": "00857",
+    "secid": "116.00857"
+   },
+   {
+    "name": "长和",
+    "ticker": "00001",
+    "secid": "116.00001"
+   },
+   {
+    "name": "招商银行",
+    "ticker": "03968",
+    "secid": "116.03968"
+   },
+   {
+    "name": "百度集团-W",
+    "ticker": "09888",
+    "secid": "116.09888"
+   },
+   {
+    "name": "紫金矿业",
+    "ticker": "02899",
+    "secid": "116.02899"
+   },
+   {
+    "name": "新鸿基地产",
+    "ticker": "00016",
+    "secid": "116.00016"
+   },
+   {
+    "name": "京东集团-SW",
+    "ticker": "09618",
+    "secid": "116.09618"
+   },
+   {
+    "name": "联想集团",
+    "ticker": "00992",
+    "secid": "116.00992"
+   },
+   {
+    "name": "中银香港",
+    "ticker": "02388",
+    "secid": "116.02388"
+   },
+   {
+    "name": "宁德时代",
+    "ticker": "03750",
+    "secid": "116.03750"
+   },
+   {
+    "name": "药明生物",
+    "ticker": "02269",
+    "secid": "116.02269"
+   },
+   {
+    "name": "信达生物",
+    "ticker": "01801",
+    "secid": "116.01801"
+   },
+   {
+    "name": "中国神华",
+    "ticker": "01088",
+    "secid": "116.01088"
+   },
+   {
+    "name": "快手-W",
+    "ticker": "01024",
+    "secid": "116.01024"
+   },
+   {
+    "name": "中电控股",
+    "ticker": "00002",
+    "secid": "116.00002"
+   },
+   {
+    "name": "泡泡玛特",
+    "ticker": "09992",
+    "secid": "116.09992"
+   },
+   {
+    "name": "吉利汽车",
+    "ticker": "00175",
+    "secid": "116.00175"
+   },
+   {
+    "name": "安踏体育",
+    "ticker": "02020",
+    "secid": "116.02020"
+   },
+   {
+    "name": "华润置地",
+    "ticker": "01109",
+    "secid": "116.01109"
+   },
+   {
+    "name": "领展房产基金",
+    "ticker": "00823",
+    "secid": "116.00823"
+   },
+   {
+    "name": "中国石油化工股份",
+    "ticker": "00386",
+    "secid": "116.00386"
+   },
+   {
+    "name": "携程集团-S",
+    "ticker": "09961",
+    "secid": "116.09961"
+   },
+   {
+    "name": "长实集团",
+    "ticker": "01113",
+    "secid": "116.01113"
+   },
+   {
+    "name": "农夫山泉",
+    "ticker": "09633",
+    "secid": "116.09633"
+   },
+   {
+    "name": "电能实业",
+    "ticker": "00006",
+    "secid": "116.00006"
+   },
+   {
+    "name": "药明康德",
+    "ticker": "02359",
+    "secid": "116.02359"
+   },
+   {
+    "name": "香港中华煤气",
+    "ticker": "00003",
+    "secid": "116.00003"
+   },
+   {
+    "name": "中国宏桥",
+    "ticker": "01378",
+    "secid": "116.01378"
+   },
+   {
+    "name": "万洲国际",
+    "ticker": "00288",
+    "secid": "116.00288"
+   },
+   {
+    "name": "中通快递-W",
+    "ticker": "02057",
+    "secid": "116.02057"
+   },
+   {
+    "name": "理想汽车-W",
+    "ticker": "02015",
+    "secid": "116.02015"
+   },
+   {
+    "name": "中信股份",
+    "ticker": "00267",
+    "secid": "116.00267"
+   },
+   {
+    "name": "银河娱乐",
+    "ticker": "00027",
+    "secid": "116.00027"
+   },
+   {
+    "name": "港铁公司",
+    "ticker": "00066",
+    "secid": "116.00066"
+   },
+   {
+    "name": "洛阳钼业",
+    "ticker": "03993",
+    "secid": "116.03993"
+   },
+   {
+    "name": "中国电信",
+    "ticker": "00728",
+    "secid": "116.00728"
+   },
+   {
+    "name": "石药集团",
+    "ticker": "01093",
+    "secid": "116.01093"
+   },
+   {
+    "name": "美的集团",
+    "ticker": "00300",
+    "secid": "116.00300"
+   },
+   {
+    "name": "蒙牛乳业",
+    "ticker": "02319",
+    "secid": "116.02319"
+   },
+   {
+    "name": "海尔智家",
+    "ticker": "06690",
+    "secid": "116.06690"
+   },
+   {
+    "name": "极兔速递-W",
+    "ticker": "01519",
+    "secid": "116.01519"
+   },
+   {
+    "name": "中国海外发展",
+    "ticker": "00688",
+    "secid": "116.00688"
+   },
+   {
+    "name": "中国生物制药",
+    "ticker": "01177",
+    "secid": "116.01177"
+   },
+   {
+    "name": "翰森制药",
+    "ticker": "03692",
+    "secid": "116.03692"
+   },
+   {
+    "name": "舜宇光学科技",
+    "ticker": "02382",
+    "secid": "116.02382"
+   },
+   {
+    "name": "长江基建集团",
+    "ticker": "01038",
+    "secid": "116.01038"
+   },
+   {
+    "name": "中国联通",
+    "ticker": "00762",
+    "secid": "116.00762"
+   },
+   {
+    "name": "京东健康",
+    "ticker": "06618",
+    "secid": "116.06618"
+   },
+   {
+    "name": "恒基地产",
+    "ticker": "00012",
+    "secid": "116.00012"
+   },
+   {
+    "name": "九龙仓置业",
+    "ticker": "01997",
+    "secid": "116.01997"
+   },
+   {
+    "name": "华润电力",
+    "ticker": "00836",
+    "secid": "116.00836"
+   },
+   {
+    "name": "华润啤酒",
+    "ticker": "00291",
+    "secid": "116.00291"
+   },
+   {
+    "name": "李宁",
+    "ticker": "02331",
+    "secid": "116.02331"
+   },
+   {
+    "name": "申洲国际",
+    "ticker": "02313",
+    "secid": "116.02313"
+   },
+   {
+    "name": "新奥能源",
+    "ticker": "02688",
+    "secid": "116.02688"
+   },
+   {
+    "name": "金沙中国有限公司",
+    "ticker": "01928",
+    "secid": "116.01928"
+   },
+   {
+    "name": "京东物流",
+    "ticker": "02618",
+    "secid": "116.02618"
+   },
+   {
+    "name": "中国铝业",
+    "ticker": "02600",
+    "secid": "116.02600"
+   },
+   {
+    "name": "新东方-S",
+    "ticker": "09901",
+    "secid": "116.09901"
+   },
+   {
+    "name": "华润万象生活",
+    "ticker": "01209",
+    "secid": "116.01209"
+   },
+   {
+    "name": "老铺黄金",
+    "ticker": "06181",
+    "secid": "116.06181"
+   },
+   {
+    "name": "周大福",
+    "ticker": "01929",
+    "secid": "116.01929"
+   },
+   {
+    "name": "国药控股",
+    "ticker": "01099",
+    "secid": "116.01099"
+   },
+   {
+    "name": "海底捞",
+    "ticker": "06862",
+    "secid": "116.06862"
+   },
+   {
+    "name": "阿里健康",
+    "ticker": "00241",
+    "secid": "116.00241"
+   },
+   {
+    "name": "康师傅控股",
+    "ticker": "00322",
+    "secid": "116.00322"
+   },
+   {
+    "name": "信义玻璃",
+    "ticker": "00868",
+    "secid": "116.00868"
+   },
+   {
+    "name": "比亚迪电子",
+    "ticker": "00285",
+    "secid": "116.00285"
+   },
+   {
+    "name": "东方海外国际",
+    "ticker": "00316",
+    "secid": "116.00316"
+   },
+   {
+    "name": "龙湖集团",
+    "ticker": "00960",
+    "secid": "116.00960"
+   },
+   {
+    "name": "恒安国际",
+    "ticker": "01044",
+    "secid": "116.01044"
+   },
+   {
+    "name": "恒隆地产",
+    "ticker": "00101",
+    "secid": "116.00101"
+   },
+   {
+    "name": "百威亚太",
+    "ticker": "01876",
+    "secid": "116.01876"
+   },
+   {
+    "name": "信义光能",
+    "ticker": "00968",
+    "secid": "116.00968"
+   }
+  ],
+  "partial": false,
+  "secid": "100.HSI",
+  "weights": {
+   "asOf": "2026-06-30",
+   "source": "华夏恒生ETF（159920）2026年中期报告 · 全持仓",
+   "items": [
+    {
+     "code": "00005",
+     "name": "汇丰控股",
+     "weight": 8.51,
+     "secid": "116.00005"
+    },
+    {
+     "code": "00700",
+     "name": "腾讯控股",
+     "weight": 7.56,
+     "secid": "116.00700"
+    },
+    {
+     "code": "09988",
+     "name": "阿里巴巴-W",
+     "weight": 6.01,
+     "secid": "116.09988"
+    },
+    {
+     "code": "00939",
+     "name": "建设银行",
+     "weight": 4.83,
+     "secid": "116.00939"
+    },
+    {
+     "code": "01299",
+     "name": "友邦保险",
+     "weight": 4.68,
+     "secid": "116.01299"
+    },
+    {
+     "code": "01398",
+     "name": "工商银行",
+     "weight": 3.3,
+     "secid": "116.01398"
+    },
+    {
+     "code": "00941",
+     "name": "中国移动",
+     "weight": 2.95,
+     "secid": "116.00941"
+    },
+    {
+     "code": "00388",
+     "name": "香港交易所",
+     "weight": 2.72,
+     "secid": "116.00388"
+    },
+    {
+     "code": "01810",
+     "name": "小米集团-W",
+     "weight": 2.44,
+     "secid": "116.01810"
+    },
+    {
+     "code": "03690",
+     "name": "美团-W",
+     "weight": 2.37,
+     "secid": "116.03690"
+    },
+    {
+     "code": "00981",
+     "name": "中芯国际",
+     "weight": 2.34,
+     "secid": "116.00981"
+    },
+    {
+     "code": "03988",
+     "name": "中国银行",
+     "weight": 2.21,
+     "secid": "116.03988"
+    },
+    {
+     "code": "02318",
+     "name": "中国平安",
+     "weight": 2.13,
+     "secid": "116.02318"
+    },
+    {
+     "code": "09999",
+     "name": "网易",
+     "weight": 1.99,
+     "secid": "116.09999"
+    },
+    {
+     "code": "00883",
+     "name": "中国海洋石油",
+     "weight": 1.97,
+     "secid": "116.00883"
+    },
+    {
+     "code": "01211",
+     "name": "比亚迪股份",
+     "weight": 1.66,
+     "secid": "116.01211"
+    },
+    {
+     "code": "06160",
+     "name": "百济神州",
+     "weight": 1.28,
+     "secid": "116.06160"
+    },
+    {
+     "code": "02628",
+     "name": "中国人寿",
+     "weight": 1.23,
+     "secid": "116.02628"
+    },
+    {
+     "code": "00669",
+     "name": "创科实业",
+     "weight": 1.18,
+     "secid": "116.00669"
+    },
+    {
+     "code": "00857",
+     "name": "中国石油股份",
+     "weight": 1.11,
+     "secid": "116.00857"
+    },
+    {
+     "code": "00001",
+     "name": "长和",
+     "weight": 1.11,
+     "secid": "116.00001"
+    },
+    {
+     "code": "03968",
+     "name": "招商银行",
+     "weight": 1.09,
+     "secid": "116.03968"
+    },
+    {
+     "code": "09888",
+     "name": "百度集团-W",
+     "weight": 1.03,
+     "secid": "116.09888"
+    },
+    {
+     "code": "02899",
+     "name": "紫金矿业",
+     "weight": 1.02,
+     "secid": "116.02899"
+    },
+    {
+     "code": "00016",
+     "name": "新鸿基地产",
+     "weight": 1.01,
+     "secid": "116.00016"
+    },
+    {
+     "code": "09618",
+     "name": "京东集团-SW",
+     "weight": 0.98,
+     "secid": "116.09618"
+    },
+    {
+     "code": "00992",
+     "name": "联想集团",
+     "weight": 0.98,
+     "secid": "116.00992"
+    },
+    {
+     "code": "02388",
+     "name": "中银香港",
+     "weight": 0.98,
+     "secid": "116.02388"
+    },
+    {
+     "code": "03750",
+     "name": "宁德时代",
+     "weight": 0.91,
+     "secid": "116.03750"
+    },
+    {
+     "code": "02269",
+     "name": "药明生物",
+     "weight": 0.85,
+     "secid": "116.02269"
+    },
+    {
+     "code": "01801",
+     "name": "信达生物",
+     "weight": 0.82,
+     "secid": "116.01801"
+    },
+    {
+     "code": "01088",
+     "name": "中国神华",
+     "weight": 0.8,
+     "secid": "116.01088"
+    },
+    {
+     "code": "01024",
+     "name": "快手-W",
+     "weight": 0.79,
+     "secid": "116.01024"
+    },
+    {
+     "code": "00002",
+     "name": "中电控股",
+     "weight": 0.75,
+     "secid": "116.00002"
+    },
+    {
+     "code": "09992",
+     "name": "泡泡玛特",
+     "weight": 0.71,
+     "secid": "116.09992"
+    },
+    {
+     "code": "00175",
+     "name": "吉利汽车",
+     "weight": 0.68,
+     "secid": "116.00175"
+    },
+    {
+     "code": "02020",
+     "name": "安踏体育",
+     "weight": 0.62,
+     "secid": "116.02020"
+    },
+    {
+     "code": "01109",
+     "name": "华润置地",
+     "weight": 0.6,
+     "secid": "116.01109"
+    },
+    {
+     "code": "00823",
+     "name": "领展房产基金",
+     "weight": 0.59,
+     "secid": "116.00823"
+    },
+    {
+     "code": "00386",
+     "name": "中国石油化工股份",
+     "weight": 0.56,
+     "secid": "116.00386"
+    },
+    {
+     "code": "09961",
+     "name": "携程集团-S",
+     "weight": 0.53,
+     "secid": "116.09961"
+    },
+    {
+     "code": "01113",
+     "name": "长实集团",
+     "weight": 0.53,
+     "secid": "116.01113"
+    },
+    {
+     "code": "09633",
+     "name": "农夫山泉",
+     "weight": 0.5,
+     "secid": "116.09633"
+    },
+    {
+     "code": "00006",
+     "name": "电能实业",
+     "weight": 0.49,
+     "secid": "116.00006"
+    },
+    {
+     "code": "02359",
+     "name": "药明康德",
+     "weight": 0.46,
+     "secid": "116.02359"
+    },
+    {
+     "code": "00003",
+     "name": "香港中华煤气",
+     "weight": 0.45,
+     "secid": "116.00003"
+    },
+    {
+     "code": "01378",
+     "name": "中国宏桥",
+     "weight": 0.44,
+     "secid": "116.01378"
+    },
+    {
+     "code": "00288",
+     "name": "万洲国际",
+     "weight": 0.43,
+     "secid": "116.00288"
+    },
+    {
+     "code": "02057",
+     "name": "中通快递-W",
+     "weight": 0.41,
+     "secid": "116.02057"
+    },
+    {
+     "code": "02015",
+     "name": "理想汽车-W",
+     "weight": 0.4,
+     "secid": "116.02015"
+    },
+    {
+     "code": "00267",
+     "name": "中信股份",
+     "weight": 0.38,
+     "secid": "116.00267"
+    },
+    {
+     "code": "00027",
+     "name": "银河娱乐",
+     "weight": 0.36,
+     "secid": "116.00027"
+    },
+    {
+     "code": "00066",
+     "name": "港铁公司",
+     "weight": 0.35,
+     "secid": "116.00066"
+    },
+    {
+     "code": "03993",
+     "name": "洛阳钼业",
+     "weight": 0.35,
+     "secid": "116.03993"
+    },
+    {
+     "code": "00728",
+     "name": "中国电信",
+     "weight": 0.35,
+     "secid": "116.00728"
+    },
+    {
+     "code": "01093",
+     "name": "石药集团",
+     "weight": 0.35,
+     "secid": "116.01093"
+    },
+    {
+     "code": "00300",
+     "name": "美的集团",
+     "weight": 0.32,
+     "secid": "116.00300"
+    },
+    {
+     "code": "02319",
+     "name": "蒙牛乳业",
+     "weight": 0.31,
+     "secid": "116.02319"
+    },
+    {
+     "code": "06690",
+     "name": "海尔智家",
+     "weight": 0.3,
+     "secid": "116.06690"
+    },
+    {
+     "code": "01519",
+     "name": "极兔速递-W",
+     "weight": 0.3,
+     "secid": "116.01519"
+    },
+    {
+     "code": "00688",
+     "name": "中国海外发展",
+     "weight": 0.29,
+     "secid": "116.00688"
+    },
+    {
+     "code": "01177",
+     "name": "中国生物制药",
+     "weight": 0.28,
+     "secid": "116.01177"
+    },
+    {
+     "code": "03692",
+     "name": "翰森制药",
+     "weight": 0.28,
+     "secid": "116.03692"
+    },
+    {
+     "code": "02382",
+     "name": "舜宇光学科技",
+     "weight": 0.27,
+     "secid": "116.02382"
+    },
+    {
+     "code": "01038",
+     "name": "长江基建集团",
+     "weight": 0.23,
+     "secid": "116.01038"
+    },
+    {
+     "code": "00762",
+     "name": "中国联通",
+     "weight": 0.23,
+     "secid": "116.00762"
+    },
+    {
+     "code": "06618",
+     "name": "京东健康",
+     "weight": 0.23,
+     "secid": "116.06618"
+    },
+    {
+     "code": "00012",
+     "name": "恒基地产",
+     "weight": 0.22,
+     "secid": "116.00012"
+    },
+    {
+     "code": "01997",
+     "name": "九龙仓置业",
+     "weight": 0.22,
+     "secid": "116.01997"
+    },
+    {
+     "code": "00836",
+     "name": "华润电力",
+     "weight": 0.22,
+     "secid": "116.00836"
+    },
+    {
+     "code": "00291",
+     "name": "华润啤酒",
+     "weight": 0.21,
+     "secid": "116.00291"
+    },
+    {
+     "code": "02331",
+     "name": "李宁",
+     "weight": 0.21,
+     "secid": "116.02331"
+    },
+    {
+     "code": "02313",
+     "name": "申洲国际",
+     "weight": 0.2,
+     "secid": "116.02313"
+    },
+    {
+     "code": "02688",
+     "name": "新奥能源",
+     "weight": 0.2,
+     "secid": "116.02688"
+    },
+    {
+     "code": "01928",
+     "name": "金沙中国有限公司",
+     "weight": 0.2,
+     "secid": "116.01928"
+    },
+    {
+     "code": "02618",
+     "name": "京东物流",
+     "weight": 0.2,
+     "secid": "116.02618"
+    },
+    {
+     "code": "02600",
+     "name": "中国铝业",
+     "weight": 0.17,
+     "secid": "116.02600"
+    },
+    {
+     "code": "09901",
+     "name": "新东方-S",
+     "weight": 0.17,
+     "secid": "116.09901"
+    },
+    {
+     "code": "01209",
+     "name": "华润万象生活",
+     "weight": 0.16,
+     "secid": "116.01209"
+    },
+    {
+     "code": "06181",
+     "name": "老铺黄金",
+     "weight": 0.14,
+     "secid": "116.06181"
+    },
+    {
+     "code": "01929",
+     "name": "周大福",
+     "weight": 0.13,
+     "secid": "116.01929"
+    },
+    {
+     "code": "01099",
+     "name": "国药控股",
+     "weight": 0.13,
+     "secid": "116.01099"
+    },
+    {
+     "code": "06862",
+     "name": "海底捞",
+     "weight": 0.13,
+     "secid": "116.06862"
+    },
+    {
+     "code": "00241",
+     "name": "阿里健康",
+     "weight": 0.12,
+     "secid": "116.00241"
+    },
+    {
+     "code": "00322",
+     "name": "康师傅控股",
+     "weight": 0.12,
+     "secid": "116.00322"
+    },
+    {
+     "code": "00868",
+     "name": "信义玻璃",
+     "weight": 0.12,
+     "secid": "116.00868"
+    },
+    {
+     "code": "00285",
+     "name": "比亚迪电子",
+     "weight": 0.1,
+     "secid": "116.00285"
+    },
+    {
+     "code": "00316",
+     "name": "东方海外国际",
+     "weight": 0.1,
+     "secid": "116.00316"
+    },
+    {
+     "code": "00960",
+     "name": "龙湖集团",
+     "weight": 0.09,
+     "secid": "116.00960"
+    },
+    {
+     "code": "01044",
+     "name": "恒安国际",
+     "weight": 0.09,
+     "secid": "116.01044"
+    },
+    {
+     "code": "00101",
+     "name": "恒隆地产",
+     "weight": 0.08,
+     "secid": "116.00101"
+    },
+    {
+     "code": "01876",
+     "name": "百威亚太",
+     "weight": 0.08,
+     "secid": "116.01876"
+    },
+    {
+     "code": "00968",
+     "name": "信义光能",
+     "weight": 0.06,
+     "secid": "116.00968"
+    }
+   ]
+  }
+ },
+ {
+  "id": "dji",
+  "name": "道琼斯工业平均",
+  "en": "Dow Jones Industrial Average",
+  "publisher": "标普道琼斯指数 S&P Dow Jones Indices",
+  "inception": "1896-05-26",
+  "count": 30,
+  "desc": "30 只美国大型蓝筹股，价格加权，历史最悠久的美股指数之一。",
+  "constituents": [
+   {
+    "name": "卡特彼勒",
+    "ticker": "CAT",
+    "secid": "106.CAT"
+   },
+   {
+    "name": "高盛",
+    "ticker": "GS",
+    "secid": "106.GS"
+   },
+   {
+    "name": "联合健康",
+    "ticker": "UNH",
+    "secid": "106.UNH"
+   },
+   {
+    "name": "微软",
+    "ticker": "MSFT",
+    "secid": "105.MSFT"
+   },
+   {
+    "name": "安进",
+    "ticker": "AMGN",
+    "secid": "105.AMGN"
+   },
+   {
+    "name": "谷歌-A",
+    "ticker": "GOOGL",
+    "secid": "105.GOOGL"
+   },
+   {
+    "name": "家得宝",
+    "ticker": "HD",
+    "secid": "106.HD"
+   },
+   {
+    "name": "宣伟",
+    "ticker": "SHW",
+    "secid": "106.SHW"
+   },
+   {
+    "name": "维萨",
+    "ticker": "V",
+    "secid": "106.V"
+   },
+   {
+    "name": "美国运通",
+    "ticker": "AXP",
+    "secid": "106.AXP"
+   },
+   {
+    "name": "旅行者保险",
+    "ticker": "TRV",
+    "secid": "106.TRV"
+   },
+   {
+    "name": "摩根大通",
+    "ticker": "JPM",
+    "secid": "106.JPM"
+   },
+   {
+    "name": "苹果",
+    "ticker": "AAPL",
+    "secid": "105.AAPL"
+   },
+   {
+    "name": "IBM国际商业机器",
+    "ticker": "IBM",
+    "secid": "106.IBM"
+   },
+   {
+    "name": "麦当劳",
+    "ticker": "MCD",
+    "secid": "106.MCD"
+   },
+   {
+    "name": "强生",
+    "ticker": "JNJ",
+    "secid": "106.JNJ"
+   },
+   {
+    "name": "亚马逊",
+    "ticker": "AMZN",
+    "secid": "105.AMZN"
+   },
+   {
+    "name": "霍尼韦尔",
+    "ticker": "HON",
+    "secid": "105.HON"
+   },
+   {
+    "name": "波音",
+    "ticker": "BA",
+    "secid": "106.BA"
+   },
+   {
+    "name": "英伟达",
+    "ticker": "NVDA",
+    "secid": "105.NVDA"
+   },
+   {
+    "name": "雪佛龙",
+    "ticker": "CVX",
+    "secid": "106.CVX"
+   },
+   {
+    "name": "3M公司",
+    "ticker": "MMM",
+    "secid": "106.MMM"
+   },
+   {
+    "name": "赛富时",
+    "ticker": "CRM",
+    "secid": "106.CRM"
+   },
+   {
+    "name": "宝洁",
+    "ticker": "PG",
+    "secid": "106.PG"
+   },
+   {
+    "name": "默沙东",
+    "ticker": "MRK",
+    "secid": "106.MRK"
+   },
+   {
+    "name": "思科",
+    "ticker": "CSCO",
+    "secid": "105.CSCO"
+   },
+   {
+    "name": "沃尔玛",
+    "ticker": "WMT",
+    "secid": "105.WMT"
+   },
+   {
+    "name": "迪士尼",
+    "ticker": "DIS",
+    "secid": "106.DIS"
+   },
+   {
+    "name": "可口可乐",
+    "ticker": "KO",
+    "secid": "106.KO"
+   },
+   {
+    "name": "耐克",
+    "ticker": "NKE",
+    "secid": "106.NKE"
+   }
+  ],
+  "partial": false,
+  "secid": "100.DJIA",
+  "weights": {
+   "asOf": "2026-06-30",
+   "source": "鹏华道琼斯ETF（513400）2026年中期报告 · 全持仓",
+   "items": [
+    {
+     "code": "CAT",
+     "name": "卡特彼勒",
+     "weight": 11.45,
+     "secid": "106.CAT"
+    },
+    {
+     "code": "GS",
+     "name": "高盛",
+     "weight": 10.88,
+     "secid": "106.GS"
+    },
+    {
+     "code": "UNH",
+     "name": "联合健康",
+     "weight": 4.47,
+     "secid": "106.UNH"
+    },
+    {
+     "code": "MSFT",
+     "name": "微软",
+     "weight": 4.01,
+     "secid": "105.MSFT"
+    },
+    {
+     "code": "AMGN",
+     "name": "安进",
+     "weight": 3.89,
+     "secid": "105.AMGN"
+    },
+    {
+     "code": "GOOGL",
+     "name": "谷歌-A",
+     "weight": 3.84,
+     "secid": "105.GOOGL"
+    },
+    {
+     "code": "HD",
+     "name": "家得宝",
+     "weight": 3.79,
+     "secid": "106.HD"
+    },
+    {
+     "code": "SHW",
+     "name": "宣伟",
+     "weight": 3.7,
+     "secid": "106.SHW"
+    },
+    {
+     "code": "V",
+     "name": "维萨",
+     "weight": 3.69,
+     "secid": "106.V"
+    },
+    {
+     "code": "AXP",
+     "name": "美国运通",
+     "weight": 3.64,
+     "secid": "106.AXP"
+    },
+    {
+     "code": "TRV",
+     "name": "旅行者保险",
+     "weight": 3.55,
+     "secid": "106.TRV"
+    },
+    {
+     "code": "JPM",
+     "name": "摩根大通",
+     "weight": 3.52,
+     "secid": "106.JPM"
+    },
+    {
+     "code": "AAPL",
+     "name": "苹果",
+     "weight": 3.11,
+     "secid": "105.AAPL"
+    },
+    {
+     "code": "IBM",
+     "name": "IBM国际商业机器",
+     "weight": 3.02,
+     "secid": "106.IBM"
+    },
+    {
+     "code": "MCD",
+     "name": "麦当劳",
+     "weight": 2.91,
+     "secid": "106.MCD"
+    },
+    {
+     "code": "JNJ",
+     "name": "强生",
+     "weight": 2.73,
+     "secid": "106.JNJ"
+    },
+    {
+     "code": "AMZN",
+     "name": "亚马逊",
+     "weight": 2.56,
+     "secid": "105.AMZN"
+    },
+    {
+     "code": "HON",
+     "name": "霍尼韦尔",
+     "weight": 2.41,
+     "secid": "105.HON"
+    },
+    {
+     "code": "BA",
+     "name": "波音",
+     "weight": 2.33,
+     "secid": "106.BA"
+    },
+    {
+     "code": "NVDA",
+     "name": "英伟达",
+     "weight": 2.15,
+     "secid": "105.NVDA"
+    },
+    {
+     "code": "CVX",
+     "name": "雪佛龙",
+     "weight": 1.78,
+     "secid": "106.CVX"
+    },
+    {
+     "code": "MMM",
+     "name": "3M公司",
+     "weight": 1.74,
+     "secid": "106.MMM"
+    },
+    {
+     "code": "CRM",
+     "name": "赛富时",
+     "weight": 1.68,
+     "secid": "106.CRM"
+    },
+    {
+     "code": "PG",
+     "name": "宝洁",
+     "weight": 1.58,
+     "secid": "106.PG"
+    },
+    {
+     "code": "MRK",
+     "name": "默沙东",
+     "weight": 1.38,
+     "secid": "106.MRK"
+    },
+    {
+     "code": "CSCO",
+     "name": "思科",
+     "weight": 1.26,
+     "secid": "105.CSCO"
+    },
+    {
+     "code": "WMT",
+     "name": "沃尔玛",
+     "weight": 1.22,
+     "secid": "105.WMT"
+    },
+    {
+     "code": "DIS",
+     "name": "迪士尼",
+     "weight": 1.04,
+     "secid": "106.DIS"
+    },
+    {
+     "code": "KO",
+     "name": "可口可乐",
+     "weight": 0.87,
+     "secid": "106.KO"
+    },
+    {
+     "code": "NKE",
+     "name": "耐克",
+     "weight": 0.44,
+     "secid": "106.NKE"
+    }
+   ]
+  }
+ },
+ {
+  "id": "spx",
+  "name": "标普500",
+  "en": "S&P 500",
+  "publisher": "标普道琼斯指数 S&P Dow Jones Indices",
+  "inception": "1957-03-04",
+  "count": 491,
+  "desc": "500 家美国大型上市公司，市值加权，全球最常用的美股基准。",
+  "constituents": [
+   {
+    "name": "英伟达",
+    "ticker": "NVDA",
+    "secid": "105.NVDA"
+   },
+   {
+    "name": "苹果",
+    "ticker": "AAPL",
+    "secid": "105.AAPL"
+   },
+   {
+    "name": "微软",
+    "ticker": "MSFT",
+    "secid": "105.MSFT"
+   },
+   {
+    "name": "亚马逊",
+    "ticker": "AMZN",
+    "secid": "105.AMZN"
+   },
+   {
+    "name": "谷歌-A",
+    "ticker": "GOOGL",
+    "secid": "105.GOOGL"
+   },
+   {
+    "name": "博通",
+    "ticker": "AVGO",
+    "secid": "105.AVGO"
+   },
+   {
+    "name": "美光科技",
+    "ticker": "MU",
+    "secid": "105.MU"
+   },
+   {
+    "name": "Meta Platforms Inc-A",
+    "ticker": "META",
+    "secid": "105.META"
+   },
+   {
+    "name": "特斯拉",
+    "ticker": "TSLA",
+    "secid": "105.TSLA"
+   },
+   {
+    "name": "礼来",
+    "ticker": "LLY",
+    "secid": "106.LLY"
+   },
+   {
+    "name": "超威半导体",
+    "ticker": "AMD",
+    "secid": "105.AMD"
+   },
+   {
+    "name": "巴里克矿业",
+    "ticker": "B",
+    "secid": "106.B"
+   },
+   {
+    "name": "摩根大通",
+    "ticker": "JPM",
+    "secid": "106.JPM"
+   },
+   {
+    "name": "英特尔",
+    "ticker": "INTC",
+    "secid": "105.INTC"
+   },
+   {
+    "name": "强生",
+    "ticker": "JNJ",
+    "secid": "106.JNJ"
+   },
+   {
+    "name": "应用材料",
+    "ticker": "AMAT",
+    "secid": "105.AMAT"
+   },
+   {
+    "name": "维萨",
+    "ticker": "V",
+    "secid": "106.V"
+   },
+   {
+    "name": "埃克森美孚",
+    "ticker": "XOM",
+    "secid": "106.XOM"
+   },
+   {
+    "name": "拉姆研究",
+    "ticker": "LRCX",
+    "secid": "105.LRCX"
+   },
+   {
+    "name": "沃尔玛",
+    "ticker": "WMT",
+    "secid": "105.WMT"
+   },
+   {
+    "name": "卡特彼勒",
+    "ticker": "CAT",
+    "secid": "106.CAT"
+   },
+   {
+    "name": "思科",
+    "ticker": "CSCO",
+    "secid": "105.CSCO"
+   },
+   {
+    "name": "艾伯维",
+    "ticker": "ABBV",
+    "secid": "106.ABBV"
+   },
+   {
+    "name": "开市客",
+    "ticker": "COST",
+    "secid": "105.COST"
+   },
+   {
+    "name": "万事达",
+    "ticker": "MA",
+    "secid": "106.MA"
+   },
+   {
+    "name": "科磊",
+    "ticker": "KLAC",
+    "secid": "105.KLAC"
+   },
+   {
+    "name": "GE航空航天",
+    "ticker": "GE",
+    "secid": "106.GE"
+   },
+   {
+    "name": "联合健康",
+    "ticker": "UNH",
+    "secid": "106.UNH"
+   },
+   {
+    "name": "美国银行",
+    "ticker": "BAC",
+    "secid": "106.BAC"
+   },
+   {
+    "name": "家得宝",
+    "ticker": "HD",
+    "secid": "106.HD"
+   },
+   {
+    "name": "宝洁",
+    "ticker": "PG",
+    "secid": "106.PG"
+   },
+   {
+    "name": "闪迪",
+    "ticker": "SNDK",
+    "secid": "105.SNDK"
+   },
+   {
+    "name": "默沙东",
+    "ticker": "MRK",
+    "secid": "106.MRK"
+   },
+   {
+    "name": "GE Vernova Inc",
+    "ticker": "GEV",
+    "secid": "106.GEV"
+   },
+   {
+    "name": "可口可乐",
+    "ticker": "KO",
+    "secid": "106.KO"
+   },
+   {
+    "name": "雪佛龙",
+    "ticker": "CVX",
+    "secid": "106.CVX"
+   },
+   {
+    "name": "奈飞",
+    "ticker": "NFLX",
+    "secid": "105.NFLX"
+   },
+   {
+    "name": "高盛",
+    "ticker": "GS",
+    "secid": "106.GS"
+   },
+   {
+    "name": "菲利普莫里斯国际",
+    "ticker": "PM",
+    "secid": "106.PM"
+   },
+   {
+    "name": "派拓网络",
+    "ticker": "PANW",
+    "secid": "105.PANW"
+   },
+   {
+    "name": "德州仪器",
+    "ticker": "TXN",
+    "secid": "105.TXN"
+   },
+   {
+    "name": "Palantir Technologies Inc-A",
+    "ticker": "PLTR",
+    "secid": "105.PLTR"
+   },
+   {
+    "name": "IBM国际商业机器",
+    "ticker": "IBM",
+    "secid": "106.IBM"
+   },
+   {
+    "name": "迈威尔科技",
+    "ticker": "MRVL",
+    "secid": "105.MRVL"
+   },
+   {
+    "name": "富国银行",
+    "ticker": "WFC",
+    "secid": "106.WFC"
+   },
+   {
+    "name": "摩根士丹利",
+    "ticker": "MS",
+    "secid": "106.MS"
+   },
+   {
+    "name": "甲骨文",
+    "ticker": "ORCL",
+    "secid": "106.ORCL"
+   },
+   {
+    "name": "Linde plc",
+    "ticker": "LIN",
+    "secid": "105.LIN"
+   },
+   {
+    "name": "花旗集团",
+    "ticker": "C",
+    "secid": "106.C"
+   },
+   {
+    "name": "西部数据",
+    "ticker": "WDC",
+    "secid": "105.WDC"
+   },
+   {
+    "name": "安费诺",
+    "ticker": "APH",
+    "secid": "106.APH"
+   },
+   {
+    "name": "希捷科技",
+    "ticker": "STX",
+    "secid": "105.STX"
+   },
+   {
+    "name": "康宁",
+    "ticker": "GLW",
+    "secid": "106.GLW"
+   },
+   {
+    "name": "安进",
+    "ticker": "AMGN",
+    "secid": "105.AMGN"
+   },
+   {
+    "name": "高通",
+    "ticker": "QCOM",
+    "secid": "105.QCOM"
+   },
+   {
+    "name": "CrowdStrike Holdings Inc-A",
+    "ticker": "CRWD",
+    "secid": "105.CRWD"
+   },
+   {
+    "name": "亚德诺",
+    "ticker": "ADI",
+    "secid": "105.ADI"
+   },
+   {
+    "name": "麦当劳",
+    "ticker": "MCD",
+    "secid": "106.MCD"
+   },
+   {
+    "name": "赛默飞世尔科技",
+    "ticker": "TMO",
+    "secid": "106.TMO"
+   },
+   {
+    "name": "百事",
+    "ticker": "PEP",
+    "secid": "105.PEP"
+   },
+   {
+    "name": "新纪元能源",
+    "ticker": "NEE",
+    "secid": "106.NEE"
+   },
+   {
+    "name": "美国运通",
+    "ticker": "AXP",
+    "secid": "106.AXP"
+   },
+   {
+    "name": "威瑞森通讯(Verizon)",
+    "ticker": "VZ",
+    "secid": "106.VZ"
+   },
+   {
+    "name": "Arista Networks Inc",
+    "ticker": "ANET",
+    "secid": "106.ANET"
+   },
+   {
+    "name": "波音",
+    "ticker": "BA",
+    "secid": "106.BA"
+   },
+   {
+    "name": "The TJX Companies Inc",
+    "ticker": "TJX",
+    "secid": "106.TJX"
+   },
+   {
+    "name": "迪士尼",
+    "ticker": "DIS",
+    "secid": "106.DIS"
+   },
+   {
+    "name": "伊顿",
+    "ticker": "ETN",
+    "secid": "106.ETN"
+   },
+   {
+    "name": "联合太平洋",
+    "ticker": "UNP",
+    "secid": "106.UNP"
+   },
+   {
+    "name": "Welltower Inc",
+    "ticker": "WELL",
+    "secid": "106.WELL"
+   },
+   {
+    "name": "迪尔",
+    "ticker": "DE",
+    "secid": "106.DE"
+   },
+   {
+    "name": "雅培",
+    "ticker": "ABT",
+    "secid": "106.ABT"
+   },
+   {
+    "name": "吉利德科学",
+    "ticker": "GILD",
+    "secid": "105.GILD"
+   },
+   {
+    "name": "嘉信理财",
+    "ticker": "SCHW",
+    "secid": "106.SCHW"
+   },
+   {
+    "name": "优步",
+    "ticker": "UBER",
+    "secid": "106.UBER"
+   },
+   {
+    "name": "美国电话电报(AT&T)",
+    "ticker": "T",
+    "secid": "106.T"
+   },
+   {
+    "name": "直觉外科",
+    "ticker": "ISRG",
+    "secid": "105.ISRG"
+   },
+   {
+    "name": "贝莱德",
+    "ticker": "BLK",
+    "secid": "106.BLK"
+   },
+   {
+    "name": "Applovin Corp-A",
+    "ticker": "APP",
+    "secid": "105.APP"
+   },
+   {
+    "name": "Booking Holdings",
+    "ticker": "BKNG",
+    "secid": "105.BKNG"
+   },
+   {
+    "name": "辉瑞",
+    "ticker": "PFE",
+    "secid": "106.PFE"
+   },
+   {
+    "name": "西维斯健康",
+    "ticker": "CVS",
+    "secid": "106.CVS"
+   },
+   {
+    "name": "Vertiv Holdings Co-A",
+    "ticker": "VRT",
+    "secid": "106.VRT"
+   },
+   {
+    "name": "赛富时",
+    "ticker": "CRM",
+    "secid": "106.CRM"
+   },
+   {
+    "name": "前进保险",
+    "ticker": "PGR",
+    "secid": "106.PGR"
+   },
+   {
+    "name": "康菲石油",
+    "ticker": "COP",
+    "secid": "106.COP"
+   },
+   {
+    "name": "安博",
+    "ticker": "PLD",
+    "secid": "106.PLD"
+   },
+   {
+    "name": "福泰制药",
+    "ticker": "VRTX",
+    "secid": "105.VRTX"
+   },
+   {
+    "name": "第一资本金融",
+    "ticker": "COF",
+    "secid": "106.COF"
+   },
+   {
+    "name": "戴尔科技",
+    "ticker": "DELL",
+    "secid": "106.DELL"
+   },
+   {
+    "name": "劳氏",
+    "ticker": "LOW",
+    "secid": "106.LOW"
+   },
+   {
+    "name": "标普全球",
+    "ticker": "SPGI",
+    "secid": "106.SPGI"
+   },
+   {
+    "name": "派克汉尼汾",
+    "ticker": "PH",
+    "secid": "106.PH"
+   },
+   {
+    "name": "安达保险",
+    "ticker": "CB",
+    "secid": "106.CB"
+   },
+   {
+    "name": "奥驰亚集团",
+    "ticker": "MO",
+    "secid": "106.MO"
+   },
+   {
+    "name": "丹纳赫",
+    "ticker": "DHR",
+    "secid": "106.DHR"
+   },
+   {
+    "name": "百时美施贵宝",
+    "ticker": "BMY",
+    "secid": "106.BMY"
+   },
+   {
+    "name": "星巴克",
+    "ticker": "SBUX",
+    "secid": "105.SBUX"
+   },
+   {
+    "name": "史赛克",
+    "ticker": "SYK",
+    "secid": "106.SYK"
+   },
+   {
+    "name": "特灵科技",
+    "ticker": "TT",
+    "secid": "106.TT"
+   },
+   {
+    "name": "广达服务",
+    "ticker": "PWR",
+    "secid": "106.PWR"
+   },
+   {
+    "name": "南方电力",
+    "ticker": "SO",
+    "secid": "106.SO"
+   },
+   {
+    "name": "Howmet Aerospace Inc",
+    "ticker": "HWM",
+    "secid": "106.HWM"
+   },
+   {
+    "name": "铿腾电子",
+    "ticker": "CDNS",
+    "secid": "105.CDNS"
+   },
+   {
+    "name": "易昆尼克斯",
+    "ticker": "EQIX",
+    "secid": "105.EQIX"
+   },
+   {
+    "name": "现在服务公司",
+    "ticker": "NOW",
+    "secid": "106.NOW"
+   },
+   {
+    "name": "美敦力",
+    "ticker": "MDT",
+    "secid": "106.MDT"
+   },
+   {
+    "name": "纽蒙特",
+    "ticker": "NEM",
+    "secid": "106.NEM"
+   },
+   {
+    "name": "纽约梅隆银行",
+    "ticker": "BNY",
+    "secid": "106.BNY"
+   },
+   {
+    "name": "PNC金融服务集团",
+    "ticker": "PNC",
+    "secid": "106.PNC"
+   },
+   {
+    "name": "杜克能源",
+    "ticker": "DUK",
+    "secid": "106.DUK"
+   },
+   {
+    "name": "康明斯",
+    "ticker": "CMI",
+    "secid": "106.CMI"
+   },
+   {
+    "name": "防特网",
+    "ticker": "FTNT",
+    "secid": "105.FTNT"
+   },
+   {
+    "name": "美国合众银行",
+    "ticker": "USB",
+    "secid": "106.USB"
+   },
+   {
+    "name": "威廉姆斯",
+    "ticker": "WMB",
+    "secid": "106.WMB"
+   },
+   {
+    "name": "麦克森",
+    "ticker": "MCK",
+    "secid": "106.MCK"
+   },
+   {
+    "name": "自由港麦克莫兰",
+    "ticker": "FCX",
+    "secid": "106.FCX"
+   },
+   {
+    "name": "通用动力",
+    "ticker": "GD",
+    "secid": "106.GD"
+   },
+   {
+    "name": "自动数据处理",
+    "ticker": "ADP",
+    "secid": "105.ADP"
+   },
+   {
+    "name": "江森自控",
+    "ticker": "JCI",
+    "secid": "106.JCI"
+   },
+   {
+    "name": "CSX运输",
+    "ticker": "CSX",
+    "secid": "105.CSX"
+   },
+   {
+    "name": "康卡斯特",
+    "ticker": "CMCSA",
+    "secid": "105.CMCSA"
+   },
+   {
+    "name": "黑石集团",
+    "ticker": "BX",
+    "secid": "106.BX"
+   },
+   {
+    "name": "Datadog Inc-A",
+    "ticker": "DDOG",
+    "secid": "105.DDOG"
+   },
+   {
+    "name": "新思科技",
+    "ticker": "SNPS",
+    "secid": "105.SNPS"
+   },
+   {
+    "name": "3M公司",
+    "ticker": "MMM",
+    "secid": "106.MMM"
+   },
+   {
+    "name": "Elevance Health Inc",
+    "ticker": "ELV",
+    "secid": "106.ELV"
+   },
+   {
+    "name": "奥多比",
+    "ticker": "ADBE",
+    "secid": "105.ADBE"
+   },
+   {
+    "name": "美国废物管理",
+    "ticker": "WM",
+    "secid": "106.WM"
+   },
+   {
+    "name": "万豪国际",
+    "ticker": "MAR",
+    "secid": "105.MAR"
+   },
+   {
+    "name": "达信",
+    "ticker": "MRSH",
+    "secid": "106.MRSH"
+   },
+   {
+    "name": "联合包裹服务",
+    "ticker": "UPS",
+    "secid": "106.UPS"
+   },
+   {
+    "name": "艾默生电气",
+    "ticker": "EMR",
+    "secid": "106.EMR"
+   },
+   {
+    "name": "芝加哥商业交易所",
+    "ticker": "CME",
+    "secid": "105.CME"
+   },
+   {
+    "name": "Constellation Energy Corp",
+    "ticker": "CEG",
+    "secid": "105.CEG"
+   },
+   {
+    "name": "Robinhood Markets Inc-A",
+    "ticker": "HOOD",
+    "secid": "105.HOOD"
+   },
+   {
+    "name": "皇家加勒比邮轮",
+    "ticker": "RCL",
+    "secid": "106.RCL"
+   },
+   {
+    "name": "宣伟",
+    "ticker": "SHW",
+    "secid": "106.SHW"
+   },
+   {
+    "name": "T-Mobile US Inc",
+    "ticker": "TMUS",
+    "secid": "105.TMUS"
+   },
+   {
+    "name": "瓦莱罗能源",
+    "ticker": "VLO",
+    "secid": "106.VLO"
+   },
+   {
+    "name": "Coherent Corp",
+    "ticker": "COHR",
+    "secid": "106.COHR"
+   },
+   {
+    "name": "埃森哲",
+    "ticker": "ACN",
+    "secid": "106.ACN"
+   },
+   {
+    "name": "奥莱利",
+    "ticker": "ORLY",
+    "secid": "105.ORLY"
+   },
+   {
+    "name": "美国电塔",
+    "ticker": "AMT",
+    "secid": "106.AMT"
+   },
+   {
+    "name": "泰瑞达",
+    "ticker": "TER",
+    "secid": "105.TER"
+   },
+   {
+    "name": "希尔顿酒店",
+    "ticker": "HLT",
+    "secid": "105.HLT"
+   },
+   {
+    "name": "马拉松原油",
+    "ticker": "MPC",
+    "secid": "106.MPC"
+   },
+   {
+    "name": "TransDigm Group Inc",
+    "ticker": "TDG",
+    "secid": "106.TDG"
+   },
+   {
+    "name": "美国电力",
+    "ticker": "AEP",
+    "secid": "105.AEP"
+   },
+   {
+    "name": "亿滋国际",
+    "ticker": "MDLZ",
+    "secid": "105.MDLZ"
+   },
+   {
+    "name": "高露洁",
+    "ticker": "CL",
+    "secid": "106.CL"
+   },
+   {
+    "name": "信诺",
+    "ticker": "CI",
+    "secid": "106.CI"
+   },
+   {
+    "name": "西蒙地产",
+    "ticker": "SPG",
+    "secid": "106.SPG"
+   },
+   {
+    "name": "财捷",
+    "ticker": "INTU",
+    "secid": "105.INTU"
+   },
+   {
+    "name": "CRH水泥",
+    "ticker": "CRH",
+    "secid": "106.CRH"
+   },
+   {
+    "name": "联合租赁",
+    "ticker": "URI",
+    "secid": "106.URI"
+   },
+   {
+    "name": "恩智浦半导体",
+    "ticker": "NXPI",
+    "secid": "105.NXPI"
+   },
+   {
+    "name": "霍尼韦尔",
+    "ticker": "HON",
+    "secid": "105.HON"
+   },
+   {
+    "name": "怡安保险",
+    "ticker": "AON",
+    "secid": "106.AON"
+   },
+   {
+    "name": "伊利诺伊机械",
+    "ticker": "ITW",
+    "secid": "106.ITW"
+   },
+   {
+    "name": "诺福克南方",
+    "ticker": "NSC",
+    "secid": "106.NSC"
+   },
+   {
+    "name": "艺康",
+    "ticker": "ECL",
+    "secid": "106.ECL"
+   },
+   {
+    "name": "旅行者保险",
+    "ticker": "TRV",
+    "secid": "106.TRV"
+   },
+   {
+    "name": "Honeywell Aerospace Inc",
+    "ticker": "HONA",
+    "secid": "105.HONA"
+   },
+   {
+    "name": "DoorDash Inc-A",
+    "ticker": "DASH",
+    "secid": "105.DASH"
+   },
+   {
+    "name": "Comfort Systems USA Inc",
+    "ticker": "FIX",
+    "secid": "106.FIX"
+   },
+   {
+    "name": "洲际交易所",
+    "ticker": "ICE",
+    "secid": "106.ICE"
+   },
+   {
+    "name": "斯伦贝谢",
+    "ticker": "SLB",
+    "secid": "106.SLB"
+   },
+   {
+    "name": "通用汽车",
+    "ticker": "GM",
+    "secid": "106.GM"
+   },
+   {
+    "name": "Ciena科技",
+    "ticker": "CIEN",
+    "secid": "106.CIEN"
+   },
+   {
+    "name": "EOG能源",
+    "ticker": "EOG",
+    "secid": "106.EOG"
+   },
+   {
+    "name": "摩托罗拉解决方案",
+    "ticker": "MSI",
+    "secid": "106.MSI"
+   },
+   {
+    "name": "联邦快递",
+    "ticker": "FDX",
+    "secid": "106.FDX"
+   },
+   {
+    "name": "怪物饮料",
+    "ticker": "MNST",
+    "secid": "105.MNST"
+   },
+   {
+    "name": "罗斯百货",
+    "ticker": "ROST",
+    "secid": "105.ROST"
+   },
+   {
+    "name": "穆迪",
+    "ticker": "MCO",
+    "secid": "106.MCO"
+   },
+   {
+    "name": "Monolithic Power Systems Inc",
+    "ticker": "MPWR",
+    "secid": "105.MPWR"
+   },
+   {
+    "name": "Phillips 66",
+    "ticker": "PSX",
+    "secid": "106.PSX"
+   },
+   {
+    "name": "Lumentum Holdings Inc",
+    "ticker": "LITE",
+    "secid": "105.LITE"
+   },
+   {
+    "name": "空气化工",
+    "ticker": "APD",
+    "secid": "106.APD"
+   },
+   {
+    "name": "KKR & Co Inc",
+    "ticker": "KKR",
+    "secid": "106.KKR"
+   },
+   {
+    "name": "波士顿科学",
+    "ticker": "BSX",
+    "secid": "106.BSX"
+   },
+   {
+    "name": "帕卡",
+    "ticker": "PCAR",
+    "secid": "105.PCAR"
+   },
+   {
+    "name": "金德摩根",
+    "ticker": "KMI",
+    "secid": "106.KMI"
+   },
+   {
+    "name": "再生元制药",
+    "ticker": "REGN",
+    "secid": "105.REGN"
+   },
+   {
+    "name": "Truist Financial Corp",
+    "ticker": "TFC",
+    "secid": "106.TFC"
+   },
+   {
+    "name": "好事达保险",
+    "ticker": "ALL",
+    "secid": "106.ALL"
+   },
+   {
+    "name": "达美航空",
+    "ticker": "DAL",
+    "secid": "106.DAL"
+   },
+   {
+    "name": "桑普拉能源",
+    "ticker": "SRE",
+    "secid": "106.SRE"
+   },
+   {
+    "name": "HCA Healthcare Inc",
+    "ticker": "HCA",
+    "secid": "106.HCA"
+   },
+   {
+    "name": "道明尼能源",
+    "ticker": "D",
+    "secid": "106.D"
+   },
+   {
+    "name": "是德科技",
+    "ticker": "KEYS",
+    "secid": "106.KEYS"
+   },
+   {
+    "name": "慧与",
+    "ticker": "HPE",
+    "secid": "106.HPE"
+   },
+   {
+    "name": "爱彼迎",
+    "ticker": "ABNB",
+    "secid": "105.ABNB"
+   },
+   {
+    "name": "伟创力",
+    "ticker": "FLEX",
+    "secid": "105.FLEX"
+   },
+   {
+    "name": "数字房地产信托",
+    "ticker": "DLR",
+    "secid": "106.DLR"
+   },
+   {
+    "name": "塔吉特",
+    "ticker": "TGT",
+    "secid": "106.TGT"
+   },
+   {
+    "name": "固安捷",
+    "ticker": "GWW",
+    "secid": "106.GWW"
+   },
+   {
+    "name": "安睿嘉尔",
+    "ticker": "AJG",
+    "secid": "106.AJG"
+   },
+   {
+    "name": "泰科电子",
+    "ticker": "TEL",
+    "secid": "106.TEL"
+   },
+   {
+    "name": "信达思",
+    "ticker": "CTAS",
+    "secid": "105.CTAS"
+   },
+   {
+    "name": "Realty Income Corp",
+    "ticker": "O",
+    "secid": "106.O"
+   },
+   {
+    "name": "Targa Resources Corp",
+    "ticker": "TRGP",
+    "secid": "106.TRGP"
+   },
+   {
+    "name": "Carrier Global Corp",
+    "ticker": "CARR",
+    "secid": "106.CARR"
+   },
+   {
+    "name": "Corteva Inc",
+    "ticker": "CTVA",
+    "secid": "106.CTVA"
+   },
+   {
+    "name": "卡地纳健康",
+    "ticker": "CAH",
+    "secid": "106.CAH"
+   },
+   {
+    "name": "阿美特克",
+    "ticker": "AME",
+    "secid": "106.AME"
+   },
+   {
+    "name": "快扣",
+    "ticker": "FAST",
+    "secid": "105.FAST"
+   },
+   {
+    "name": "罗克韦尔自动化",
+    "ticker": "ROK",
+    "secid": "106.ROK"
+   },
+   {
+    "name": "Baker Hughes Co-A",
+    "ticker": "BKR",
+    "secid": "105.BKR"
+   },
+   {
+    "name": "Cencora Inc",
+    "ticker": "COR",
+    "secid": "106.COR"
+   },
+   {
+    "name": "欧尼克",
+    "ticker": "OKE",
+    "secid": "106.OKE"
+   },
+   {
+    "name": "阿波罗全球管理",
+    "ticker": "APO",
+    "secid": "106.APO"
+   },
+   {
+    "name": "福特汽车",
+    "ticker": "F",
+    "secid": "106.F"
+   },
+   {
+    "name": "L3Harris Technologies Inc",
+    "ticker": "LHX",
+    "secid": "106.LHX"
+   },
+   {
+    "name": "美国家庭人寿保险",
+    "ticker": "AFL",
+    "secid": "106.AFL"
+   },
+   {
+    "name": "汽车地带",
+    "ticker": "AZO",
+    "secid": "106.AZO"
+   },
+   {
+    "name": "安特吉",
+    "ticker": "ETR",
+    "secid": "106.ETR"
+   },
+   {
+    "name": "爱德华兹生命科学",
+    "ticker": "EW",
+    "secid": "106.EW"
+   },
+   {
+    "name": "五三银行",
+    "ticker": "FITB",
+    "secid": "106.FITB"
+   },
+   {
+    "name": "纽柯钢铁",
+    "ticker": "NUE",
+    "secid": "106.NUE"
+   },
+   {
+    "name": "大众仓储",
+    "ticker": "PSA",
+    "secid": "106.PSA"
+   },
+   {
+    "name": "Vistra Corp",
+    "ticker": "VST",
+    "secid": "106.VST"
+   },
+   {
+    "name": "埃克西尔能源",
+    "ticker": "XEL",
+    "secid": "105.XEL"
+   },
+   {
+    "name": "易趣",
+    "ticker": "EBAY",
+    "secid": "105.EBAY"
+   },
+   {
+    "name": "微芯科技",
+    "ticker": "MCHP",
+    "secid": "105.MCHP"
+   },
+   {
+    "name": "耐克",
+    "ticker": "NKE",
+    "secid": "106.NKE"
+   },
+   {
+    "name": "爱克斯龙电力",
+    "ticker": "EXC",
+    "secid": "105.EXC"
+   },
+   {
+    "name": "哈门那",
+    "ticker": "HUM",
+    "secid": "106.HUM"
+   },
+   {
+    "name": "戴文能源",
+    "ticker": "DVN",
+    "secid": "106.DVN"
+   },
+   {
+    "name": "Carvana Co-A",
+    "ticker": "CVNA",
+    "secid": "106.CVNA"
+   },
+   {
+    "name": "道富",
+    "ticker": "STT",
+    "secid": "106.STT"
+   },
+   {
+    "name": "美国西屋制动",
+    "ticker": "WAB",
+    "secid": "106.WAB"
+   },
+   {
+    "name": "大都会人寿",
+    "ticker": "MET",
+    "secid": "106.MET"
+   },
+   {
+    "name": "Axon Enterprise Inc",
+    "ticker": "AXON",
+    "secid": "105.AXON"
+   },
+   {
+    "name": "Keurig Dr Pepper Inc",
+    "ticker": "KDP",
+    "secid": "105.KDP"
+   },
+   {
+    "name": "联合航空",
+    "ticker": "UAL",
+    "secid": "105.UAL"
+   },
+   {
+    "name": "Yum! Brands Inc",
+    "ticker": "YUM",
+    "secid": "106.YUM"
+   },
+   {
+    "name": "墨式烧烤",
+    "ticker": "CMG",
+    "secid": "106.CMG"
+   },
+   {
+    "name": "Take-Two Interactive Software I",
+    "ticker": "TTWO",
+    "secid": "105.TTWO"
+   },
+   {
+    "name": "芬塔公司",
+    "ticker": "VTR",
+    "secid": "106.VTR"
+   },
+   {
+    "name": "霍顿房屋",
+    "ticker": "DHI",
+    "secid": "106.DHI"
+   },
+   {
+    "name": "共和废品处理",
+    "ticker": "RSG",
+    "secid": "106.RSG"
+   },
+   {
+    "name": "碧迪医疗",
+    "ticker": "BDX",
+    "secid": "106.BDX"
+   },
+   {
+    "name": "IDEXX实验室",
+    "ticker": "IDXX",
+    "secid": "105.IDXX"
+   },
+   {
+    "name": "阿默普莱斯金融",
+    "ticker": "AMP",
+    "secid": "106.AMP"
+   },
+   {
+    "name": "欧特克",
+    "ticker": "ADSK",
+    "secid": "105.ADSK"
+   },
+   {
+    "name": "明晟",
+    "ticker": "MSCI",
+    "secid": "106.MSCI"
+   },
+   {
+    "name": "爱迪生联合电气",
+    "ticker": "ED",
+    "secid": "106.ED"
+   },
+   {
+    "name": "Block Inc-A",
+    "ticker": "XYZ",
+    "secid": "106.XYZ"
+   },
+   {
+    "name": "捷普",
+    "ticker": "JBL",
+    "secid": "106.JBL"
+   },
+   {
+    "name": "公共服务企业",
+    "ticker": "PEG",
+    "secid": "106.PEG"
+   },
+   {
+    "name": "西斯科",
+    "ticker": "SYY",
+    "secid": "106.SYY"
+   },
+   {
+    "name": "Old Dominion Freight Line Inc",
+    "ticker": "ODFL",
+    "secid": "105.ODFL"
+   },
+   {
+    "name": "美国国际集团",
+    "ticker": "AIG",
+    "secid": "106.AIG"
+   },
+   {
+    "name": "世邦魏理仕",
+    "ticker": "CBRE",
+    "secid": "106.CBRE"
+   },
+   {
+    "name": "佳明",
+    "ticker": "GRMN",
+    "secid": "106.GRMN"
+   },
+   {
+    "name": "盈透证券",
+    "ticker": "IBKR",
+    "secid": "105.IBKR"
+   },
+   {
+    "name": "火神材料",
+    "ticker": "VMC",
+    "secid": "106.VMC"
+   },
+   {
+    "name": "PayPal Holdings Inc",
+    "ticker": "PYPL",
+    "secid": "105.PYPL"
+   },
+   {
+    "name": "WEC能源",
+    "ticker": "WEC",
+    "secid": "106.WEC"
+   },
+   {
+    "name": "铁山",
+    "ticker": "IRM",
+    "secid": "106.IRM"
+   },
+   {
+    "name": "安捷伦",
+    "ticker": "A",
+    "secid": "106.A"
+   },
+   {
+    "name": "保德信金融",
+    "ticker": "PRU",
+    "secid": "106.PRU"
+   },
+   {
+    "name": "安森美半导体",
+    "ticker": "ON",
+    "secid": "105.ON"
+   },
+   {
+    "name": "太平洋煤气电力",
+    "ticker": "PCG",
+    "secid": "106.PCG"
+   },
+   {
+    "name": "埃姆科",
+    "ticker": "EME",
+    "secid": "106.EME"
+   },
+   {
+    "name": "沃特世",
+    "ticker": "WAT",
+    "secid": "106.WAT"
+   },
+   {
+    "name": "阿彻丹尼尔斯米德兰",
+    "ticker": "ADM",
+    "secid": "106.ADM"
+   },
+   {
+    "name": "嘉年华邮轮",
+    "ticker": "CCL",
+    "secid": "106.CCL"
+   },
+   {
+    "name": "Kenvue Inc",
+    "ticker": "KVUE",
+    "secid": "106.KVUE"
+   },
+   {
+    "name": "金佰利",
+    "ticker": "KMB",
+    "secid": "105.KMB"
+   },
+   {
+    "name": "哈特福德保险",
+    "ticker": "HIG",
+    "secid": "106.HIG"
+   },
+   {
+    "name": "亨廷顿银行",
+    "ticker": "HBAN",
+    "secid": "105.HBAN"
+   },
+   {
+    "name": "西方石油",
+    "ticker": "OXY",
+    "secid": "106.OXY"
+   },
+   {
+    "name": "纳斯达克",
+    "ticker": "NDAQ",
+    "secid": "105.NDAQ"
+   },
+   {
+    "name": "美国制商银行",
+    "ticker": "MTB",
+    "secid": "106.MTB"
+   },
+   {
+    "name": "马丁-玛丽埃塔材料",
+    "ticker": "MLM",
+    "secid": "106.MLM"
+   },
+   {
+    "name": "Qnity Electronics Inc",
+    "ticker": "Q",
+    "secid": "106.Q"
+   },
+   {
+    "name": "儒博实业",
+    "ticker": "ROP",
+    "secid": "105.ROP"
+   },
+   {
+    "name": "Diamondback Energy Inc",
+    "ticker": "FANG",
+    "secid": "105.FANG"
+   },
+   {
+    "name": "艾奇资本",
+    "ticker": "ACGL",
+    "secid": "105.ACGL"
+   },
+   {
+    "name": "EQT能源",
+    "ticker": "EQT",
+    "secid": "106.EQT"
+   },
+   {
+    "name": "冠城",
+    "ticker": "CCI",
+    "secid": "106.CCI"
+   },
+   {
+    "name": "Coinbase Global Inc-A",
+    "ticker": "COIN",
+    "secid": "105.COIN"
+   },
+   {
+    "name": "艾昆纬",
+    "ticker": "IQV",
+    "secid": "106.IQV"
+   },
+   {
+    "name": "北方信托",
+    "ticker": "NTRS",
+    "secid": "105.NTRS"
+   },
+   {
+    "name": "生化基因",
+    "ticker": "BIIB",
+    "secid": "105.BIIB"
+   },
+   {
+    "name": "沛齐",
+    "ticker": "PAYX",
+    "secid": "105.PAYX"
+   },
+   {
+    "name": "DTE能源",
+    "ticker": "DTE",
+    "secid": "106.DTE"
+   },
+   {
+    "name": "克罗格",
+    "ticker": "KR",
+    "secid": "106.KR"
+   },
+   {
+    "name": "阿曼瑞恩",
+    "ticker": "AEE",
+    "secid": "106.AEE"
+   },
+   {
+    "name": "Steel Dynamics Inc",
+    "ticker": "STLD",
+    "secid": "105.STLD"
+   },
+   {
+    "name": "Teledyne Technologies Inc",
+    "ticker": "TDY",
+    "secid": "106.TDY"
+   },
+   {
+    "name": "NRG Energy Inc",
+    "ticker": "NRG",
+    "secid": "106.NRG"
+   },
+   {
+    "name": "Extra Space Storage Inc",
+    "ticker": "EXR",
+    "secid": "106.EXR"
+   },
+   {
+    "name": "美国网存",
+    "ticker": "NTAP",
+    "secid": "105.NTAP"
+   },
+   {
+    "name": "都福",
+    "ticker": "DOV",
+    "secid": "106.DOV"
+   },
+   {
+    "name": "硕腾",
+    "ticker": "ZTS",
+    "secid": "106.ZTS"
+   },
+   {
+    "name": "康西哥",
+    "ticker": "CNC",
+    "secid": "106.CNC"
+   },
+   {
+    "name": "Citizens Financial Group Inc",
+    "ticker": "CFG",
+    "secid": "106.CFG"
+   },
+   {
+    "name": "Tapestry Inc",
+    "ticker": "TPR",
+    "secid": "106.TPR"
+   },
+   {
+    "name": "Casey’s General Stores Inc",
+    "ticker": "CASY",
+    "secid": "105.CASY"
+   },
+   {
+    "name": "亿客行",
+    "ticker": "EXPE",
+    "secid": "105.EXPE"
+   },
+   {
+    "name": "英格索兰",
+    "ticker": "IR",
+    "secid": "106.IR"
+   },
+   {
+    "name": "GE HealthCare Technologies Inc",
+    "ticker": "GEHC",
+    "secid": "105.GEHC"
+   },
+   {
+    "name": "VICI Properties Inc",
+    "ticker": "VICI",
+    "secid": "106.VICI"
+   },
+   {
+    "name": "Live Nation Entertainment Inc",
+    "ticker": "LYV",
+    "secid": "106.LYV"
+   },
+   {
+    "name": "中点能源",
+    "ticker": "CNP",
+    "secid": "106.CNP"
+   },
+   {
+    "name": "Atmos Energy Corp",
+    "ticker": "ATO",
+    "secid": "106.ATO"
+   },
+   {
+    "name": "爱迪生国际",
+    "ticker": "EIX",
+    "secid": "106.EIX"
+   },
+   {
+    "name": "辛辛那提金融",
+    "ticker": "CINF",
+    "secid": "105.CINF"
+   },
+   {
+    "name": "哈里伯顿",
+    "ticker": "HAL",
+    "secid": "106.HAL"
+   },
+   {
+    "name": "瑞思迈",
+    "ticker": "RMD",
+    "secid": "106.RMD"
+   },
+   {
+    "name": "赛莱默",
+    "ticker": "XYL",
+    "secid": "106.XYL"
+   },
+   {
+    "name": "Fair Isaac Corp",
+    "ticker": "FICO",
+    "secid": "106.FICO"
+   },
+   {
+    "name": "哈勃集团",
+    "ticker": "HUBB",
+    "secid": "106.HUBB"
+   },
+   {
+    "name": "Otis Worldwide Corp",
+    "ticker": "OTIS",
+    "secid": "106.OTIS"
+   },
+   {
+    "name": "Williams-Sonoma Inc",
+    "ticker": "WSM",
+    "secid": "106.WSM"
+   },
+   {
+    "name": "PPL能源",
+    "ticker": "PPL",
+    "secid": "106.PPL"
+   },
+   {
+    "name": "能源方案",
+    "ticker": "ES",
+    "secid": "106.ES"
+   },
+   {
+    "name": "PPG工业",
+    "ticker": "PPG",
+    "secid": "106.PPG"
+   },
+   {
+    "name": "Veeva Systems Inc-A",
+    "ticker": "VEEV",
+    "secid": "106.VEEV"
+   },
+   {
+    "name": "瑞杰金融",
+    "ticker": "RJF",
+    "secid": "106.RJF"
+   },
+   {
+    "name": "费哲金融服务",
+    "ticker": "FISV",
+    "secid": "105.FISV"
+   },
+   {
+    "name": "普得集团(帕尔迪)",
+    "ticker": "PHM",
+    "secid": "106.PHM"
+   },
+   {
+    "name": "好时",
+    "ticker": "HSY",
+    "secid": "106.HSY"
+   },
+   {
+    "name": "德康医疗",
+    "ticker": "DXCM",
+    "secid": "105.DXCM"
+   },
+   {
+    "name": "梅特勒-托利多",
+    "ticker": "MTD",
+    "secid": "106.MTD"
+   },
+   {
+    "name": "地区金融",
+    "ticker": "RF",
+    "secid": "106.RF"
+   },
+   {
+    "name": "美国水业",
+    "ticker": "AWK",
+    "secid": "106.AWK"
+   },
+   {
+    "name": "Synchrony Financial",
+    "ticker": "SYF",
+    "secid": "106.SYF"
+   },
+   {
+    "name": "芝加哥期权交易所",
+    "ticker": "CBOE",
+    "secid": "107.CBOE"
+   },
+   {
+    "name": "西氏医药服务",
+    "ticker": "WST",
+    "secid": "106.WST"
+   },
+   {
+    "name": "Texas Pacific Land Corp",
+    "ticker": "TPL",
+    "secid": "106.TPL"
+   },
+   {
+    "name": "第一太阳能",
+    "ticker": "FSLR",
+    "secid": "105.FSLR"
+   },
+   {
+    "name": "达乐",
+    "ticker": "DG",
+    "secid": "106.DG"
+   },
+   {
+    "name": "西南航空",
+    "ticker": "LUV",
+    "secid": "106.LUV"
+   },
+   {
+    "name": "科帕特",
+    "ticker": "CPRT",
+    "secid": "105.CPRT"
+   },
+   {
+    "name": "Workday Inc-A",
+    "ticker": "WDAY",
+    "secid": "105.WDAY"
+   },
+   {
+    "name": "第一能源",
+    "ticker": "FE",
+    "secid": "106.FE"
+   },
+   {
+    "name": "Moderna Inc",
+    "ticker": "MRNA",
+    "secid": "105.MRNA"
+   },
+   {
+    "name": "Willis Towers Watson PLC",
+    "ticker": "WTW",
+    "secid": "105.WTW"
+   },
+   {
+    "name": "普信集团",
+    "ticker": "TROW",
+    "secid": "105.TROW"
+   },
+   {
+    "name": "Smurfit WestRock plc",
+    "ticker": "SW",
+    "secid": "106.SW"
+   },
+   {
+    "name": "CMS能源",
+    "ticker": "CMS",
+    "secid": "106.CMS"
+   },
+   {
+    "name": "达登饭店",
+    "ticker": "DRI",
+    "secid": "106.DRI"
+   },
+   {
+    "name": "Verisk分析",
+    "ticker": "VRSK",
+    "secid": "105.VRSK"
+   },
+   {
+    "name": "Ares Management Corp-A",
+    "ticker": "ARES",
+    "secid": "106.ARES"
+   },
+   {
+    "name": "F5",
+    "ticker": "FFIV",
+    "secid": "105.FFIV"
+   },
+   {
+    "name": "奎斯特诊疗",
+    "ticker": "DGX",
+    "secid": "106.DGX"
+   },
+   {
+    "name": "徕博科",
+    "ticker": "LH",
+    "secid": "106.LH"
+   },
+   {
+    "name": "丘奇&德怀特",
+    "ticker": "CHD",
+    "secid": "106.CHD"
+   },
+   {
+    "name": "尼索思",
+    "ticker": "NI",
+    "secid": "106.NI"
+   },
+   {
+    "name": "罗宾逊全球物流",
+    "ticker": "CHRW",
+    "secid": "105.CHRW"
+   },
+   {
+    "name": "美元树",
+    "ticker": "DLTR",
+    "secid": "105.DLTR"
+   },
+   {
+    "name": "Expand Energy Corp",
+    "ticker": "EXE",
+    "secid": "105.EXE"
+   },
+   {
+    "name": "Corpay Inc",
+    "ticker": "CPAY",
+    "secid": "106.CPAY"
+   },
+   {
+    "name": "Veralto Corp",
+    "ticker": "VLTO",
+    "secid": "106.VLTO"
+   },
+   {
+    "name": "JB亨特运输服务",
+    "ticker": "JBHT",
+    "secid": "105.JBHT"
+   },
+   {
+    "name": "康捷国际物流",
+    "ticker": "EXPD",
+    "secid": "106.EXPD"
+   },
+   {
+    "name": "KeyCorp",
+    "ticker": "KEY",
+    "secid": "106.KEY"
+   },
+   {
+    "name": "信安金融",
+    "ticker": "PFG",
+    "secid": "105.PFG"
+   },
+   {
+    "name": "美国包装",
+    "ticker": "PKG",
+    "secid": "106.PKG"
+   },
+   {
+    "name": "实耐宝",
+    "ticker": "SNA",
+    "secid": "106.SNA"
+   },
+   {
+    "name": "宏盟集团",
+    "ticker": "OMC",
+    "secid": "106.OMC"
+   },
+   {
+    "name": "WR柏克利",
+    "ticker": "WRB",
+    "secid": "106.WRB"
+   },
+   {
+    "name": "思泰瑞医疗",
+    "ticker": "STE",
+    "secid": "106.STE"
+   },
+   {
+    "name": "威瑞信",
+    "ticker": "VRSN",
+    "secid": "105.VRSN"
+   },
+   {
+    "name": "国际香料香精",
+    "ticker": "IFF",
+    "secid": "106.IFF"
+   },
+   {
+    "name": "国际纸业",
+    "ticker": "IP",
+    "secid": "106.IP"
+   },
+   {
+    "name": "卡夫亨氏",
+    "ticker": "KHC",
+    "secid": "106.KHC"
+   },
+   {
+    "name": "富达国民信息服务",
+    "ticker": "FIS",
+    "secid": "106.FIS"
+   },
+   {
+    "name": "惠普",
+    "ticker": "HPQ",
+    "secid": "106.HPQ"
+   },
+   {
+    "name": "Amcor plc",
+    "ticker": "AMCR",
+    "secid": "106.AMCR"
+   },
+   {
+    "name": "Evergy",
+    "ticker": "EVRG",
+    "secid": "105.EVRG"
+   },
+   {
+    "name": "陶氏",
+    "ticker": "DOW",
+    "secid": "106.DOW"
+   },
+   {
+    "name": "美国联合能源",
+    "ticker": "LNT",
+    "secid": "105.LNT"
+   },
+   {
+    "name": "ULTA美妆",
+    "ticker": "ULTA",
+    "secid": "105.ULTA"
+   },
+   {
+    "name": "雅诗兰黛",
+    "ticker": "EL",
+    "secid": "106.EL"
+   },
+   {
+    "name": "莱纳建筑-A",
+    "ticker": "LEN",
+    "secid": "106.LEN"
+   },
+   {
+    "name": "星座品牌-A",
+    "ticker": "STZ",
+    "secid": "106.STZ"
+   },
+   {
+    "name": "洛斯保险",
+    "ticker": "L",
+    "secid": "106.L"
+   },
+   {
+    "name": "因塞特医疗",
+    "ticker": "INCY",
+    "secid": "105.INCY"
+   },
+   {
+    "name": "艾可菲",
+    "ticker": "EFX",
+    "secid": "106.EFX"
+   },
+   {
+    "name": "埃塞克斯信托",
+    "ticker": "ESS",
+    "secid": "106.ESS"
+   },
+   {
+    "name": "SBA通信-A",
+    "ticker": "SBAC",
+    "secid": "105.SBAC"
+   },
+   {
+    "name": "布朗保险",
+    "ticker": "BRO",
+    "secid": "106.BRO"
+   },
+   {
+    "name": "Fortive Corp",
+    "ticker": "FTV",
+    "secid": "106.FTV"
+   },
+   {
+    "name": "通用磨坊",
+    "ticker": "GIS",
+    "secid": "106.GIS"
+   },
+   {
+    "name": "陶氏杜邦",
+    "ticker": "DD",
+    "secid": "106.DD"
+   },
+   {
+    "name": "Viatris Inc",
+    "ticker": "VTRS",
+    "secid": "105.VTRS"
+   },
+   {
+    "name": "NVR Inc",
+    "ticker": "NVR",
+    "secid": "106.NVR"
+   },
+   {
+    "name": "高知特",
+    "ticker": "CTSH",
+    "secid": "105.CTSH"
+   },
+   {
+    "name": "雷诺士",
+    "ticker": "LII",
+    "secid": "106.LII"
+   },
+   {
+    "name": "CDW Corp",
+    "ticker": "CDW",
+    "secid": "105.CDW"
+   },
+   {
+    "name": "惠好",
+    "ticker": "WY",
+    "secid": "106.WY"
+   },
+   {
+    "name": "Generac Holdings Inc",
+    "ticker": "GNRC",
+    "secid": "106.GNRC"
+   },
+   {
+    "name": "阿卡迈",
+    "ticker": "AKAM",
+    "secid": "105.AKAM"
+   },
+   {
+    "name": "金克地产",
+    "ticker": "KIM",
+    "secid": "106.KIM"
+   },
+   {
+    "name": "环汇",
+    "ticker": "GPN",
+    "secid": "106.GPN"
+   },
+   {
+    "name": "IDEX Corp",
+    "ticker": "IEX",
+    "secid": "106.IEX"
+   },
+   {
+    "name": "福克斯-A",
+    "ticker": "FOXA",
+    "secid": "105.FOXA"
+   },
+   {
+    "name": "捷迈邦美",
+    "ticker": "ZBH",
+    "secid": "106.ZBH"
+   },
+   {
+    "name": "CF实业",
+    "ticker": "CF",
+    "secid": "106.CF"
+   },
+   {
+    "name": "鲍尔包装",
+    "ticker": "BALL",
+    "secid": "106.BALL"
+   },
+   {
+    "name": "拖拉机供应",
+    "ticker": "TSCO",
+    "secid": "105.TSCO"
+   },
+   {
+    "name": "Invitation Homes Inc",
+    "ticker": "INVH",
+    "secid": "106.INVH"
+   },
+   {
+    "name": "超微电脑",
+    "ticker": "SMCI",
+    "secid": "105.SMCI"
+   },
+   {
+    "name": "马斯可木业",
+    "ticker": "MAS",
+    "secid": "106.MAS"
+   },
+   {
+    "name": "FedEx Freight Holding Co Inc",
+    "ticker": "FDXF",
+    "secid": "106.FDXF"
+   },
+   {
+    "name": "通用配件",
+    "ticker": "GPC",
+    "secid": "106.GPC"
+   },
+   {
+    "name": "MAA房产信托",
+    "ticker": "MAA",
+    "secid": "106.MAA"
+   },
+   {
+    "name": "泰森食品",
+    "ticker": "TSN",
+    "secid": "106.TSN"
+   },
+   {
+    "name": "诺信",
+    "ticker": "NDSN",
+    "secid": "105.NDSN"
+   },
+   {
+    "name": "德事隆",
+    "ticker": "TXT",
+    "secid": "106.TXT"
+   },
+   {
+    "name": "美国雅保",
+    "ticker": "ALB",
+    "secid": "106.ALB"
+   },
+   {
+    "name": "布罗德里奇金融",
+    "ticker": "BR",
+    "secid": "106.BR"
+   },
+   {
+    "name": "拉夫劳伦",
+    "ticker": "RL",
+    "secid": "106.RL"
+   },
+   {
+    "name": "HOST酒店及度假村",
+    "ticker": "HST",
+    "secid": "105.HST"
+   },
+   {
+    "name": "Jacobs Solutions Inc",
+    "ticker": "J",
+    "secid": "106.J"
+   },
+   {
+    "name": "百思买",
+    "ticker": "BBY",
+    "secid": "106.BBY"
+   },
+   {
+    "name": "Healthpeak Properties Inc",
+    "ticker": "DOC",
+    "secid": "106.DOC"
+   },
+   {
+    "name": "史丹利百得",
+    "ticker": "SWK",
+    "secid": "106.SWK"
+   },
+   {
+    "name": "邦吉",
+    "ticker": "BG",
+    "secid": "106.BG"
+   },
+   {
+    "name": "Everest Group Ltd",
+    "ticker": "EG",
+    "secid": "106.EG"
+   },
+   {
+    "name": "德克斯户外",
+    "ticker": "DECK",
+    "secid": "106.DECK"
+   },
+   {
+    "name": "库珀医疗",
+    "ticker": "COO",
+    "secid": "105.COO"
+   },
+   {
+    "name": "环球人寿",
+    "ticker": "GL",
+    "secid": "106.GL"
+   },
+   {
+    "name": "回声星通信",
+    "ticker": "ECHO",
+    "secid": "105.ECHO"
+   },
+   {
+    "name": "金沙集团",
+    "ticker": "LVS",
+    "secid": "106.LVS"
+   },
+   {
+    "name": "Gen Digital Inc",
+    "ticker": "GEN",
+    "secid": "105.GEN"
+   },
+   {
+    "name": "利安德巴塞尔工业",
+    "ticker": "LYB",
+    "secid": "106.LYB"
+   },
+   {
+    "name": "安信龙保险",
+    "ticker": "AIZ",
+    "secid": "106.AIZ"
+   },
+   {
+    "name": "Regency Centers Corp",
+    "ticker": "REG",
+    "secid": "105.REG"
+   },
+   {
+    "name": "PTC Inc",
+    "ticker": "PTC",
+    "secid": "105.PTC"
+   },
+   {
+    "name": "Aptiv PLC",
+    "ticker": "APTV",
+    "secid": "106.APTV"
+   },
+   {
+    "name": "品尼高西方资本",
+    "ticker": "PNW",
+    "secid": "106.PNW"
+   },
+   {
+    "name": "Leidos Holdings Inc",
+    "ticker": "LDOS",
+    "secid": "106.LDOS"
+   },
+   {
+    "name": "味好美",
+    "ticker": "MKC",
+    "secid": "106.MKC"
+   },
+   {
+    "name": "TKO Group Holdings Inc-A",
+    "ticker": "TKO",
+    "secid": "106.TKO"
+   },
+   {
+    "name": "斑马技术",
+    "ticker": "ZBRA",
+    "secid": "105.ZBRA"
+   },
+   {
+    "name": "艾利丹尼森",
+    "ticker": "AVY",
+    "secid": "106.AVY"
+   },
+   {
+    "name": "Revvity Inc",
+    "ticker": "RVTY",
+    "secid": "106.RVTY"
+   },
+   {
+    "name": "滨特尔",
+    "ticker": "PNR",
+    "secid": "106.PNR"
+   },
+   {
+    "name": "泰勒科技",
+    "ticker": "TYL",
+    "secid": "106.TYL"
+   },
+   {
+    "name": "Rollins Inc",
+    "ticker": "ROL",
+    "secid": "106.ROL"
+   },
+   {
+    "name": "安朗杰",
+    "ticker": "ALLE",
+    "secid": "106.ALLE"
+   },
+   {
+    "name": "JM斯马克",
+    "ticker": "SJM",
+    "secid": "106.SJM"
+   },
+   {
+    "name": "lululemon athletica inc",
+    "ticker": "LULU",
+    "secid": "105.LULU"
+   },
+   {
+    "name": "天宝导航",
+    "ticker": "TRMB",
+    "secid": "105.TRMB"
+   },
+   {
+    "name": "特许通讯",
+    "ticker": "CHTR",
+    "secid": "105.CHTR"
+   },
+   {
+    "name": "UDR不动产信托",
+    "ticker": "UDR",
+    "secid": "106.UDR"
+   },
+   {
+    "name": "景顺",
+    "ticker": "IVZ",
+    "secid": "106.IVZ"
+   },
+   {
+    "name": "科斯塔",
+    "ticker": "CSGP",
+    "secid": "105.CSGP"
+   },
+   {
+    "name": "高乐氏",
+    "ticker": "CLX",
+    "secid": "106.CLX"
+   },
+   {
+    "name": "阿帕奇石油",
+    "ticker": "APA",
+    "secid": "105.APA"
+   },
+   {
+    "name": "卡姆登物业信托",
+    "ticker": "CPT",
+    "secid": "106.CPT"
+   },
+   {
+    "name": "Solventum Corp",
+    "ticker": "SOLV",
+    "secid": "106.SOLV"
+   },
+   {
+    "name": "GoDaddy Inc-A",
+    "ticker": "GDDY",
+    "secid": "106.GDDY"
+   },
+   {
+    "name": "艾利科技",
+    "ticker": "ALGN",
+    "secid": "105.ALGN"
+   },
+   {
+    "name": "孩之宝",
+    "ticker": "HAS",
+    "secid": "105.HAS"
+   },
+   {
+    "name": "Bio-Techne Corp",
+    "ticker": "TECH",
+    "secid": "105.TECH"
+   },
+   {
+    "name": "亨廷顿英戈尔斯工业",
+    "ticker": "HII",
+    "secid": "106.HII"
+   },
+   {
+    "name": "百特国际",
+    "ticker": "BAX",
+    "secid": "106.BAX"
+   },
+   {
+    "name": "查尔斯河",
+    "ticker": "CRL",
+    "secid": "106.CRL"
+   },
+   {
+    "name": "银休特",
+    "ticker": "PODD",
+    "secid": "105.PODD"
+   },
+   {
+    "name": "爱依斯电力",
+    "ticker": "AES",
+    "secid": "106.AES"
+   },
+   {
+    "name": "富兰克林邓普顿",
+    "ticker": "BEN",
+    "secid": "106.BEN"
+   },
+   {
+    "name": "思佳讯",
+    "ticker": "SWKS",
+    "secid": "105.SWKS"
+   },
+   {
+    "name": "新闻集团-A",
+    "ticker": "NWSA",
+    "secid": "105.NWSA"
+   },
+   {
+    "name": "BXP Inc",
+    "ticker": "BXP",
+    "secid": "106.BXP"
+   },
+   {
+    "name": "杰克亨利",
+    "ticker": "JKHY",
+    "secid": "105.JKHY"
+   },
+   {
+    "name": "FRT信托",
+    "ticker": "FRT",
+    "secid": "106.FRT"
+   },
+   {
+    "name": "挪威邮轮",
+    "ticker": "NCLH",
+    "secid": "106.NCLH"
+   },
+   {
+    "name": "Builders FirstSource Inc",
+    "ticker": "BLDR",
+    "secid": "106.BLDR"
+   },
+   {
+    "name": "美高梅",
+    "ticker": "MGM",
+    "secid": "106.MGM"
+   },
+   {
+    "name": "达美乐比萨",
+    "ticker": "DPZ",
+    "secid": "105.DPZ"
+   },
+   {
+    "name": "加特纳",
+    "ticker": "IT",
+    "secid": "106.IT"
+   },
+   {
+    "name": "辉盛研究系统",
+    "ticker": "FDS",
+    "secid": "106.FDS"
+   },
+   {
+    "name": "亚历山大房地产",
+    "ticker": "ARE",
+    "secid": "106.ARE"
+   },
+   {
+    "name": "永利度假村",
+    "ticker": "WYNN",
+    "secid": "105.WYNN"
+   },
+   {
+    "name": "亨利香恩服务",
+    "ticker": "HSIC",
+    "secid": "105.HSIC"
+   },
+   {
+    "name": "Universal Health Services Inc-B",
+    "ticker": "UHS",
+    "secid": "106.UHS"
+   },
+   {
+    "name": "The Trade Desk Inc-A",
+    "ticker": "TTD",
+    "secid": "105.TTD"
+   },
+   {
+    "name": "荷美尔食品",
+    "ticker": "HRL",
+    "secid": "106.HRL"
+   },
+   {
+    "name": "达维塔保健",
+    "ticker": "DVA",
+    "secid": "106.DVA"
+   },
+   {
+    "name": "A.O.史密斯",
+    "ticker": "AOS",
+    "secid": "106.AOS"
+   },
+   {
+    "name": "美盛",
+    "ticker": "MOS",
+    "secid": "106.MOS"
+   },
+   {
+    "name": "摩森康胜-B",
+    "ticker": "TAP",
+    "secid": "106.TAP"
+   },
+   {
+    "name": "伊瑞保险",
+    "ticker": "ERIE",
+    "secid": "105.ERIE"
+   }
+  ],
+  "partial": false,
+  "secid": "100.SPX",
+  "weights": {
+   "asOf": "2026-06-30",
+   "source": "博时标普500ETF（513500）2026年中期报告 · 全持仓",
+   "items": [
+    {
+     "code": "NVDA",
+     "name": "英伟达",
+     "weight": 7.25,
+     "secid": "105.NVDA"
+    },
+    {
+     "code": "AAPL",
+     "name": "苹果",
+     "weight": 6.36,
+     "secid": "105.AAPL"
+    },
+    {
+     "code": "MSFT",
+     "name": "微软",
+     "weight": 4.15,
+     "secid": "105.MSFT"
+    },
+    {
+     "code": "AMZN",
+     "name": "亚马逊",
+     "weight": 3.49,
+     "secid": "105.AMZN"
+    },
+    {
+     "code": "GOOGL",
+     "name": "谷歌-A",
+     "weight": 5.64,
+     "secid": "105.GOOGL"
+    },
+    {
+     "code": "AVGO",
+     "name": "博通",
+     "weight": 2.68,
+     "secid": "105.AVGO"
+    },
+    {
+     "code": "MU",
+     "name": "美光科技",
+     "weight": 1.95,
+     "secid": "105.MU"
+    },
+    {
+     "code": "META",
+     "name": "Meta Platforms Inc-A",
+     "weight": 1.85,
+     "secid": "105.META"
+    },
+    {
+     "code": "TSLA",
+     "name": "特斯拉",
+     "weight": 1.77,
+     "secid": "105.TSLA"
+    },
+    {
+     "code": "LLY",
+     "name": "礼来",
+     "weight": 1.42,
+     "secid": "106.LLY"
+    },
+    {
+     "code": "AMD",
+     "name": "超威半导体",
+     "weight": 1.42,
+     "secid": "105.AMD"
+    },
+    {
+     "code": "B",
+     "name": "巴里克矿业",
+     "weight": 1.37,
+     "secid": "106.B"
+    },
+    {
+     "code": "JPM",
+     "name": "摩根大通",
+     "weight": 1.31,
+     "secid": "106.JPM"
+    },
+    {
+     "code": "INTC",
+     "name": "英特尔",
+     "weight": 0.99,
+     "secid": "105.INTC"
+    },
+    {
+     "code": "JNJ",
+     "name": "强生",
+     "weight": 0.92,
+     "secid": "106.JNJ"
+    },
+    {
+     "code": "AMAT",
+     "name": "应用材料",
+     "weight": 0.86,
+     "secid": "105.AMAT"
+    },
+    {
+     "code": "V",
+     "name": "维萨",
+     "weight": 0.85,
+     "secid": "106.V"
+    },
+    {
+     "code": "XOM",
+     "name": "埃克森美孚",
+     "weight": 0.85,
+     "secid": "106.XOM"
+    },
+    {
+     "code": "LRCX",
+     "name": "拉姆研究",
+     "weight": 0.81,
+     "secid": "105.LRCX"
+    },
+    {
+     "code": "WMT",
+     "name": "沃尔玛",
+     "weight": 0.74,
+     "secid": "105.WMT"
+    },
+    {
+     "code": "CAT",
+     "name": "卡特彼勒",
+     "weight": 0.73,
+     "secid": "106.CAT"
+    },
+    {
+     "code": "CSCO",
+     "name": "思科",
+     "weight": 0.69,
+     "secid": "105.CSCO"
+    },
+    {
+     "code": "ABBV",
+     "name": "艾伯维",
+     "weight": 0.67,
+     "secid": "106.ABBV"
+    },
+    {
+     "code": "COST",
+     "name": "开市客",
+     "weight": 0.62,
+     "secid": "105.COST"
+    },
+    {
+     "code": "MA",
+     "name": "万事达",
+     "weight": 0.62,
+     "secid": "106.MA"
+    },
+    {
+     "code": "KLAC",
+     "name": "科磊",
+     "weight": 0.59,
+     "secid": "105.KLAC"
+    },
+    {
+     "code": "GE",
+     "name": "GE航空航天",
+     "weight": 0.58,
+     "secid": "106.GE"
+    },
+    {
+     "code": "UNH",
+     "name": "联合健康",
+     "weight": 0.56,
+     "secid": "106.UNH"
+    },
+    {
+     "code": "BAC",
+     "name": "美国银行",
+     "weight": 0.56,
+     "secid": "106.BAC"
+    },
+    {
+     "code": "HD",
+     "name": "家得宝",
+     "weight": 0.53,
+     "secid": "106.HD"
+    },
+    {
+     "code": "PG",
+     "name": "宝洁",
+     "weight": 0.51,
+     "secid": "106.PG"
+    },
+    {
+     "code": "SNDK",
+     "name": "闪迪",
+     "weight": 0.5,
+     "secid": "105.SNDK"
+    },
+    {
+     "code": "MRK",
+     "name": "默沙东",
+     "weight": 0.48,
+     "secid": "106.MRK"
+    },
+    {
+     "code": "GEV",
+     "name": "GE Vernova Inc",
+     "weight": 0.47,
+     "secid": "106.GEV"
+    },
+    {
+     "code": "KO",
+     "name": "可口可乐",
+     "weight": 0.47,
+     "secid": "106.KO"
+    },
+    {
+     "code": "CVX",
+     "name": "雪佛龙",
+     "weight": 0.46,
+     "secid": "106.CVX"
+    },
+    {
+     "code": "NFLX",
+     "name": "奈飞",
+     "weight": 0.45,
+     "secid": "105.NFLX"
+    },
+    {
+     "code": "GS",
+     "name": "高盛",
+     "weight": 0.45,
+     "secid": "106.GS"
+    },
+    {
+     "code": "PM",
+     "name": "菲利普莫里斯国际",
+     "weight": 0.42,
+     "secid": "106.PM"
+    },
+    {
+     "code": "PANW",
+     "name": "派拓网络",
+     "weight": 0.41,
+     "secid": "105.PANW"
+    },
+    {
+     "code": "TXN",
+     "name": "德州仪器",
+     "weight": 0.41,
+     "secid": "105.TXN"
+    },
+    {
+     "code": "PLTR",
+     "name": "Palantir Technologies Inc-A",
+     "weight": 0.4,
+     "secid": "105.PLTR"
+    },
+    {
+     "code": "IBM",
+     "name": "IBM国际商业机器",
+     "weight": 0.4,
+     "secid": "106.IBM"
+    },
+    {
+     "code": "MRVL",
+     "name": "迈威尔科技",
+     "weight": 0.39,
+     "secid": "105.MRVL"
+    },
+    {
+     "code": "WFC",
+     "name": "富国银行",
+     "weight": 0.38,
+     "secid": "106.WFC"
+    },
+    {
+     "code": "MS",
+     "name": "摩根士丹利",
+     "weight": 0.38,
+     "secid": "106.MS"
+    },
+    {
+     "code": "ORCL",
+     "name": "甲骨文",
+     "weight": 0.37,
+     "secid": "106.ORCL"
+    },
+    {
+     "code": "LIN",
+     "name": "Linde plc",
+     "weight": 0.36,
+     "secid": "105.LIN"
+    },
+    {
+     "code": "C",
+     "name": "花旗集团",
+     "weight": 0.36,
+     "secid": "106.C"
+    },
+    {
+     "code": "WDC",
+     "name": "西部数据",
+     "weight": 0.33,
+     "secid": "105.WDC"
+    },
+    {
+     "code": "APH",
+     "name": "安费诺",
+     "weight": 0.32,
+     "secid": "106.APH"
+    },
+    {
+     "code": "STX",
+     "name": "希捷科技",
+     "weight": 0.32,
+     "secid": "105.STX"
+    },
+    {
+     "code": "GLW",
+     "name": "康宁",
+     "weight": 0.3,
+     "secid": "106.GLW"
+    },
+    {
+     "code": "AMGN",
+     "name": "安进",
+     "weight": 0.29,
+     "secid": "105.AMGN"
+    },
+    {
+     "code": "QCOM",
+     "name": "高通",
+     "weight": 0.29,
+     "secid": "105.QCOM"
+    },
+    {
+     "code": "CRWD",
+     "name": "CrowdStrike Holdings Inc-A",
+     "weight": 0.29,
+     "secid": "105.CRWD"
+    },
+    {
+     "code": "ADI",
+     "name": "亚德诺",
+     "weight": 0.29,
+     "secid": "105.ADI"
+    },
+    {
+     "code": "MCD",
+     "name": "麦当劳",
+     "weight": 0.29,
+     "secid": "106.MCD"
+    },
+    {
+     "code": "TMO",
+     "name": "赛默飞世尔科技",
+     "weight": 0.28,
+     "secid": "106.TMO"
+    },
+    {
+     "code": "PEP",
+     "name": "百事",
+     "weight": 0.28,
+     "secid": "105.PEP"
+    },
+    {
+     "code": "NEE",
+     "name": "新纪元能源",
+     "weight": 0.27,
+     "secid": "106.NEE"
+    },
+    {
+     "code": "AXP",
+     "name": "美国运通",
+     "weight": 0.27,
+     "secid": "106.AXP"
+    },
+    {
+     "code": "VZ",
+     "name": "威瑞森通讯(Verizon)",
+     "weight": 0.26,
+     "secid": "106.VZ"
+    },
+    {
+     "code": "ANET",
+     "name": "Arista Networks Inc",
+     "weight": 0.26,
+     "secid": "106.ANET"
+    },
+    {
+     "code": "BA",
+     "name": "波音",
+     "weight": 0.25,
+     "secid": "106.BA"
+    },
+    {
+     "code": "TJX",
+     "name": "The TJX Companies Inc",
+     "weight": 0.25,
+     "secid": "106.TJX"
+    },
+    {
+     "code": "DIS",
+     "name": "迪士尼",
+     "weight": 0.25,
+     "secid": "106.DIS"
+    },
+    {
+     "code": "ETN",
+     "name": "伊顿",
+     "weight": 0.25,
+     "secid": "106.ETN"
+    },
+    {
+     "code": "UNP",
+     "name": "联合太平洋",
+     "weight": 0.24,
+     "secid": "106.UNP"
+    },
+    {
+     "code": "WELL",
+     "name": "Welltower Inc",
+     "weight": 0.24,
+     "secid": "106.WELL"
+    },
+    {
+     "code": "DE",
+     "name": "迪尔",
+     "weight": 0.24,
+     "secid": "106.DE"
+    },
+    {
+     "code": "ABT",
+     "name": "雅培",
+     "weight": 0.24,
+     "secid": "106.ABT"
+    },
+    {
+     "code": "GILD",
+     "name": "吉利德科学",
+     "weight": 0.23,
+     "secid": "105.GILD"
+    },
+    {
+     "code": "SCHW",
+     "name": "嘉信理财",
+     "weight": 0.23,
+     "secid": "106.SCHW"
+    },
+    {
+     "code": "UBER",
+     "name": "优步",
+     "weight": 0.22,
+     "secid": "106.UBER"
+    },
+    {
+     "code": "T",
+     "name": "美国电话电报(AT&T)",
+     "weight": 0.22,
+     "secid": "106.T"
+    },
+    {
+     "code": "ISRG",
+     "name": "直觉外科",
+     "weight": 0.21,
+     "secid": "105.ISRG"
+    },
+    {
+     "code": "BLK",
+     "name": "贝莱德",
+     "weight": 0.21,
+     "secid": "106.BLK"
+    },
+    {
+     "code": "APP",
+     "name": "Applovin Corp-A",
+     "weight": 0.21,
+     "secid": "105.APP"
+    },
+    {
+     "code": "BKNG",
+     "name": "Booking Holdings",
+     "weight": 0.21,
+     "secid": "105.BKNG"
+    },
+    {
+     "code": "PFE",
+     "name": "辉瑞",
+     "weight": 0.21,
+     "secid": "106.PFE"
+    },
+    {
+     "code": "CVS",
+     "name": "西维斯健康",
+     "weight": 0.2,
+     "secid": "106.CVS"
+    },
+    {
+     "code": "VRT",
+     "name": "Vertiv Holdings Co-A",
+     "weight": 0.19,
+     "secid": "106.VRT"
+    },
+    {
+     "code": "CRM",
+     "name": "赛富时",
+     "weight": 0.19,
+     "secid": "106.CRM"
+    },
+    {
+     "code": "PGR",
+     "name": "前进保险",
+     "weight": 0.19,
+     "secid": "106.PGR"
+    },
+    {
+     "code": "COP",
+     "name": "康菲石油",
+     "weight": 0.19,
+     "secid": "106.COP"
+    },
+    {
+     "code": "PLD",
+     "name": "安博",
+     "weight": 0.19,
+     "secid": "106.PLD"
+    },
+    {
+     "code": "VRTX",
+     "name": "福泰制药",
+     "weight": 0.19,
+     "secid": "105.VRTX"
+    },
+    {
+     "code": "COF",
+     "name": "第一资本金融",
+     "weight": 0.19,
+     "secid": "106.COF"
+    },
+    {
+     "code": "DELL",
+     "name": "戴尔科技",
+     "weight": 0.19,
+     "secid": "106.DELL"
+    },
+    {
+     "code": "LOW",
+     "name": "劳氏",
+     "weight": 0.18,
+     "secid": "106.LOW"
+    },
+    {
+     "code": "SPGI",
+     "name": "标普全球",
+     "weight": 0.18,
+     "secid": "106.SPGI"
+    },
+    {
+     "code": "PH",
+     "name": "派克汉尼汾",
+     "weight": 0.18,
+     "secid": "106.PH"
+    },
+    {
+     "code": "CB",
+     "name": "安达保险",
+     "weight": 0.18,
+     "secid": "106.CB"
+    },
+    {
+     "code": "MO",
+     "name": "奥驰亚集团",
+     "weight": 0.18,
+     "secid": "106.MO"
+    },
+    {
+     "code": "DHR",
+     "name": "丹纳赫",
+     "weight": 0.18,
+     "secid": "106.DHR"
+    },
+    {
+     "code": "BMY",
+     "name": "百时美施贵宝",
+     "weight": 0.18,
+     "secid": "106.BMY"
+    },
+    {
+     "code": "SBUX",
+     "name": "星巴克",
+     "weight": 0.17,
+     "secid": "105.SBUX"
+    },
+    {
+     "code": "SYK",
+     "name": "史赛克",
+     "weight": 0.16,
+     "secid": "106.SYK"
+    },
+    {
+     "code": "TT",
+     "name": "特灵科技",
+     "weight": 0.16,
+     "secid": "106.TT"
+    },
+    {
+     "code": "PWR",
+     "name": "广达服务",
+     "weight": 0.16,
+     "secid": "106.PWR"
+    },
+    {
+     "code": "SO",
+     "name": "南方电力",
+     "weight": 0.16,
+     "secid": "106.SO"
+    },
+    {
+     "code": "HWM",
+     "name": "Howmet Aerospace Inc",
+     "weight": 0.16,
+     "secid": "106.HWM"
+    },
+    {
+     "code": "CDNS",
+     "name": "铿腾电子",
+     "weight": 0.15,
+     "secid": "105.CDNS"
+    },
+    {
+     "code": "EQIX",
+     "name": "易昆尼克斯",
+     "weight": 0.15,
+     "secid": "105.EQIX"
+    },
+    {
+     "code": "NOW",
+     "name": "现在服务公司",
+     "weight": 0.15,
+     "secid": "106.NOW"
+    },
+    {
+     "code": "MDT",
+     "name": "美敦力",
+     "weight": 0.15,
+     "secid": "106.MDT"
+    },
+    {
+     "code": "NEM",
+     "name": "纽蒙特",
+     "weight": 0.15,
+     "secid": "106.NEM"
+    },
+    {
+     "code": "BNY",
+     "name": "纽约梅隆银行",
+     "weight": 0.15,
+     "secid": "106.BNY"
+    },
+    {
+     "code": "PNC",
+     "name": "PNC金融服务集团",
+     "weight": 0.15,
+     "secid": "106.PNC"
+    },
+    {
+     "code": "DUK",
+     "name": "杜克能源",
+     "weight": 0.15,
+     "secid": "106.DUK"
+    },
+    {
+     "code": "CMI",
+     "name": "康明斯",
+     "weight": 0.15,
+     "secid": "106.CMI"
+    },
+    {
+     "code": "FTNT",
+     "name": "防特网",
+     "weight": 0.14,
+     "secid": "105.FTNT"
+    },
+    {
+     "code": "USB",
+     "name": "美国合众银行",
+     "weight": 0.14,
+     "secid": "106.USB"
+    },
+    {
+     "code": "WMB",
+     "name": "威廉姆斯",
+     "weight": 0.14,
+     "secid": "106.WMB"
+    },
+    {
+     "code": "MCK",
+     "name": "麦克森",
+     "weight": 0.14,
+     "secid": "106.MCK"
+    },
+    {
+     "code": "FCX",
+     "name": "自由港麦克莫兰",
+     "weight": 0.14,
+     "secid": "106.FCX"
+    },
+    {
+     "code": "GD",
+     "name": "通用动力",
+     "weight": 0.13,
+     "secid": "106.GD"
+    },
+    {
+     "code": "ADP",
+     "name": "自动数据处理",
+     "weight": 0.13,
+     "secid": "105.ADP"
+    },
+    {
+     "code": "JCI",
+     "name": "江森自控",
+     "weight": 0.13,
+     "secid": "106.JCI"
+    },
+    {
+     "code": "CSX",
+     "name": "CSX运输",
+     "weight": 0.13,
+     "secid": "105.CSX"
+    },
+    {
+     "code": "CMCSA",
+     "name": "康卡斯特",
+     "weight": 0.13,
+     "secid": "105.CMCSA"
+    },
+    {
+     "code": "BX",
+     "name": "黑石集团",
+     "weight": 0.13,
+     "secid": "106.BX"
+    },
+    {
+     "code": "DDOG",
+     "name": "Datadog Inc-A",
+     "weight": 0.13,
+     "secid": "105.DDOG"
+    },
+    {
+     "code": "SNPS",
+     "name": "新思科技",
+     "weight": 0.13,
+     "secid": "105.SNPS"
+    },
+    {
+     "code": "MMM",
+     "name": "3M公司",
+     "weight": 0.13,
+     "secid": "106.MMM"
+    },
+    {
+     "code": "ELV",
+     "name": "Elevance Health Inc",
+     "weight": 0.13,
+     "secid": "106.ELV"
+    },
+    {
+     "code": "ADBE",
+     "name": "奥多比",
+     "weight": 0.12,
+     "secid": "105.ADBE"
+    },
+    {
+     "code": "WM",
+     "name": "美国废物管理",
+     "weight": 0.12,
+     "secid": "106.WM"
+    },
+    {
+     "code": "MAR",
+     "name": "万豪国际",
+     "weight": 0.12,
+     "secid": "105.MAR"
+    },
+    {
+     "code": "MRSH",
+     "name": "达信",
+     "weight": 0.12,
+     "secid": "106.MRSH"
+    },
+    {
+     "code": "UPS",
+     "name": "联合包裹服务",
+     "weight": 0.12,
+     "secid": "106.UPS"
+    },
+    {
+     "code": "EMR",
+     "name": "艾默生电气",
+     "weight": 0.12,
+     "secid": "106.EMR"
+    },
+    {
+     "code": "CME",
+     "name": "芝加哥商业交易所",
+     "weight": 0.12,
+     "secid": "105.CME"
+    },
+    {
+     "code": "CEG",
+     "name": "Constellation Energy Corp",
+     "weight": 0.12,
+     "secid": "105.CEG"
+    },
+    {
+     "code": "HOOD",
+     "name": "Robinhood Markets Inc-A",
+     "weight": 0.12,
+     "secid": "105.HOOD"
+    },
+    {
+     "code": "RCL",
+     "name": "皇家加勒比邮轮",
+     "weight": 0.12,
+     "secid": "106.RCL"
+    },
+    {
+     "code": "SHW",
+     "name": "宣伟",
+     "weight": 0.12,
+     "secid": "106.SHW"
+    },
+    {
+     "code": "TMUS",
+     "name": "T-Mobile US Inc",
+     "weight": 0.12,
+     "secid": "105.TMUS"
+    },
+    {
+     "code": "VLO",
+     "name": "瓦莱罗能源",
+     "weight": 0.12,
+     "secid": "106.VLO"
+    },
+    {
+     "code": "COHR",
+     "name": "Coherent Corp",
+     "weight": 0.12,
+     "secid": "106.COHR"
+    },
+    {
+     "code": "ACN",
+     "name": "埃森哲",
+     "weight": 0.11,
+     "secid": "106.ACN"
+    },
+    {
+     "code": "ORLY",
+     "name": "奥莱利",
+     "weight": 0.11,
+     "secid": "105.ORLY"
+    },
+    {
+     "code": "AMT",
+     "name": "美国电塔",
+     "weight": 0.11,
+     "secid": "106.AMT"
+    },
+    {
+     "code": "TER",
+     "name": "泰瑞达",
+     "weight": 0.11,
+     "secid": "105.TER"
+    },
+    {
+     "code": "HLT",
+     "name": "希尔顿酒店",
+     "weight": 0.11,
+     "secid": "105.HLT"
+    },
+    {
+     "code": "MPC",
+     "name": "马拉松原油",
+     "weight": 0.11,
+     "secid": "106.MPC"
+    },
+    {
+     "code": "TDG",
+     "name": "TransDigm Group Inc",
+     "weight": 0.11,
+     "secid": "106.TDG"
+    },
+    {
+     "code": "AEP",
+     "name": "美国电力",
+     "weight": 0.11,
+     "secid": "105.AEP"
+    },
+    {
+     "code": "MDLZ",
+     "name": "亿滋国际",
+     "weight": 0.11,
+     "secid": "105.MDLZ"
+    },
+    {
+     "code": "CL",
+     "name": "高露洁",
+     "weight": 0.11,
+     "secid": "106.CL"
+    },
+    {
+     "code": "CI",
+     "name": "信诺",
+     "weight": 0.11,
+     "secid": "106.CI"
+    },
+    {
+     "code": "SPG",
+     "name": "西蒙地产",
+     "weight": 0.11,
+     "secid": "106.SPG"
+    },
+    {
+     "code": "INTU",
+     "name": "财捷",
+     "weight": 0.11,
+     "secid": "105.INTU"
+    },
+    {
+     "code": "CRH",
+     "name": "CRH水泥",
+     "weight": 0.11,
+     "secid": "106.CRH"
+    },
+    {
+     "code": "URI",
+     "name": "联合租赁",
+     "weight": 0.11,
+     "secid": "106.URI"
+    },
+    {
+     "code": "NXPI",
+     "name": "恩智浦半导体",
+     "weight": 0.11,
+     "secid": "105.NXPI"
+    },
+    {
+     "code": "HON",
+     "name": "霍尼韦尔",
+     "weight": 0.11,
+     "secid": "105.HON"
+    },
+    {
+     "code": "AON",
+     "name": "怡安保险",
+     "weight": 0.11,
+     "secid": "106.AON"
+    },
+    {
+     "code": "ITW",
+     "name": "伊利诺伊机械",
+     "weight": 0.11,
+     "secid": "106.ITW"
+    },
+    {
+     "code": "NSC",
+     "name": "诺福克南方",
+     "weight": 0.11,
+     "secid": "106.NSC"
+    },
+    {
+     "code": "ECL",
+     "name": "艺康",
+     "weight": 0.11,
+     "secid": "106.ECL"
+    },
+    {
+     "code": "TRV",
+     "name": "旅行者保险",
+     "weight": 0.11,
+     "secid": "106.TRV"
+    },
+    {
+     "code": "HONA",
+     "name": "Honeywell Aerospace Inc",
+     "weight": 0.1,
+     "secid": "105.HONA"
+    },
+    {
+     "code": "DASH",
+     "name": "DoorDash Inc-A",
+     "weight": 0.1,
+     "secid": "105.DASH"
+    },
+    {
+     "code": "FIX",
+     "name": "Comfort Systems USA Inc",
+     "weight": 0.1,
+     "secid": "106.FIX"
+    },
+    {
+     "code": "ICE",
+     "name": "洲际交易所",
+     "weight": 0.1,
+     "secid": "106.ICE"
+    },
+    {
+     "code": "SLB",
+     "name": "斯伦贝谢",
+     "weight": 0.1,
+     "secid": "106.SLB"
+    },
+    {
+     "code": "GM",
+     "name": "通用汽车",
+     "weight": 0.1,
+     "secid": "106.GM"
+    },
+    {
+     "code": "CIEN",
+     "name": "Ciena科技",
+     "weight": 0.1,
+     "secid": "106.CIEN"
+    },
+    {
+     "code": "EOG",
+     "name": "EOG能源",
+     "weight": 0.1,
+     "secid": "106.EOG"
+    },
+    {
+     "code": "MSI",
+     "name": "摩托罗拉解决方案",
+     "weight": 0.1,
+     "secid": "106.MSI"
+    },
+    {
+     "code": "FDX",
+     "name": "联邦快递",
+     "weight": 0.1,
+     "secid": "106.FDX"
+    },
+    {
+     "code": "MNST",
+     "name": "怪物饮料",
+     "weight": 0.1,
+     "secid": "105.MNST"
+    },
+    {
+     "code": "ROST",
+     "name": "罗斯百货",
+     "weight": 0.1,
+     "secid": "105.ROST"
+    },
+    {
+     "code": "MCO",
+     "name": "穆迪",
+     "weight": 0.1,
+     "secid": "106.MCO"
+    },
+    {
+     "code": "MPWR",
+     "name": "Monolithic Power Systems Inc",
+     "weight": 0.1,
+     "secid": "105.MPWR"
+    },
+    {
+     "code": "PSX",
+     "name": "Phillips 66",
+     "weight": 0.1,
+     "secid": "106.PSX"
+    },
+    {
+     "code": "LITE",
+     "name": "Lumentum Holdings Inc",
+     "weight": 0.1,
+     "secid": "105.LITE"
+    },
+    {
+     "code": "APD",
+     "name": "空气化工",
+     "weight": 0.1,
+     "secid": "106.APD"
+    },
+    {
+     "code": "KKR",
+     "name": "KKR & Co Inc",
+     "weight": 0.09,
+     "secid": "106.KKR"
+    },
+    {
+     "code": "BSX",
+     "name": "波士顿科学",
+     "weight": 0.09,
+     "secid": "106.BSX"
+    },
+    {
+     "code": "PCAR",
+     "name": "帕卡",
+     "weight": 0.09,
+     "secid": "105.PCAR"
+    },
+    {
+     "code": "KMI",
+     "name": "金德摩根",
+     "weight": 0.09,
+     "secid": "106.KMI"
+    },
+    {
+     "code": "REGN",
+     "name": "再生元制药",
+     "weight": 0.09,
+     "secid": "105.REGN"
+    },
+    {
+     "code": "TFC",
+     "name": "Truist Financial Corp",
+     "weight": 0.09,
+     "secid": "106.TFC"
+    },
+    {
+     "code": "ALL",
+     "name": "好事达保险",
+     "weight": 0.09,
+     "secid": "106.ALL"
+    },
+    {
+     "code": "DAL",
+     "name": "达美航空",
+     "weight": 0.09,
+     "secid": "106.DAL"
+    },
+    {
+     "code": "SRE",
+     "name": "桑普拉能源",
+     "weight": 0.09,
+     "secid": "106.SRE"
+    },
+    {
+     "code": "HCA",
+     "name": "HCA Healthcare Inc",
+     "weight": 0.09,
+     "secid": "106.HCA"
+    },
+    {
+     "code": "D",
+     "name": "道明尼能源",
+     "weight": 0.09,
+     "secid": "106.D"
+    },
+    {
+     "code": "KEYS",
+     "name": "是德科技",
+     "weight": 0.09,
+     "secid": "106.KEYS"
+    },
+    {
+     "code": "HPE",
+     "name": "慧与",
+     "weight": 0.09,
+     "secid": "106.HPE"
+    },
+    {
+     "code": "ABNB",
+     "name": "爱彼迎",
+     "weight": 0.09,
+     "secid": "105.ABNB"
+    },
+    {
+     "code": "FLEX",
+     "name": "伟创力",
+     "weight": 0.09,
+     "secid": "105.FLEX"
+    },
+    {
+     "code": "DLR",
+     "name": "数字房地产信托",
+     "weight": 0.09,
+     "secid": "106.DLR"
+    },
+    {
+     "code": "TGT",
+     "name": "塔吉特",
+     "weight": 0.09,
+     "secid": "106.TGT"
+    },
+    {
+     "code": "GWW",
+     "name": "固安捷",
+     "weight": 0.09,
+     "secid": "106.GWW"
+    },
+    {
+     "code": "AJG",
+     "name": "安睿嘉尔",
+     "weight": 0.09,
+     "secid": "106.AJG"
+    },
+    {
+     "code": "TEL",
+     "name": "泰科电子",
+     "weight": 0.09,
+     "secid": "106.TEL"
+    },
+    {
+     "code": "CTAS",
+     "name": "信达思",
+     "weight": 0.09,
+     "secid": "105.CTAS"
+    },
+    {
+     "code": "O",
+     "name": "Realty Income Corp",
+     "weight": 0.09,
+     "secid": "106.O"
+    },
+    {
+     "code": "TRGP",
+     "name": "Targa Resources Corp",
+     "weight": 0.09,
+     "secid": "106.TRGP"
+    },
+    {
+     "code": "CARR",
+     "name": "Carrier Global Corp",
+     "weight": 0.09,
+     "secid": "106.CARR"
+    },
+    {
+     "code": "CTVA",
+     "name": "Corteva Inc",
+     "weight": 0.08,
+     "secid": "106.CTVA"
+    },
+    {
+     "code": "CAH",
+     "name": "卡地纳健康",
+     "weight": 0.08,
+     "secid": "106.CAH"
+    },
+    {
+     "code": "AME",
+     "name": "阿美特克",
+     "weight": 0.08,
+     "secid": "106.AME"
+    },
+    {
+     "code": "FAST",
+     "name": "快扣",
+     "weight": 0.08,
+     "secid": "105.FAST"
+    },
+    {
+     "code": "ROK",
+     "name": "罗克韦尔自动化",
+     "weight": 0.08,
+     "secid": "106.ROK"
+    },
+    {
+     "code": "BKR",
+     "name": "Baker Hughes Co-A",
+     "weight": 0.08,
+     "secid": "105.BKR"
+    },
+    {
+     "code": "COR",
+     "name": "Cencora Inc",
+     "weight": 0.08,
+     "secid": "106.COR"
+    },
+    {
+     "code": "OKE",
+     "name": "欧尼克",
+     "weight": 0.08,
+     "secid": "106.OKE"
+    },
+    {
+     "code": "APO",
+     "name": "阿波罗全球管理",
+     "weight": 0.08,
+     "secid": "106.APO"
+    },
+    {
+     "code": "F",
+     "name": "福特汽车",
+     "weight": 0.08,
+     "secid": "106.F"
+    },
+    {
+     "code": "LHX",
+     "name": "L3Harris Technologies Inc",
+     "weight": 0.08,
+     "secid": "106.LHX"
+    },
+    {
+     "code": "AFL",
+     "name": "美国家庭人寿保险",
+     "weight": 0.08,
+     "secid": "106.AFL"
+    },
+    {
+     "code": "AZO",
+     "name": "汽车地带",
+     "weight": 0.08,
+     "secid": "106.AZO"
+    },
+    {
+     "code": "ETR",
+     "name": "安特吉",
+     "weight": 0.08,
+     "secid": "106.ETR"
+    },
+    {
+     "code": "EW",
+     "name": "爱德华兹生命科学",
+     "weight": 0.08,
+     "secid": "106.EW"
+    },
+    {
+     "code": "FITB",
+     "name": "五三银行",
+     "weight": 0.08,
+     "secid": "106.FITB"
+    },
+    {
+     "code": "NUE",
+     "name": "纽柯钢铁",
+     "weight": 0.08,
+     "secid": "106.NUE"
+    },
+    {
+     "code": "PSA",
+     "name": "大众仓储",
+     "weight": 0.08,
+     "secid": "106.PSA"
+    },
+    {
+     "code": "VST",
+     "name": "Vistra Corp",
+     "weight": 0.08,
+     "secid": "106.VST"
+    },
+    {
+     "code": "XEL",
+     "name": "埃克西尔能源",
+     "weight": 0.08,
+     "secid": "105.XEL"
+    },
+    {
+     "code": "EBAY",
+     "name": "易趣",
+     "weight": 0.07,
+     "secid": "105.EBAY"
+    },
+    {
+     "code": "MCHP",
+     "name": "微芯科技",
+     "weight": 0.07,
+     "secid": "105.MCHP"
+    },
+    {
+     "code": "NKE",
+     "name": "耐克",
+     "weight": 0.07,
+     "secid": "106.NKE"
+    },
+    {
+     "code": "EXC",
+     "name": "爱克斯龙电力",
+     "weight": 0.07,
+     "secid": "105.EXC"
+    },
+    {
+     "code": "HUM",
+     "name": "哈门那",
+     "weight": 0.07,
+     "secid": "106.HUM"
+    },
+    {
+     "code": "DVN",
+     "name": "戴文能源",
+     "weight": 0.07,
+     "secid": "106.DVN"
+    },
+    {
+     "code": "CVNA",
+     "name": "Carvana Co-A",
+     "weight": 0.07,
+     "secid": "106.CVNA"
+    },
+    {
+     "code": "STT",
+     "name": "道富",
+     "weight": 0.07,
+     "secid": "106.STT"
+    },
+    {
+     "code": "WAB",
+     "name": "美国西屋制动",
+     "weight": 0.07,
+     "secid": "106.WAB"
+    },
+    {
+     "code": "MET",
+     "name": "大都会人寿",
+     "weight": 0.07,
+     "secid": "106.MET"
+    },
+    {
+     "code": "AXON",
+     "name": "Axon Enterprise Inc",
+     "weight": 0.07,
+     "secid": "105.AXON"
+    },
+    {
+     "code": "KDP",
+     "name": "Keurig Dr Pepper Inc",
+     "weight": 0.07,
+     "secid": "105.KDP"
+    },
+    {
+     "code": "UAL",
+     "name": "联合航空",
+     "weight": 0.07,
+     "secid": "105.UAL"
+    },
+    {
+     "code": "YUM",
+     "name": "Yum! Brands Inc",
+     "weight": 0.07,
+     "secid": "106.YUM"
+    },
+    {
+     "code": "CMG",
+     "name": "墨式烧烤",
+     "weight": 0.07,
+     "secid": "106.CMG"
+    },
+    {
+     "code": "TTWO",
+     "name": "Take-Two Interactive Software I",
+     "weight": 0.07,
+     "secid": "105.TTWO"
+    },
+    {
+     "code": "VTR",
+     "name": "芬塔公司",
+     "weight": 0.06,
+     "secid": "106.VTR"
+    },
+    {
+     "code": "DHI",
+     "name": "霍顿房屋",
+     "weight": 0.06,
+     "secid": "106.DHI"
+    },
+    {
+     "code": "RSG",
+     "name": "共和废品处理",
+     "weight": 0.06,
+     "secid": "106.RSG"
+    },
+    {
+     "code": "BDX",
+     "name": "碧迪医疗",
+     "weight": 0.06,
+     "secid": "106.BDX"
+    },
+    {
+     "code": "IDXX",
+     "name": "IDEXX实验室",
+     "weight": 0.06,
+     "secid": "105.IDXX"
+    },
+    {
+     "code": "AMP",
+     "name": "阿默普莱斯金融",
+     "weight": 0.06,
+     "secid": "106.AMP"
+    },
+    {
+     "code": "ADSK",
+     "name": "欧特克",
+     "weight": 0.06,
+     "secid": "105.ADSK"
+    },
+    {
+     "code": "MSCI",
+     "name": "明晟",
+     "weight": 0.06,
+     "secid": "106.MSCI"
+    },
+    {
+     "code": "ED",
+     "name": "爱迪生联合电气",
+     "weight": 0.06,
+     "secid": "106.ED"
+    },
+    {
+     "code": "XYZ",
+     "name": "Block Inc-A",
+     "weight": 0.06,
+     "secid": "106.XYZ"
+    },
+    {
+     "code": "JBL",
+     "name": "捷普",
+     "weight": 0.06,
+     "secid": "106.JBL"
+    },
+    {
+     "code": "PEG",
+     "name": "公共服务企业",
+     "weight": 0.06,
+     "secid": "106.PEG"
+    },
+    {
+     "code": "SYY",
+     "name": "西斯科",
+     "weight": 0.06,
+     "secid": "106.SYY"
+    },
+    {
+     "code": "ODFL",
+     "name": "Old Dominion Freight Line Inc",
+     "weight": 0.06,
+     "secid": "105.ODFL"
+    },
+    {
+     "code": "AIG",
+     "name": "美国国际集团",
+     "weight": 0.06,
+     "secid": "106.AIG"
+    },
+    {
+     "code": "CBRE",
+     "name": "世邦魏理仕",
+     "weight": 0.06,
+     "secid": "106.CBRE"
+    },
+    {
+     "code": "GRMN",
+     "name": "佳明",
+     "weight": 0.06,
+     "secid": "106.GRMN"
+    },
+    {
+     "code": "IBKR",
+     "name": "盈透证券",
+     "weight": 0.06,
+     "secid": "105.IBKR"
+    },
+    {
+     "code": "VMC",
+     "name": "火神材料",
+     "weight": 0.06,
+     "secid": "106.VMC"
+    },
+    {
+     "code": "PYPL",
+     "name": "PayPal Holdings Inc",
+     "weight": 0.06,
+     "secid": "105.PYPL"
+    },
+    {
+     "code": "WEC",
+     "name": "WEC能源",
+     "weight": 0.06,
+     "secid": "106.WEC"
+    },
+    {
+     "code": "IRM",
+     "name": "铁山",
+     "weight": 0.06,
+     "secid": "106.IRM"
+    },
+    {
+     "code": "A",
+     "name": "安捷伦",
+     "weight": 0.06,
+     "secid": "106.A"
+    },
+    {
+     "code": "PRU",
+     "name": "保德信金融",
+     "weight": 0.06,
+     "secid": "106.PRU"
+    },
+    {
+     "code": "ON",
+     "name": "安森美半导体",
+     "weight": 0.06,
+     "secid": "105.ON"
+    },
+    {
+     "code": "PCG",
+     "name": "太平洋煤气电力",
+     "weight": 0.06,
+     "secid": "106.PCG"
+    },
+    {
+     "code": "EME",
+     "name": "埃姆科",
+     "weight": 0.06,
+     "secid": "106.EME"
+    },
+    {
+     "code": "WAT",
+     "name": "沃特世",
+     "weight": 0.06,
+     "secid": "106.WAT"
+    },
+    {
+     "code": "ADM",
+     "name": "阿彻丹尼尔斯米德兰",
+     "weight": 0.06,
+     "secid": "106.ADM"
+    },
+    {
+     "code": "CCL",
+     "name": "嘉年华邮轮",
+     "weight": 0.06,
+     "secid": "106.CCL"
+    },
+    {
+     "code": "KVUE",
+     "name": "Kenvue Inc",
+     "weight": 0.05,
+     "secid": "106.KVUE"
+    },
+    {
+     "code": "KMB",
+     "name": "金佰利",
+     "weight": 0.05,
+     "secid": "105.KMB"
+    },
+    {
+     "code": "HIG",
+     "name": "哈特福德保险",
+     "weight": 0.05,
+     "secid": "106.HIG"
+    },
+    {
+     "code": "HBAN",
+     "name": "亨廷顿银行",
+     "weight": 0.05,
+     "secid": "105.HBAN"
+    },
+    {
+     "code": "OXY",
+     "name": "西方石油",
+     "weight": 0.05,
+     "secid": "106.OXY"
+    },
+    {
+     "code": "NDAQ",
+     "name": "纳斯达克",
+     "weight": 0.05,
+     "secid": "105.NDAQ"
+    },
+    {
+     "code": "MTB",
+     "name": "美国制商银行",
+     "weight": 0.05,
+     "secid": "106.MTB"
+    },
+    {
+     "code": "MLM",
+     "name": "马丁-玛丽埃塔材料",
+     "weight": 0.05,
+     "secid": "106.MLM"
+    },
+    {
+     "code": "Q",
+     "name": "Qnity Electronics Inc",
+     "weight": 0.05,
+     "secid": "106.Q"
+    },
+    {
+     "code": "ROP",
+     "name": "儒博实业",
+     "weight": 0.05,
+     "secid": "105.ROP"
+    },
+    {
+     "code": "FANG",
+     "name": "Diamondback Energy Inc",
+     "weight": 0.05,
+     "secid": "105.FANG"
+    },
+    {
+     "code": "ACGL",
+     "name": "艾奇资本",
+     "weight": 0.05,
+     "secid": "105.ACGL"
+    },
+    {
+     "code": "EQT",
+     "name": "EQT能源",
+     "weight": 0.05,
+     "secid": "106.EQT"
+    },
+    {
+     "code": "CCI",
+     "name": "冠城",
+     "weight": 0.05,
+     "secid": "106.CCI"
+    },
+    {
+     "code": "COIN",
+     "name": "Coinbase Global Inc-A",
+     "weight": 0.05,
+     "secid": "105.COIN"
+    },
+    {
+     "code": "IQV",
+     "name": "艾昆纬",
+     "weight": 0.05,
+     "secid": "106.IQV"
+    },
+    {
+     "code": "NTRS",
+     "name": "北方信托",
+     "weight": 0.05,
+     "secid": "105.NTRS"
+    },
+    {
+     "code": "BIIB",
+     "name": "生化基因",
+     "weight": 0.05,
+     "secid": "105.BIIB"
+    },
+    {
+     "code": "PAYX",
+     "name": "沛齐",
+     "weight": 0.05,
+     "secid": "105.PAYX"
+    },
+    {
+     "code": "DTE",
+     "name": "DTE能源",
+     "weight": 0.05,
+     "secid": "106.DTE"
+    },
+    {
+     "code": "KR",
+     "name": "克罗格",
+     "weight": 0.05,
+     "secid": "106.KR"
+    },
+    {
+     "code": "AEE",
+     "name": "阿曼瑞恩",
+     "weight": 0.05,
+     "secid": "106.AEE"
+    },
+    {
+     "code": "STLD",
+     "name": "Steel Dynamics Inc",
+     "weight": 0.05,
+     "secid": "105.STLD"
+    },
+    {
+     "code": "TDY",
+     "name": "Teledyne Technologies Inc",
+     "weight": 0.05,
+     "secid": "106.TDY"
+    },
+    {
+     "code": "NRG",
+     "name": "NRG Energy Inc",
+     "weight": 0.05,
+     "secid": "106.NRG"
+    },
+    {
+     "code": "EXR",
+     "name": "Extra Space Storage Inc",
+     "weight": 0.05,
+     "secid": "106.EXR"
+    },
+    {
+     "code": "NTAP",
+     "name": "美国网存",
+     "weight": 0.05,
+     "secid": "105.NTAP"
+    },
+    {
+     "code": "DOV",
+     "name": "都福",
+     "weight": 0.05,
+     "secid": "106.DOV"
+    },
+    {
+     "code": "ZTS",
+     "name": "硕腾",
+     "weight": 0.05,
+     "secid": "106.ZTS"
+    },
+    {
+     "code": "CNC",
+     "name": "康西哥",
+     "weight": 0.05,
+     "secid": "106.CNC"
+    },
+    {
+     "code": "CFG",
+     "name": "Citizens Financial Group Inc",
+     "weight": 0.04,
+     "secid": "106.CFG"
+    },
+    {
+     "code": "TPR",
+     "name": "Tapestry Inc",
+     "weight": 0.04,
+     "secid": "106.TPR"
+    },
+    {
+     "code": "CASY",
+     "name": "Casey’s General Stores Inc",
+     "weight": 0.04,
+     "secid": "105.CASY"
+    },
+    {
+     "code": "EXPE",
+     "name": "亿客行",
+     "weight": 0.04,
+     "secid": "105.EXPE"
+    },
+    {
+     "code": "IR",
+     "name": "英格索兰",
+     "weight": 0.04,
+     "secid": "106.IR"
+    },
+    {
+     "code": "GEHC",
+     "name": "GE HealthCare Technologies Inc",
+     "weight": 0.04,
+     "secid": "105.GEHC"
+    },
+    {
+     "code": "VICI",
+     "name": "VICI Properties Inc",
+     "weight": 0.04,
+     "secid": "106.VICI"
+    },
+    {
+     "code": "LYV",
+     "name": "Live Nation Entertainment Inc",
+     "weight": 0.04,
+     "secid": "106.LYV"
+    },
+    {
+     "code": "CNP",
+     "name": "中点能源",
+     "weight": 0.04,
+     "secid": "106.CNP"
+    },
+    {
+     "code": "ATO",
+     "name": "Atmos Energy Corp",
+     "weight": 0.04,
+     "secid": "106.ATO"
+    },
+    {
+     "code": "EIX",
+     "name": "爱迪生国际",
+     "weight": 0.04,
+     "secid": "106.EIX"
+    },
+    {
+     "code": "CINF",
+     "name": "辛辛那提金融",
+     "weight": 0.04,
+     "secid": "105.CINF"
+    },
+    {
+     "code": "HAL",
+     "name": "哈里伯顿",
+     "weight": 0.04,
+     "secid": "106.HAL"
+    },
+    {
+     "code": "RMD",
+     "name": "瑞思迈",
+     "weight": 0.04,
+     "secid": "106.RMD"
+    },
+    {
+     "code": "XYL",
+     "name": "赛莱默",
+     "weight": 0.04,
+     "secid": "106.XYL"
+    },
+    {
+     "code": "FICO",
+     "name": "Fair Isaac Corp",
+     "weight": 0.04,
+     "secid": "106.FICO"
+    },
+    {
+     "code": "HUBB",
+     "name": "哈勃集团",
+     "weight": 0.04,
+     "secid": "106.HUBB"
+    },
+    {
+     "code": "OTIS",
+     "name": "Otis Worldwide Corp",
+     "weight": 0.04,
+     "secid": "106.OTIS"
+    },
+    {
+     "code": "WSM",
+     "name": "Williams-Sonoma Inc",
+     "weight": 0.04,
+     "secid": "106.WSM"
+    },
+    {
+     "code": "PPL",
+     "name": "PPL能源",
+     "weight": 0.04,
+     "secid": "106.PPL"
+    },
+    {
+     "code": "ES",
+     "name": "能源方案",
+     "weight": 0.04,
+     "secid": "106.ES"
+    },
+    {
+     "code": "PPG",
+     "name": "PPG工业",
+     "weight": 0.04,
+     "secid": "106.PPG"
+    },
+    {
+     "code": "VEEV",
+     "name": "Veeva Systems Inc-A",
+     "weight": 0.04,
+     "secid": "106.VEEV"
+    },
+    {
+     "code": "RJF",
+     "name": "瑞杰金融",
+     "weight": 0.04,
+     "secid": "106.RJF"
+    },
+    {
+     "code": "FISV",
+     "name": "费哲金融服务",
+     "weight": 0.04,
+     "secid": "105.FISV"
+    },
+    {
+     "code": "PHM",
+     "name": "普得集团(帕尔迪)",
+     "weight": 0.04,
+     "secid": "106.PHM"
+    },
+    {
+     "code": "HSY",
+     "name": "好时",
+     "weight": 0.04,
+     "secid": "106.HSY"
+    },
+    {
+     "code": "DXCM",
+     "name": "德康医疗",
+     "weight": 0.04,
+     "secid": "105.DXCM"
+    },
+    {
+     "code": "MTD",
+     "name": "梅特勒-托利多",
+     "weight": 0.04,
+     "secid": "106.MTD"
+    },
+    {
+     "code": "RF",
+     "name": "地区金融",
+     "weight": 0.04,
+     "secid": "106.RF"
+    },
+    {
+     "code": "AWK",
+     "name": "美国水业",
+     "weight": 0.04,
+     "secid": "106.AWK"
+    },
+    {
+     "code": "SYF",
+     "name": "Synchrony Financial",
+     "weight": 0.04,
+     "secid": "106.SYF"
+    },
+    {
+     "code": "CBOE",
+     "name": "芝加哥期权交易所",
+     "weight": 0.04,
+     "secid": "107.CBOE"
+    },
+    {
+     "code": "WST",
+     "name": "西氏医药服务",
+     "weight": 0.04,
+     "secid": "106.WST"
+    },
+    {
+     "code": "TPL",
+     "name": "Texas Pacific Land Corp",
+     "weight": 0.04,
+     "secid": "106.TPL"
+    },
+    {
+     "code": "FSLR",
+     "name": "第一太阳能",
+     "weight": 0.04,
+     "secid": "105.FSLR"
+    },
+    {
+     "code": "DG",
+     "name": "达乐",
+     "weight": 0.04,
+     "secid": "106.DG"
+    },
+    {
+     "code": "LUV",
+     "name": "西南航空",
+     "weight": 0.04,
+     "secid": "106.LUV"
+    },
+    {
+     "code": "CPRT",
+     "name": "科帕特",
+     "weight": 0.04,
+     "secid": "105.CPRT"
+    },
+    {
+     "code": "WDAY",
+     "name": "Workday Inc-A",
+     "weight": 0.04,
+     "secid": "105.WDAY"
+    },
+    {
+     "code": "FE",
+     "name": "第一能源",
+     "weight": 0.04,
+     "secid": "106.FE"
+    },
+    {
+     "code": "MRNA",
+     "name": "Moderna Inc",
+     "weight": 0.04,
+     "secid": "105.MRNA"
+    },
+    {
+     "code": "WTW",
+     "name": "Willis Towers Watson PLC",
+     "weight": 0.04,
+     "secid": "105.WTW"
+    },
+    {
+     "code": "TROW",
+     "name": "普信集团",
+     "weight": 0.04,
+     "secid": "105.TROW"
+    },
+    {
+     "code": "SW",
+     "name": "Smurfit WestRock plc",
+     "weight": 0.04,
+     "secid": "106.SW"
+    },
+    {
+     "code": "CMS",
+     "name": "CMS能源",
+     "weight": 0.04,
+     "secid": "106.CMS"
+    },
+    {
+     "code": "DRI",
+     "name": "达登饭店",
+     "weight": 0.04,
+     "secid": "106.DRI"
+    },
+    {
+     "code": "VRSK",
+     "name": "Verisk分析",
+     "weight": 0.04,
+     "secid": "105.VRSK"
+    },
+    {
+     "code": "ARES",
+     "name": "Ares Management Corp-A",
+     "weight": 0.04,
+     "secid": "106.ARES"
+    },
+    {
+     "code": "FFIV",
+     "name": "F5",
+     "weight": 0.04,
+     "secid": "105.FFIV"
+    },
+    {
+     "code": "DGX",
+     "name": "奎斯特诊疗",
+     "weight": 0.04,
+     "secid": "106.DGX"
+    },
+    {
+     "code": "LH",
+     "name": "徕博科",
+     "weight": 0.03,
+     "secid": "106.LH"
+    },
+    {
+     "code": "CHD",
+     "name": "丘奇&德怀特",
+     "weight": 0.03,
+     "secid": "106.CHD"
+    },
+    {
+     "code": "NI",
+     "name": "尼索思",
+     "weight": 0.03,
+     "secid": "106.NI"
+    },
+    {
+     "code": "CHRW",
+     "name": "罗宾逊全球物流",
+     "weight": 0.03,
+     "secid": "105.CHRW"
+    },
+    {
+     "code": "DLTR",
+     "name": "美元树",
+     "weight": 0.03,
+     "secid": "105.DLTR"
+    },
+    {
+     "code": "EXE",
+     "name": "Expand Energy Corp",
+     "weight": 0.03,
+     "secid": "105.EXE"
+    },
+    {
+     "code": "CPAY",
+     "name": "Corpay Inc",
+     "weight": 0.03,
+     "secid": "106.CPAY"
+    },
+    {
+     "code": "VLTO",
+     "name": "Veralto Corp",
+     "weight": 0.03,
+     "secid": "106.VLTO"
+    },
+    {
+     "code": "JBHT",
+     "name": "JB亨特运输服务",
+     "weight": 0.03,
+     "secid": "105.JBHT"
+    },
+    {
+     "code": "EXPD",
+     "name": "康捷国际物流",
+     "weight": 0.03,
+     "secid": "106.EXPD"
+    },
+    {
+     "code": "KEY",
+     "name": "KeyCorp",
+     "weight": 0.03,
+     "secid": "106.KEY"
+    },
+    {
+     "code": "PFG",
+     "name": "信安金融",
+     "weight": 0.03,
+     "secid": "105.PFG"
+    },
+    {
+     "code": "PKG",
+     "name": "美国包装",
+     "weight": 0.03,
+     "secid": "106.PKG"
+    },
+    {
+     "code": "SNA",
+     "name": "实耐宝",
+     "weight": 0.03,
+     "secid": "106.SNA"
+    },
+    {
+     "code": "OMC",
+     "name": "宏盟集团",
+     "weight": 0.03,
+     "secid": "106.OMC"
+    },
+    {
+     "code": "WRB",
+     "name": "WR柏克利",
+     "weight": 0.03,
+     "secid": "106.WRB"
+    },
+    {
+     "code": "STE",
+     "name": "思泰瑞医疗",
+     "weight": 0.03,
+     "secid": "106.STE"
+    },
+    {
+     "code": "VRSN",
+     "name": "威瑞信",
+     "weight": 0.03,
+     "secid": "105.VRSN"
+    },
+    {
+     "code": "IFF",
+     "name": "国际香料香精",
+     "weight": 0.03,
+     "secid": "106.IFF"
+    },
+    {
+     "code": "IP",
+     "name": "国际纸业",
+     "weight": 0.03,
+     "secid": "106.IP"
+    },
+    {
+     "code": "KHC",
+     "name": "卡夫亨氏",
+     "weight": 0.03,
+     "secid": "106.KHC"
+    },
+    {
+     "code": "FIS",
+     "name": "富达国民信息服务",
+     "weight": 0.03,
+     "secid": "106.FIS"
+    },
+    {
+     "code": "HPQ",
+     "name": "惠普",
+     "weight": 0.03,
+     "secid": "106.HPQ"
+    },
+    {
+     "code": "AMCR",
+     "name": "Amcor plc",
+     "weight": 0.03,
+     "secid": "106.AMCR"
+    },
+    {
+     "code": "EVRG",
+     "name": "Evergy",
+     "weight": 0.03,
+     "secid": "105.EVRG"
+    },
+    {
+     "code": "DOW",
+     "name": "陶氏",
+     "weight": 0.03,
+     "secid": "106.DOW"
+    },
+    {
+     "code": "LNT",
+     "name": "美国联合能源",
+     "weight": 0.03,
+     "secid": "105.LNT"
+    },
+    {
+     "code": "ULTA",
+     "name": "ULTA美妆",
+     "weight": 0.03,
+     "secid": "105.ULTA"
+    },
+    {
+     "code": "EL",
+     "name": "雅诗兰黛",
+     "weight": 0.03,
+     "secid": "106.EL"
+    },
+    {
+     "code": "LEN",
+     "name": "莱纳建筑-A",
+     "weight": 0.03,
+     "secid": "106.LEN"
+    },
+    {
+     "code": "STZ",
+     "name": "星座品牌-A",
+     "weight": 0.03,
+     "secid": "106.STZ"
+    },
+    {
+     "code": "L",
+     "name": "洛斯保险",
+     "weight": 0.03,
+     "secid": "106.L"
+    },
+    {
+     "code": "INCY",
+     "name": "因塞特医疗",
+     "weight": 0.03,
+     "secid": "105.INCY"
+    },
+    {
+     "code": "EFX",
+     "name": "艾可菲",
+     "weight": 0.03,
+     "secid": "106.EFX"
+    },
+    {
+     "code": "ESS",
+     "name": "埃塞克斯信托",
+     "weight": 0.03,
+     "secid": "106.ESS"
+    },
+    {
+     "code": "SBAC",
+     "name": "SBA通信-A",
+     "weight": 0.03,
+     "secid": "105.SBAC"
+    },
+    {
+     "code": "BRO",
+     "name": "布朗保险",
+     "weight": 0.03,
+     "secid": "106.BRO"
+    },
+    {
+     "code": "FTV",
+     "name": "Fortive Corp",
+     "weight": 0.03,
+     "secid": "106.FTV"
+    },
+    {
+     "code": "GIS",
+     "name": "通用磨坊",
+     "weight": 0.03,
+     "secid": "106.GIS"
+    },
+    {
+     "code": "DD",
+     "name": "陶氏杜邦",
+     "weight": 0.03,
+     "secid": "106.DD"
+    },
+    {
+     "code": "VTRS",
+     "name": "Viatris Inc",
+     "weight": 0.03,
+     "secid": "105.VTRS"
+    },
+    {
+     "code": "NVR",
+     "name": "NVR Inc",
+     "weight": 0.03,
+     "secid": "106.NVR"
+    },
+    {
+     "code": "CTSH",
+     "name": "高知特",
+     "weight": 0.03,
+     "secid": "105.CTSH"
+    },
+    {
+     "code": "LII",
+     "name": "雷诺士",
+     "weight": 0.03,
+     "secid": "106.LII"
+    },
+    {
+     "code": "CDW",
+     "name": "CDW Corp",
+     "weight": 0.03,
+     "secid": "105.CDW"
+    },
+    {
+     "code": "WY",
+     "name": "惠好",
+     "weight": 0.03,
+     "secid": "106.WY"
+    },
+    {
+     "code": "GNRC",
+     "name": "Generac Holdings Inc",
+     "weight": 0.03,
+     "secid": "106.GNRC"
+    },
+    {
+     "code": "AKAM",
+     "name": "阿卡迈",
+     "weight": 0.03,
+     "secid": "105.AKAM"
+    },
+    {
+     "code": "KIM",
+     "name": "金克地产",
+     "weight": 0.03,
+     "secid": "106.KIM"
+    },
+    {
+     "code": "GPN",
+     "name": "环汇",
+     "weight": 0.03,
+     "secid": "106.GPN"
+    },
+    {
+     "code": "IEX",
+     "name": "IDEX Corp",
+     "weight": 0.03,
+     "secid": "106.IEX"
+    },
+    {
+     "code": "FOXA",
+     "name": "福克斯-A",
+     "weight": 0.03,
+     "secid": "105.FOXA"
+    },
+    {
+     "code": "ZBH",
+     "name": "捷迈邦美",
+     "weight": 0.02,
+     "secid": "106.ZBH"
+    },
+    {
+     "code": "CF",
+     "name": "CF实业",
+     "weight": 0.02,
+     "secid": "106.CF"
+    },
+    {
+     "code": "BALL",
+     "name": "鲍尔包装",
+     "weight": 0.02,
+     "secid": "106.BALL"
+    },
+    {
+     "code": "TSCO",
+     "name": "拖拉机供应",
+     "weight": 0.02,
+     "secid": "105.TSCO"
+    },
+    {
+     "code": "INVH",
+     "name": "Invitation Homes Inc",
+     "weight": 0.02,
+     "secid": "106.INVH"
+    },
+    {
+     "code": "SMCI",
+     "name": "超微电脑",
+     "weight": 0.02,
+     "secid": "105.SMCI"
+    },
+    {
+     "code": "MAS",
+     "name": "马斯可木业",
+     "weight": 0.02,
+     "secid": "106.MAS"
+    },
+    {
+     "code": "FDXF",
+     "name": "FedEx Freight Holding Co Inc",
+     "weight": 0.02,
+     "secid": "106.FDXF"
+    },
+    {
+     "code": "GPC",
+     "name": "通用配件",
+     "weight": 0.02,
+     "secid": "106.GPC"
+    },
+    {
+     "code": "MAA",
+     "name": "MAA房产信托",
+     "weight": 0.02,
+     "secid": "106.MAA"
+    },
+    {
+     "code": "TSN",
+     "name": "泰森食品",
+     "weight": 0.02,
+     "secid": "106.TSN"
+    },
+    {
+     "code": "NDSN",
+     "name": "诺信",
+     "weight": 0.02,
+     "secid": "105.NDSN"
+    },
+    {
+     "code": "TXT",
+     "name": "德事隆",
+     "weight": 0.02,
+     "secid": "106.TXT"
+    },
+    {
+     "code": "ALB",
+     "name": "美国雅保",
+     "weight": 0.02,
+     "secid": "106.ALB"
+    },
+    {
+     "code": "BR",
+     "name": "布罗德里奇金融",
+     "weight": 0.02,
+     "secid": "106.BR"
+    },
+    {
+     "code": "RL",
+     "name": "拉夫劳伦",
+     "weight": 0.02,
+     "secid": "106.RL"
+    },
+    {
+     "code": "HST",
+     "name": "HOST酒店及度假村",
+     "weight": 0.02,
+     "secid": "105.HST"
+    },
+    {
+     "code": "J",
+     "name": "Jacobs Solutions Inc",
+     "weight": 0.02,
+     "secid": "106.J"
+    },
+    {
+     "code": "BBY",
+     "name": "百思买",
+     "weight": 0.02,
+     "secid": "106.BBY"
+    },
+    {
+     "code": "DOC",
+     "name": "Healthpeak Properties Inc",
+     "weight": 0.02,
+     "secid": "106.DOC"
+    },
+    {
+     "code": "SWK",
+     "name": "史丹利百得",
+     "weight": 0.02,
+     "secid": "106.SWK"
+    },
+    {
+     "code": "BG",
+     "name": "邦吉",
+     "weight": 0.02,
+     "secid": "106.BG"
+    },
+    {
+     "code": "EG",
+     "name": "Everest Group Ltd",
+     "weight": 0.02,
+     "secid": "106.EG"
+    },
+    {
+     "code": "DECK",
+     "name": "德克斯户外",
+     "weight": 0.02,
+     "secid": "106.DECK"
+    },
+    {
+     "code": "COO",
+     "name": "库珀医疗",
+     "weight": 0.02,
+     "secid": "105.COO"
+    },
+    {
+     "code": "GL",
+     "name": "环球人寿",
+     "weight": 0.02,
+     "secid": "106.GL"
+    },
+    {
+     "code": "ECHO",
+     "name": "回声星通信",
+     "weight": 0.02,
+     "secid": "105.ECHO"
+    },
+    {
+     "code": "LVS",
+     "name": "金沙集团",
+     "weight": 0.02,
+     "secid": "106.LVS"
+    },
+    {
+     "code": "GEN",
+     "name": "Gen Digital Inc",
+     "weight": 0.02,
+     "secid": "105.GEN"
+    },
+    {
+     "code": "LYB",
+     "name": "利安德巴塞尔工业",
+     "weight": 0.02,
+     "secid": "106.LYB"
+    },
+    {
+     "code": "AIZ",
+     "name": "安信龙保险",
+     "weight": 0.02,
+     "secid": "106.AIZ"
+    },
+    {
+     "code": "REG",
+     "name": "Regency Centers Corp",
+     "weight": 0.02,
+     "secid": "105.REG"
+    },
+    {
+     "code": "PTC",
+     "name": "PTC Inc",
+     "weight": 0.02,
+     "secid": "105.PTC"
+    },
+    {
+     "code": "APTV",
+     "name": "Aptiv PLC",
+     "weight": 0.02,
+     "secid": "106.APTV"
+    },
+    {
+     "code": "PNW",
+     "name": "品尼高西方资本",
+     "weight": 0.02,
+     "secid": "106.PNW"
+    },
+    {
+     "code": "LDOS",
+     "name": "Leidos Holdings Inc",
+     "weight": 0.02,
+     "secid": "106.LDOS"
+    },
+    {
+     "code": "MKC",
+     "name": "味好美",
+     "weight": 0.02,
+     "secid": "106.MKC"
+    },
+    {
+     "code": "TKO",
+     "name": "TKO Group Holdings Inc-A",
+     "weight": 0.02,
+     "secid": "106.TKO"
+    },
+    {
+     "code": "ZBRA",
+     "name": "斑马技术",
+     "weight": 0.02,
+     "secid": "105.ZBRA"
+    },
+    {
+     "code": "AVY",
+     "name": "艾利丹尼森",
+     "weight": 0.02,
+     "secid": "106.AVY"
+    },
+    {
+     "code": "RVTY",
+     "name": "Revvity Inc",
+     "weight": 0.02,
+     "secid": "106.RVTY"
+    },
+    {
+     "code": "PNR",
+     "name": "滨特尔",
+     "weight": 0.02,
+     "secid": "106.PNR"
+    },
+    {
+     "code": "TYL",
+     "name": "泰勒科技",
+     "weight": 0.02,
+     "secid": "106.TYL"
+    },
+    {
+     "code": "ROL",
+     "name": "Rollins Inc",
+     "weight": 0.02,
+     "secid": "106.ROL"
+    },
+    {
+     "code": "ALLE",
+     "name": "安朗杰",
+     "weight": 0.02,
+     "secid": "106.ALLE"
+    },
+    {
+     "code": "SJM",
+     "name": "JM斯马克",
+     "weight": 0.02,
+     "secid": "106.SJM"
+    },
+    {
+     "code": "LULU",
+     "name": "lululemon athletica inc",
+     "weight": 0.02,
+     "secid": "105.LULU"
+    },
+    {
+     "code": "TRMB",
+     "name": "天宝导航",
+     "weight": 0.02,
+     "secid": "105.TRMB"
+    },
+    {
+     "code": "CHTR",
+     "name": "特许通讯",
+     "weight": 0.02,
+     "secid": "105.CHTR"
+    },
+    {
+     "code": "UDR",
+     "name": "UDR不动产信托",
+     "weight": 0.02,
+     "secid": "106.UDR"
+    },
+    {
+     "code": "IVZ",
+     "name": "景顺",
+     "weight": 0.02,
+     "secid": "106.IVZ"
+    },
+    {
+     "code": "CSGP",
+     "name": "科斯塔",
+     "weight": 0.02,
+     "secid": "105.CSGP"
+    },
+    {
+     "code": "CLX",
+     "name": "高乐氏",
+     "weight": 0.02,
+     "secid": "106.CLX"
+    },
+    {
+     "code": "APA",
+     "name": "阿帕奇石油",
+     "weight": 0.02,
+     "secid": "105.APA"
+    },
+    {
+     "code": "CPT",
+     "name": "卡姆登物业信托",
+     "weight": 0.02,
+     "secid": "106.CPT"
+    },
+    {
+     "code": "SOLV",
+     "name": "Solventum Corp",
+     "weight": 0.02,
+     "secid": "106.SOLV"
+    },
+    {
+     "code": "GDDY",
+     "name": "GoDaddy Inc-A",
+     "weight": 0.02,
+     "secid": "106.GDDY"
+    },
+    {
+     "code": "ALGN",
+     "name": "艾利科技",
+     "weight": 0.02,
+     "secid": "105.ALGN"
+    },
+    {
+     "code": "HAS",
+     "name": "孩之宝",
+     "weight": 0.02,
+     "secid": "105.HAS"
+    },
+    {
+     "code": "TECH",
+     "name": "Bio-Techne Corp",
+     "weight": 0.02,
+     "secid": "105.TECH"
+    },
+    {
+     "code": "HII",
+     "name": "亨廷顿英戈尔斯工业",
+     "weight": 0.02,
+     "secid": "106.HII"
+    },
+    {
+     "code": "BAX",
+     "name": "百特国际",
+     "weight": 0.02,
+     "secid": "106.BAX"
+    },
+    {
+     "code": "CRL",
+     "name": "查尔斯河",
+     "weight": 0.02,
+     "secid": "106.CRL"
+    },
+    {
+     "code": "PODD",
+     "name": "银休特",
+     "weight": 0.02,
+     "secid": "105.PODD"
+    },
+    {
+     "code": "AES",
+     "name": "爱依斯电力",
+     "weight": 0.02,
+     "secid": "106.AES"
+    },
+    {
+     "code": "BEN",
+     "name": "富兰克林邓普顿",
+     "weight": 0.02,
+     "secid": "106.BEN"
+    },
+    {
+     "code": "SWKS",
+     "name": "思佳讯",
+     "weight": 0.02,
+     "secid": "105.SWKS"
+    },
+    {
+     "code": "NWSA",
+     "name": "新闻集团-A",
+     "weight": 0.02,
+     "secid": "105.NWSA"
+    },
+    {
+     "code": "BXP",
+     "name": "BXP Inc",
+     "weight": 0.01,
+     "secid": "106.BXP"
+    },
+    {
+     "code": "JKHY",
+     "name": "杰克亨利",
+     "weight": 0.01,
+     "secid": "105.JKHY"
+    },
+    {
+     "code": "FRT",
+     "name": "FRT信托",
+     "weight": 0.01,
+     "secid": "106.FRT"
+    },
+    {
+     "code": "NCLH",
+     "name": "挪威邮轮",
+     "weight": 0.01,
+     "secid": "106.NCLH"
+    },
+    {
+     "code": "BLDR",
+     "name": "Builders FirstSource Inc",
+     "weight": 0.01,
+     "secid": "106.BLDR"
+    },
+    {
+     "code": "MGM",
+     "name": "美高梅",
+     "weight": 0.01,
+     "secid": "106.MGM"
+    },
+    {
+     "code": "DPZ",
+     "name": "达美乐比萨",
+     "weight": 0.01,
+     "secid": "105.DPZ"
+    },
+    {
+     "code": "IT",
+     "name": "加特纳",
+     "weight": 0.01,
+     "secid": "106.IT"
+    },
+    {
+     "code": "FDS",
+     "name": "辉盛研究系统",
+     "weight": 0.01,
+     "secid": "106.FDS"
+    },
+    {
+     "code": "ARE",
+     "name": "亚历山大房地产",
+     "weight": 0.01,
+     "secid": "106.ARE"
+    },
+    {
+     "code": "WYNN",
+     "name": "永利度假村",
+     "weight": 0.01,
+     "secid": "105.WYNN"
+    },
+    {
+     "code": "HSIC",
+     "name": "亨利香恩服务",
+     "weight": 0.01,
+     "secid": "105.HSIC"
+    },
+    {
+     "code": "UHS",
+     "name": "Universal Health Services Inc-B",
+     "weight": 0.01,
+     "secid": "106.UHS"
+    },
+    {
+     "code": "TTD",
+     "name": "The Trade Desk Inc-A",
+     "weight": 0.01,
+     "secid": "105.TTD"
+    },
+    {
+     "code": "HRL",
+     "name": "荷美尔食品",
+     "weight": 0.01,
+     "secid": "106.HRL"
+    },
+    {
+     "code": "DVA",
+     "name": "达维塔保健",
+     "weight": 0.01,
+     "secid": "106.DVA"
+    },
+    {
+     "code": "AOS",
+     "name": "A.O.史密斯",
+     "weight": 0.01,
+     "secid": "106.AOS"
+    },
+    {
+     "code": "MOS",
+     "name": "美盛",
+     "weight": 0.01,
+     "secid": "106.MOS"
+    },
+    {
+     "code": "TAP",
+     "name": "摩森康胜-B",
+     "weight": 0.01,
+     "secid": "106.TAP"
+    },
+    {
+     "code": "ERIE",
+     "name": "伊瑞保险",
+     "weight": 0.01,
+     "secid": "105.ERIE"
+    }
+   ]
+  }
+ },
+ {
+  "id": "ndx",
+  "name": "纳斯达克100",
+  "en": "Nasdaq-100",
+  "publisher": "纳斯达克 Nasdaq",
+  "inception": "1985-01-31",
+  "count": 97,
+  "desc": "纳斯达克交易所 100 家最大的非金融公司，科技股权重高。",
+  "constituents": [
+   {
+    "name": "英伟达",
+    "ticker": "NVDA",
+    "secid": "105.NVDA"
+   },
+   {
+    "name": "苹果",
+    "ticker": "AAPL",
+    "secid": "105.AAPL"
+   },
+   {
+    "name": "美光科技",
+    "ticker": "MU",
+    "secid": "105.MU"
+   },
+   {
+    "name": "微软",
+    "ticker": "MSFT",
+    "secid": "105.MSFT"
+   },
+   {
+    "name": "超威半导体",
+    "ticker": "AMD",
+    "secid": "105.AMD"
+   },
+   {
+    "name": "亚马逊",
+    "ticker": "AMZN",
+    "secid": "105.AMZN"
+   },
+   {
+    "name": "特斯拉",
+    "ticker": "TSLA",
+    "secid": "105.TSLA"
+   },
+   {
+    "name": "谷歌-A",
+    "ticker": "GOOGL",
+    "secid": "105.GOOGL"
+   },
+   {
+    "name": "英特尔",
+    "ticker": "INTC",
+    "secid": "105.INTC"
+   },
+   {
+    "name": "Meta Platforms Inc-A",
+    "ticker": "META",
+    "secid": "105.META"
+   },
+   {
+    "name": "应用材料",
+    "ticker": "AMAT",
+    "secid": "105.AMAT"
+   },
+   {
+    "name": "沃尔玛",
+    "ticker": "WMT",
+    "secid": "105.WMT"
+   },
+   {
+    "name": "拉姆研究",
+    "ticker": "LRCX",
+    "secid": "105.LRCX"
+   },
+   {
+    "name": "思科",
+    "ticker": "CSCO",
+    "secid": "105.CSCO"
+   },
+   {
+    "name": "开市客",
+    "ticker": "COST",
+    "secid": "105.COST"
+   },
+   {
+    "name": "科磊",
+    "ticker": "KLAC",
+    "secid": "105.KLAC"
+   },
+   {
+    "name": "闪迪",
+    "ticker": "SNDK",
+    "secid": "105.SNDK"
+   },
+   {
+    "name": "奈飞",
+    "ticker": "NFLX",
+    "secid": "105.NFLX"
+   },
+   {
+    "name": "派拓网络",
+    "ticker": "PANW",
+    "secid": "105.PANW"
+   },
+   {
+    "name": "德州仪器",
+    "ticker": "TXN",
+    "secid": "105.TXN"
+   },
+   {
+    "name": "Palantir Technologies Inc-A",
+    "ticker": "PLTR",
+    "secid": "105.PLTR"
+   },
+   {
+    "name": "迈威尔科技",
+    "ticker": "MRVL",
+    "secid": "105.MRVL"
+   },
+   {
+    "name": "Linde plc",
+    "ticker": "LIN",
+    "secid": "105.LIN"
+   },
+   {
+    "name": "西部数据",
+    "ticker": "WDC",
+    "secid": "105.WDC"
+   },
+   {
+    "name": "希捷科技",
+    "ticker": "STX",
+    "secid": "105.STX"
+   },
+   {
+    "name": "安进",
+    "ticker": "AMGN",
+    "secid": "105.AMGN"
+   },
+   {
+    "name": "高通",
+    "ticker": "QCOM",
+    "secid": "105.QCOM"
+   },
+   {
+    "name": "CrowdStrike Holdings Inc-A",
+    "ticker": "CRWD",
+    "secid": "105.CRWD"
+   },
+   {
+    "name": "亚德诺",
+    "ticker": "ADI",
+    "secid": "105.ADI"
+   },
+   {
+    "name": "百事",
+    "ticker": "PEP",
+    "secid": "105.PEP"
+   },
+   {
+    "name": "阿斯麦",
+    "ticker": "ASML",
+    "secid": "105.ASML"
+   },
+   {
+    "name": "T-Mobile US Inc",
+    "ticker": "TMUS",
+    "secid": "105.TMUS"
+   },
+   {
+    "name": "Applovin Corp-A",
+    "ticker": "APP",
+    "secid": "105.APP"
+   },
+   {
+    "name": "吉利德科学",
+    "ticker": "GILD",
+    "secid": "105.GILD"
+   },
+   {
+    "name": "Arm Holdings plc ADR",
+    "ticker": "ARM",
+    "secid": "105.ARM"
+   },
+   {
+    "name": "直觉外科",
+    "ticker": "ISRG",
+    "secid": "105.ISRG"
+   },
+   {
+    "name": "Shopify Inc-A",
+    "ticker": "SHOP",
+    "secid": "105.SHOP"
+   },
+   {
+    "name": "Booking Holdings",
+    "ticker": "BKNG",
+    "secid": "105.BKNG"
+   },
+   {
+    "name": "福泰制药",
+    "ticker": "VRTX",
+    "secid": "105.VRTX"
+   },
+   {
+    "name": "星巴克",
+    "ticker": "SBUX",
+    "secid": "105.SBUX"
+   },
+   {
+    "name": "防特网",
+    "ticker": "FTNT",
+    "secid": "105.FTNT"
+   },
+   {
+    "name": "铿腾电子",
+    "ticker": "CDNS",
+    "secid": "105.CDNS"
+   },
+   {
+    "name": "万豪国际",
+    "ticker": "MAR",
+    "secid": "105.MAR"
+   },
+   {
+    "name": "怪物饮料",
+    "ticker": "MNST",
+    "secid": "105.MNST"
+   },
+   {
+    "name": "Constellation Energy Corp",
+    "ticker": "CEG",
+    "secid": "105.CEG"
+   },
+   {
+    "name": "自动数据处理",
+    "ticker": "ADP",
+    "secid": "105.ADP"
+   },
+   {
+    "name": "CSX运输",
+    "ticker": "CSX",
+    "secid": "105.CSX"
+   },
+   {
+    "name": "康卡斯特",
+    "ticker": "CMCSA",
+    "secid": "105.CMCSA"
+   },
+   {
+    "name": "Datadog Inc-A",
+    "ticker": "DDOG",
+    "secid": "105.DDOG"
+   },
+   {
+    "name": "MercadoLibre Inc",
+    "ticker": "MELI",
+    "secid": "105.MELI"
+   },
+   {
+    "name": "新思科技",
+    "ticker": "SNPS",
+    "secid": "105.SNPS"
+   },
+   {
+    "name": "奥多比",
+    "ticker": "ADBE",
+    "secid": "105.ADBE"
+   },
+   {
+    "name": "Astera Labs Inc",
+    "ticker": "ALAB",
+    "secid": "105.ALAB"
+   },
+   {
+    "name": "DoorDash Inc-A",
+    "ticker": "DASH",
+    "secid": "105.DASH"
+   },
+   {
+    "name": "泰瑞达",
+    "ticker": "TER",
+    "secid": "105.TER"
+   },
+   {
+    "name": "美国电力",
+    "ticker": "AEP",
+    "secid": "105.AEP"
+   },
+   {
+    "name": "亿滋国际",
+    "ticker": "MDLZ",
+    "secid": "105.MDLZ"
+   },
+   {
+    "name": "财捷",
+    "ticker": "INTU",
+    "secid": "105.INTU"
+   },
+   {
+    "name": "恩智浦半导体",
+    "ticker": "NXPI",
+    "secid": "105.NXPI"
+   },
+   {
+    "name": "霍尼韦尔",
+    "ticker": "HON",
+    "secid": "105.HON"
+   },
+   {
+    "name": "Honeywell Aerospace Inc",
+    "ticker": "HONA",
+    "secid": "105.HONA"
+   },
+   {
+    "name": "罗斯百货",
+    "ticker": "ROST",
+    "secid": "105.ROST"
+   },
+   {
+    "name": "信达思",
+    "ticker": "CTAS",
+    "secid": "105.CTAS"
+   },
+   {
+    "name": "Monolithic Power Systems Inc",
+    "ticker": "MPWR",
+    "secid": "105.MPWR"
+   },
+   {
+    "name": "Lumentum Holdings Inc",
+    "ticker": "LITE",
+    "secid": "105.LITE"
+   },
+   {
+    "name": "再生元制药",
+    "ticker": "REGN",
+    "secid": "105.REGN"
+   },
+   {
+    "name": "帕卡",
+    "ticker": "PCAR",
+    "secid": "105.PCAR"
+   },
+   {
+    "name": "Nebius Group NV-A",
+    "ticker": "NBIS",
+    "secid": "105.NBIS"
+   },
+   {
+    "name": "爱彼迎",
+    "ticker": "ABNB",
+    "secid": "105.ABNB"
+   },
+   {
+    "name": "Rocket Lab Corp",
+    "ticker": "RKLB",
+    "secid": "105.RKLB"
+   },
+   {
+    "name": "快扣",
+    "ticker": "FAST",
+    "secid": "105.FAST"
+   },
+   {
+    "name": "Baker Hughes Co-A",
+    "ticker": "BKR",
+    "secid": "105.BKR"
+   },
+   {
+    "name": "拼多多",
+    "ticker": "PDD",
+    "secid": "105.PDD"
+   },
+   {
+    "name": "埃克西尔能源",
+    "ticker": "XEL",
+    "secid": "105.XEL"
+   },
+   {
+    "name": "Ferrovial NV",
+    "ticker": "FER",
+    "secid": "105.FER"
+   },
+   {
+    "name": "Diamondback Energy Inc",
+    "ticker": "FANG",
+    "secid": "105.FANG"
+   },
+   {
+    "name": "微芯科技",
+    "ticker": "MCHP",
+    "secid": "105.MCHP"
+   },
+   {
+    "name": "爱克斯龙电力",
+    "ticker": "EXC",
+    "secid": "105.EXC"
+   },
+   {
+    "name": "Take-Two Interactive Software I",
+    "ticker": "TTWO",
+    "secid": "105.TTWO"
+   },
+   {
+    "name": "Axon Enterprise Inc",
+    "ticker": "AXON",
+    "secid": "105.AXON"
+   },
+   {
+    "name": "Old Dominion Freight Line Inc",
+    "ticker": "ODFL",
+    "secid": "105.ODFL"
+   },
+   {
+    "name": "可口可乐欧洲太平洋合伙",
+    "ticker": "CCEP",
+    "secid": "105.CCEP"
+   },
+   {
+    "name": "CoreWeave Inc-A",
+    "ticker": "CRWV",
+    "secid": "105.CRWV"
+   },
+   {
+    "name": "Keurig Dr Pepper Inc",
+    "ticker": "KDP",
+    "secid": "105.KDP"
+   },
+   {
+    "name": "IDEXX实验室",
+    "ticker": "IDXX",
+    "secid": "105.IDXX"
+   },
+   {
+    "name": "欧特克",
+    "ticker": "ADSK",
+    "secid": "105.ADSK"
+   },
+   {
+    "name": "Alnylam Pharmaceuticals Inc",
+    "ticker": "ALNY",
+    "secid": "105.ALNY"
+   },
+   {
+    "name": "PayPal Holdings Inc",
+    "ticker": "PYPL",
+    "secid": "105.PYPL"
+   },
+   {
+    "name": "沛齐",
+    "ticker": "PAYX",
+    "secid": "105.PAYX"
+   },
+   {
+    "name": "儒博实业",
+    "ticker": "ROP",
+    "secid": "105.ROP"
+   },
+   {
+    "name": "汤森路透",
+    "ticker": "TRI",
+    "secid": "105.TRI"
+   },
+   {
+    "name": "GE HealthCare Technologies Inc",
+    "ticker": "GEHC",
+    "secid": "105.GEHC"
+   },
+   {
+    "name": "Strategy Inc-A",
+    "ticker": "MSTR",
+    "secid": "105.MSTR"
+   },
+   {
+    "name": "卡夫亨氏",
+    "ticker": "KHC",
+    "secid": "106.KHC"
+   },
+   {
+    "name": "科帕特",
+    "ticker": "CPRT",
+    "secid": "105.CPRT"
+   },
+   {
+    "name": "德康医疗",
+    "ticker": "DXCM",
+    "secid": "105.DXCM"
+   },
+   {
+    "name": "Workday Inc-A",
+    "ticker": "WDAY",
+    "secid": "105.WDAY"
+   }
+  ],
+  "partial": false,
+  "secid": "100.NDX",
+  "weights": {
+   "asOf": "2026-06-30",
+   "source": "国泰纳斯达克100ETF（513100）2026年中期报告 · 全持仓",
+   "items": [
+    {
+     "code": "NVDA",
+     "name": "英伟达",
+     "weight": 6.91,
+     "secid": "105.NVDA"
+    },
+    {
+     "code": "AAPL",
+     "name": "苹果",
+     "weight": 6.06,
+     "secid": "105.AAPL"
+    },
+    {
+     "code": "MU",
+     "name": "美光科技",
+     "weight": 5.13,
+     "secid": "105.MU"
+    },
+    {
+     "code": "MSFT",
+     "name": "微软",
+     "weight": 3.95,
+     "secid": "105.MSFT"
+    },
+    {
+     "code": "AMD",
+     "name": "超威半导体",
+     "weight": 3.73,
+     "secid": "105.AMD"
+    },
+    {
+     "code": "AMZN",
+     "name": "亚马逊",
+     "weight": 3.66,
+     "secid": "105.AMZN"
+    },
+    {
+     "code": "TSLA",
+     "name": "特斯拉",
+     "weight": 3.0,
+     "secid": "105.TSLA"
+    },
+    {
+     "code": "GOOGL",
+     "name": "谷歌-A",
+     "weight": 5.72,
+     "secid": "105.GOOGL"
+    },
+    {
+     "code": "INTC",
+     "name": "英特尔",
+     "weight": 2.76,
+     "secid": "105.INTC"
+    },
+    {
+     "code": "META",
+     "name": "Meta Platforms Inc-A",
+     "weight": 2.38,
+     "secid": "105.META"
+    },
+    {
+     "code": "AMAT",
+     "name": "应用材料",
+     "weight": 2.26,
+     "secid": "105.AMAT"
+    },
+    {
+     "code": "WMT",
+     "name": "沃尔玛",
+     "weight": 2.18,
+     "secid": "105.WMT"
+    },
+    {
+     "code": "LRCX",
+     "name": "拉姆研究",
+     "weight": 2.13,
+     "secid": "105.LRCX"
+    },
+    {
+     "code": "CSCO",
+     "name": "思科",
+     "weight": 1.82,
+     "secid": "105.CSCO"
+    },
+    {
+     "code": "COST",
+     "name": "开市客",
+     "weight": 1.63,
+     "secid": "105.COST"
+    },
+    {
+     "code": "KLAC",
+     "name": "科磊",
+     "weight": 1.55,
+     "secid": "105.KLAC"
+    },
+    {
+     "code": "SNDK",
+     "name": "闪迪",
+     "weight": 1.33,
+     "secid": "105.SNDK"
+    },
+    {
+     "code": "NFLX",
+     "name": "奈飞",
+     "weight": 1.18,
+     "secid": "105.NFLX"
+    },
+    {
+     "code": "PANW",
+     "name": "派拓网络",
+     "weight": 1.1,
+     "secid": "105.PANW"
+    },
+    {
+     "code": "TXN",
+     "name": "德州仪器",
+     "weight": 1.07,
+     "secid": "105.TXN"
+    },
+    {
+     "code": "PLTR",
+     "name": "Palantir Technologies Inc-A",
+     "weight": 1.05,
+     "secid": "105.PLTR"
+    },
+    {
+     "code": "MRVL",
+     "name": "迈威尔科技",
+     "weight": 1.03,
+     "secid": "105.MRVL"
+    },
+    {
+     "code": "LIN",
+     "name": "Linde plc",
+     "weight": 0.94,
+     "secid": "105.LIN"
+    },
+    {
+     "code": "WDC",
+     "name": "西部数据",
+     "weight": 0.87,
+     "secid": "105.WDC"
+    },
+    {
+     "code": "STX",
+     "name": "希捷科技",
+     "weight": 0.85,
+     "secid": "105.STX"
+    },
+    {
+     "code": "AMGN",
+     "name": "安进",
+     "weight": 0.77,
+     "secid": "105.AMGN"
+    },
+    {
+     "code": "QCOM",
+     "name": "高通",
+     "weight": 0.77,
+     "secid": "105.QCOM"
+    },
+    {
+     "code": "CRWD",
+     "name": "CrowdStrike Holdings Inc-A",
+     "weight": 0.77,
+     "secid": "105.CRWD"
+    },
+    {
+     "code": "ADI",
+     "name": "亚德诺",
+     "weight": 0.76,
+     "secid": "105.ADI"
+    },
+    {
+     "code": "PEP",
+     "name": "百事",
+     "weight": 0.73,
+     "secid": "105.PEP"
+    },
+    {
+     "code": "ASML",
+     "name": "阿斯麦",
+     "weight": 0.72,
+     "secid": "105.ASML"
+    },
+    {
+     "code": "TMUS",
+     "name": "T-Mobile US Inc",
+     "weight": 0.71,
+     "secid": "105.TMUS"
+    },
+    {
+     "code": "APP",
+     "name": "Applovin Corp-A",
+     "weight": 0.62,
+     "secid": "105.APP"
+    },
+    {
+     "code": "GILD",
+     "name": "吉利德科学",
+     "weight": 0.62,
+     "secid": "105.GILD"
+    },
+    {
+     "code": "ARM",
+     "name": "Arm Holdings plc ADR",
+     "weight": 0.59,
+     "secid": "105.ARM"
+    },
+    {
+     "code": "ISRG",
+     "name": "直觉外科",
+     "weight": 0.55,
+     "secid": "105.ISRG"
+    },
+    {
+     "code": "SHOP",
+     "name": "Shopify Inc-A",
+     "weight": 0.55,
+     "secid": "105.SHOP"
+    },
+    {
+     "code": "BKNG",
+     "name": "Booking Holdings",
+     "weight": 0.54,
+     "secid": "105.BKNG"
+    },
+    {
+     "code": "VRTX",
+     "name": "福泰制药",
+     "weight": 0.5,
+     "secid": "105.VRTX"
+    },
+    {
+     "code": "SBUX",
+     "name": "星巴克",
+     "weight": 0.46,
+     "secid": "105.SBUX"
+    },
+    {
+     "code": "FTNT",
+     "name": "防特网",
+     "weight": 0.44,
+     "secid": "105.FTNT"
+    },
+    {
+     "code": "CDNS",
+     "name": "铿腾电子",
+     "weight": 0.41,
+     "secid": "105.CDNS"
+    },
+    {
+     "code": "MAR",
+     "name": "万豪国际",
+     "weight": 0.38,
+     "secid": "105.MAR"
+    },
+    {
+     "code": "MNST",
+     "name": "怪物饮料",
+     "weight": 0.37,
+     "secid": "105.MNST"
+    },
+    {
+     "code": "CEG",
+     "name": "Constellation Energy Corp",
+     "weight": 0.35,
+     "secid": "105.CEG"
+    },
+    {
+     "code": "ADP",
+     "name": "自动数据处理",
+     "weight": 0.35,
+     "secid": "105.ADP"
+    },
+    {
+     "code": "CSX",
+     "name": "CSX运输",
+     "weight": 0.35,
+     "secid": "105.CSX"
+    },
+    {
+     "code": "CMCSA",
+     "name": "康卡斯特",
+     "weight": 0.34,
+     "secid": "105.CMCSA"
+    },
+    {
+     "code": "DDOG",
+     "name": "Datadog Inc-A",
+     "weight": 0.34,
+     "secid": "105.DDOG"
+    },
+    {
+     "code": "MELI",
+     "name": "MercadoLibre Inc",
+     "weight": 0.34,
+     "secid": "105.MELI"
+    },
+    {
+     "code": "SNPS",
+     "name": "新思科技",
+     "weight": 0.34,
+     "secid": "105.SNPS"
+    },
+    {
+     "code": "ADBE",
+     "name": "奥多比",
+     "weight": 0.33,
+     "secid": "105.ADBE"
+    },
+    {
+     "code": "ALAB",
+     "name": "Astera Labs Inc",
+     "weight": 0.33,
+     "secid": "105.ALAB"
+    },
+    {
+     "code": "DASH",
+     "name": "DoorDash Inc-A",
+     "weight": 0.3,
+     "secid": "105.DASH"
+    },
+    {
+     "code": "TER",
+     "name": "泰瑞达",
+     "weight": 0.3,
+     "secid": "105.TER"
+    },
+    {
+     "code": "AEP",
+     "name": "美国电力",
+     "weight": 0.29,
+     "secid": "105.AEP"
+    },
+    {
+     "code": "MDLZ",
+     "name": "亿滋国际",
+     "weight": 0.29,
+     "secid": "105.MDLZ"
+    },
+    {
+     "code": "INTU",
+     "name": "财捷",
+     "weight": 0.28,
+     "secid": "105.INTU"
+    },
+    {
+     "code": "NXPI",
+     "name": "恩智浦半导体",
+     "weight": 0.28,
+     "secid": "105.NXPI"
+    },
+    {
+     "code": "HON",
+     "name": "霍尼韦尔",
+     "weight": 0.28,
+     "secid": "105.HON"
+    },
+    {
+     "code": "HONA",
+     "name": "Honeywell Aerospace Inc",
+     "weight": 0.28,
+     "secid": "105.HONA"
+    },
+    {
+     "code": "ROST",
+     "name": "罗斯百货",
+     "weight": 0.27,
+     "secid": "105.ROST"
+    },
+    {
+     "code": "CTAS",
+     "name": "信达思",
+     "weight": 0.27,
+     "secid": "105.CTAS"
+    },
+    {
+     "code": "MPWR",
+     "name": "Monolithic Power Systems Inc",
+     "weight": 0.27,
+     "secid": "105.MPWR"
+    },
+    {
+     "code": "LITE",
+     "name": "Lumentum Holdings Inc",
+     "weight": 0.26,
+     "secid": "105.LITE"
+    },
+    {
+     "code": "REGN",
+     "name": "再生元制药",
+     "weight": 0.25,
+     "secid": "105.REGN"
+    },
+    {
+     "code": "PCAR",
+     "name": "帕卡",
+     "weight": 0.25,
+     "secid": "105.PCAR"
+    },
+    {
+     "code": "NBIS",
+     "name": "Nebius Group NV-A",
+     "weight": 0.24,
+     "secid": "105.NBIS"
+    },
+    {
+     "code": "ABNB",
+     "name": "爱彼迎",
+     "weight": 0.24,
+     "secid": "105.ABNB"
+    },
+    {
+     "code": "RKLB",
+     "name": "Rocket Lab Corp",
+     "weight": 0.23,
+     "secid": "105.RKLB"
+    },
+    {
+     "code": "FAST",
+     "name": "快扣",
+     "weight": 0.22,
+     "secid": "105.FAST"
+    },
+    {
+     "code": "BKR",
+     "name": "Baker Hughes Co-A",
+     "weight": 0.22,
+     "secid": "105.BKR"
+    },
+    {
+     "code": "PDD",
+     "name": "拼多多",
+     "weight": 0.2,
+     "secid": "105.PDD"
+    },
+    {
+     "code": "XEL",
+     "name": "埃克西尔能源",
+     "weight": 0.2,
+     "secid": "105.XEL"
+    },
+    {
+     "code": "FER",
+     "name": "Ferrovial NV",
+     "weight": 0.2,
+     "secid": "105.FER"
+    },
+    {
+     "code": "FANG",
+     "name": "Diamondback Energy Inc",
+     "weight": 0.19,
+     "secid": "105.FANG"
+    },
+    {
+     "code": "MCHP",
+     "name": "微芯科技",
+     "weight": 0.19,
+     "secid": "105.MCHP"
+    },
+    {
+     "code": "EXC",
+     "name": "爱克斯龙电力",
+     "weight": 0.19,
+     "secid": "105.EXC"
+    },
+    {
+     "code": "TTWO",
+     "name": "Take-Two Interactive Software I",
+     "weight": 0.18,
+     "secid": "105.TTWO"
+    },
+    {
+     "code": "AXON",
+     "name": "Axon Enterprise Inc",
+     "weight": 0.18,
+     "secid": "105.AXON"
+    },
+    {
+     "code": "ODFL",
+     "name": "Old Dominion Freight Line Inc",
+     "weight": 0.18,
+     "secid": "105.ODFL"
+    },
+    {
+     "code": "CCEP",
+     "name": "可口可乐欧洲太平洋合伙",
+     "weight": 0.18,
+     "secid": "105.CCEP"
+    },
+    {
+     "code": "CRWV",
+     "name": "CoreWeave Inc-A",
+     "weight": 0.18,
+     "secid": "105.CRWV"
+    },
+    {
+     "code": "KDP",
+     "name": "Keurig Dr Pepper Inc",
+     "weight": 0.18,
+     "secid": "105.KDP"
+    },
+    {
+     "code": "IDXX",
+     "name": "IDEXX实验室",
+     "weight": 0.16,
+     "secid": "105.IDXX"
+    },
+    {
+     "code": "ADSK",
+     "name": "欧特克",
+     "weight": 0.16,
+     "secid": "105.ADSK"
+    },
+    {
+     "code": "ALNY",
+     "name": "Alnylam Pharmaceuticals Inc",
+     "weight": 0.16,
+     "secid": "105.ALNY"
+    },
+    {
+     "code": "PYPL",
+     "name": "PayPal Holdings Inc",
+     "weight": 0.15,
+     "secid": "105.PYPL"
+    },
+    {
+     "code": "PAYX",
+     "name": "沛齐",
+     "weight": 0.14,
+     "secid": "105.PAYX"
+    },
+    {
+     "code": "ROP",
+     "name": "儒博实业",
+     "weight": 0.13,
+     "secid": "105.ROP"
+    },
+    {
+     "code": "TRI",
+     "name": "汤森路透",
+     "weight": 0.12,
+     "secid": "105.TRI"
+    },
+    {
+     "code": "GEHC",
+     "name": "GE HealthCare Technologies Inc",
+     "weight": 0.11,
+     "secid": "105.GEHC"
+    },
+    {
+     "code": "MSTR",
+     "name": "Strategy Inc-A",
+     "weight": 0.11,
+     "secid": "105.MSTR"
+    },
+    {
+     "code": "KHC",
+     "name": "卡夫亨氏",
+     "weight": 0.11,
+     "secid": "106.KHC"
+    },
+    {
+     "code": "CPRT",
+     "name": "科帕特",
+     "weight": 0.1,
+     "secid": "105.CPRT"
+    },
+    {
+     "code": "DXCM",
+     "name": "德康医疗",
+     "weight": 0.1,
+     "secid": "105.DXCM"
+    },
+    {
+     "code": "WDAY",
+     "name": "Workday Inc-A",
+     "weight": 0.1,
+     "secid": "105.WDAY"
+    }
+   ]
+  }
+ },
+ {
+  "id": "n225",
+  "name": "日经225",
+  "en": "Nikkei 225",
+  "publisher": "日本经济新闻社 Nikkei",
+  "inception": "1950-09-07",
+  "count": 225,
+  "desc": "225 只日本代表性蓝筹股，价格加权，是观察日本股市最常用的指数。",
+  "constituents": [
+   {
+    "name": "丰田汽车",
+    "ticker": "7203",
+    "secid": "176.7203"
+   },
+   {
+    "name": "索尼",
+    "ticker": "6758",
+    "secid": "176.6758"
+   },
+   {
+    "name": "三菱日联金融",
+    "ticker": "8306",
+    "secid": "176.8306"
+   },
+   {
+    "name": "基恩士",
+    "ticker": "6861",
+    "secid": "176.6861"
+   },
+   {
+    "name": "东京电子",
+    "ticker": "8035",
+    "secid": "176.8035"
+   },
+   {
+    "name": "软银集团",
+    "ticker": "9984",
+    "secid": "176.9984"
+   },
+   {
+    "name": "任天堂",
+    "ticker": "7974",
+    "secid": "176.7974"
+   },
+   {
+    "name": "三菱商事",
+    "ticker": "8058",
+    "secid": "176.8058"
+   },
+   {
+    "name": "日立",
+    "ticker": "6501",
+    "secid": "176.6501"
+   },
+   {
+    "name": "信越化学",
+    "ticker": "4063",
+    "secid": "176.4063"
+   }
+  ],
+  "partial": false,
+  "secid": "100.N225"
+ },
+ {
+  "id": "dax",
+  "name": "德国DAX",
+  "en": "DAX 40",
+  "publisher": "德意志交易所 Deutsche Börse",
+  "inception": "1988-07-01",
+  "count": 39,
+  "desc": "德国 40 家市值最大的上市公司（2021 年由 30 家扩至 40 家）。",
+  "constituents": [
+   {
+    "name": "SIEMENS AGO.N",
+    "ticker": "SIE",
+    "secid": "185.SIE"
+   },
+   {
+    "name": "ALLIANZ SEO.N",
+    "ticker": "ALV",
+    "secid": "185.ALV"
+   },
+   {
+    "name": "SAP SE",
+    "ticker": "SAP",
+    "secid": "185.SAP"
+   },
+   {
+    "name": "SIEMENS ENERGY AGO.N",
+    "ticker": "ENR",
+    "secid": "185.ENR"
+   },
+   {
+    "name": "AIRBUS SE",
+    "ticker": "AIR",
+    "secid": "185.AIR"
+   },
+   {
+    "name": "INFINEON TECH.AGO.N",
+    "ticker": "IFX",
+    "secid": "185.IFX"
+   },
+   {
+    "name": "DT.TELEKOM AG",
+    "ticker": "DTE",
+    "secid": "185.DTE"
+   },
+   {
+    "name": "MUENCH.RUECKVERS.O.N",
+    "ticker": "MUV2",
+    "secid": "185.MUV2"
+   },
+   {
+    "name": "DEUTSCHE BANK AGO.N",
+    "ticker": "DBK",
+    "secid": "185.DBK"
+   },
+   {
+    "name": "DEUTSCHE POST AGO.N",
+    "ticker": "DHL",
+    "secid": "185.DHL"
+   },
+   {
+    "name": "BAYER AGO.N",
+    "ticker": "BAYN",
+    "secid": "185.BAYN"
+   },
+   {
+    "name": "RHEINMETALL AG",
+    "ticker": "RHM",
+    "secid": "185.RHM"
+   },
+   {
+    "name": "DEUTSCHE BOERSEO.N",
+    "ticker": "DB1",
+    "secid": "185.DB1"
+   },
+   {
+    "name": "BASF SEO.N",
+    "ticker": "BAS",
+    "secid": "185.BAS"
+   },
+   {
+    "name": "E.ON SEO.N",
+    "ticker": "EOAN",
+    "secid": "185.EOAN"
+   },
+   {
+    "name": "RWE AG INH",
+    "ticker": "RWE",
+    "secid": "185.RWE"
+   },
+   {
+    "name": "ADIDAS AGO.N",
+    "ticker": "ADS",
+    "secid": "185.ADS"
+   },
+   {
+    "name": "MERCEDESBENZ GRPO.N",
+    "ticker": "MBG",
+    "secid": "185.MBG"
+   },
+   {
+    "name": "DAIMLER TRUCK HLDGON",
+    "ticker": "DTG",
+    "secid": "185.DTG"
+   },
+   {
+    "name": "HEIDELBERG MATERIALS",
+    "ticker": "HEI",
+    "secid": "185.HEI"
+   },
+   {
+    "name": "MTU AERO ENGINESO.N",
+    "ticker": "MTX",
+    "secid": "185.MTX"
+   },
+   {
+    "name": "MERCK KGAA",
+    "ticker": "MRK",
+    "secid": "185.MRK"
+   },
+   {
+    "name": "FRESENIUS SE+CO.KGAA",
+    "ticker": "FRE",
+    "secid": "185.FRE"
+   },
+   {
+    "name": "BAY.MOTOREN WERKE AG",
+    "ticker": "BMW",
+    "secid": "185.BMW"
+   },
+   {
+    "name": "VONOVIA SEO.N",
+    "ticker": "VNA",
+    "secid": "185.VNA"
+   },
+   {
+    "name": "HANNOVER RUECK SEO.N",
+    "ticker": "HNR1",
+    "secid": "185.HNR1"
+   },
+   {
+    "name": "VOLKSWAGEN AG",
+    "ticker": "VOW3",
+    "secid": "185.VOW3"
+   },
+   {
+    "name": "COMMERZBANK AG",
+    "ticker": "CBK",
+    "secid": "185.CBK"
+   },
+   {
+    "name": "SIEMENS HEALTH.AGO.N",
+    "ticker": "SHL",
+    "secid": "185.SHL"
+   },
+   {
+    "name": "SYMRISE AG",
+    "ticker": "SY1",
+    "secid": "185.SY1"
+   },
+   {
+    "name": "HENKEL AG+CO.KGAA",
+    "ticker": "HEN3",
+    "secid": "185.HEN3"
+   },
+   {
+    "name": "HOCHTIEF AG",
+    "ticker": "HOT",
+    "secid": "185.HOT"
+   },
+   {
+    "name": "GEA GROUP AG",
+    "ticker": "G1A",
+    "secid": "185.G1A"
+   },
+   {
+    "name": "CONTINENTAL AG",
+    "ticker": "CON",
+    "secid": "185.CON"
+   },
+   {
+    "name": "FRESEN.MED.CARE AG INH ON",
+    "ticker": "FME",
+    "secid": "185.FME"
+   },
+   {
+    "name": "BEIERSDORF AG",
+    "ticker": "BEI",
+    "secid": "185.BEI"
+   },
+   {
+    "name": "BRENNTAG SEO.N",
+    "ticker": "BNR",
+    "secid": "185.BNR"
+   },
+   {
+    "name": "ZALANDO SE",
+    "ticker": "ZAL",
+    "secid": "185.ZAL"
+   },
+   {
+    "name": "SCOUT24 SEO.N",
+    "ticker": "G24",
+    "secid": "185.G24"
+   }
+  ],
+  "partial": false,
+  "secid": "100.GDAXI",
+  "weights": {
+   "asOf": "2026-06-30",
+   "source": "嘉实德国DAXETF（159561）2026年中期报告 · 全持仓",
+   "items": [
+    {
+     "code": "SIE",
+     "name": "SIEMENS AGO.N",
+     "weight": 11.77,
+     "secid": "185.SIE"
+    },
+    {
+     "code": "ALV",
+     "name": "ALLIANZ SEO.N",
+     "weight": 8.99,
+     "secid": "185.ALV"
+    },
+    {
+     "code": "SAP",
+     "name": "SAP SE",
+     "weight": 7.73,
+     "secid": "185.SAP"
+    },
+    {
+     "code": "ENR",
+     "name": "SIEMENS ENERGY AGO.N",
+     "weight": 7.69,
+     "secid": "185.ENR"
+    },
+    {
+     "code": "AIR",
+     "name": "AIRBUS SE",
+     "weight": 6.53,
+     "secid": "185.AIR"
+    },
+    {
+     "code": "IFX",
+     "name": "INFINEON TECH.AGO.N",
+     "weight": 6.09,
+     "secid": "185.IFX"
+    },
+    {
+     "code": "DTE",
+     "name": "DT.TELEKOM AG",
+     "weight": 4.71,
+     "secid": "185.DTE"
+    },
+    {
+     "code": "MUV2",
+     "name": "MUENCH.RUECKVERS.O.N",
+     "weight": 3.54,
+     "secid": "185.MUV2"
+    },
+    {
+     "code": "DBK",
+     "name": "DEUTSCHE BANK AGO.N",
+     "weight": 3.23,
+     "secid": "185.DBK"
+    },
+    {
+     "code": "DHL",
+     "name": "DEUTSCHE POST AGO.N",
+     "weight": 2.87,
+     "secid": "185.DHL"
+    },
+    {
+     "code": "BAYN",
+     "name": "BAYER AGO.N",
+     "weight": 2.71,
+     "secid": "185.BAYN"
+    },
+    {
+     "code": "RHM",
+     "name": "RHEINMETALL AG",
+     "weight": 2.64,
+     "secid": "185.RHM"
+    },
+    {
+     "code": "DB1",
+     "name": "DEUTSCHE BOERSEO.N",
+     "weight": 2.54,
+     "secid": "185.DB1"
+    },
+    {
+     "code": "BAS",
+     "name": "BASF SEO.N",
+     "weight": 2.38,
+     "secid": "185.BAS"
+    },
+    {
+     "code": "EOAN",
+     "name": "E.ON SEO.N",
+     "weight": 2.31,
+     "secid": "185.EOAN"
+    },
+    {
+     "code": "RWE",
+     "name": "RWE AG INH",
+     "weight": 2.06,
+     "secid": "185.RWE"
+    },
+    {
+     "code": "ADS",
+     "name": "ADIDAS AGO.N",
+     "weight": 1.84,
+     "secid": "185.ADS"
+    },
+    {
+     "code": "MBG",
+     "name": "MERCEDESBENZ GRPO.N",
+     "weight": 1.8,
+     "secid": "185.MBG"
+    },
+    {
+     "code": "DTG",
+     "name": "DAIMLER TRUCK HLDGON",
+     "weight": 1.25,
+     "secid": "185.DTG"
+    },
+    {
+     "code": "HEI",
+     "name": "HEIDELBERG MATERIALS",
+     "weight": 1.2,
+     "secid": "185.HEI"
+    },
+    {
+     "code": "MTX",
+     "name": "MTU AERO ENGINESO.N",
+     "weight": 1.12,
+     "secid": "185.MTX"
+    },
+    {
+     "code": "MRK",
+     "name": "MERCK KGAA",
+     "weight": 1.08,
+     "secid": "185.MRK"
+    },
+    {
+     "code": "FRE",
+     "name": "FRESENIUS SE+CO.KGAA",
+     "weight": 0.94,
+     "secid": "185.FRE"
+    },
+    {
+     "code": "BMW",
+     "name": "BAY.MOTOREN WERKE AG",
+     "weight": 0.91,
+     "secid": "185.BMW"
+    },
+    {
+     "code": "VNA",
+     "name": "VONOVIA SEO.N",
+     "weight": 0.9,
+     "secid": "185.VNA"
+    },
+    {
+     "code": "HNR1",
+     "name": "HANNOVER RUECK SEO.N",
+     "weight": 0.83,
+     "secid": "185.HNR1"
+    },
+    {
+     "code": "VOW3",
+     "name": "VOLKSWAGEN AG",
+     "weight": 0.82,
+     "secid": "185.VOW3"
+    },
+    {
+     "code": "CBK",
+     "name": "COMMERZBANK AG",
+     "weight": 0.79,
+     "secid": "185.CBK"
+    },
+    {
+     "code": "SHL",
+     "name": "SIEMENS HEALTH.AGO.N",
+     "weight": 0.73,
+     "secid": "185.SHL"
+    },
+    {
+     "code": "SY1",
+     "name": "SYMRISE AG",
+     "weight": 0.67,
+     "secid": "185.SY1"
+    },
+    {
+     "code": "HEN3",
+     "name": "HENKEL AG+CO.KGAA",
+     "weight": 0.64,
+     "secid": "185.HEN3"
+    },
+    {
+     "code": "HOT",
+     "name": "HOCHTIEF AG",
+     "weight": 0.51,
+     "secid": "185.HOT"
+    },
+    {
+     "code": "G1A",
+     "name": "GEA GROUP AG",
+     "weight": 0.5,
+     "secid": "185.G1A"
+    },
+    {
+     "code": "CON",
+     "name": "CONTINENTAL AG",
+     "weight": 0.44,
+     "secid": "185.CON"
+    },
+    {
+     "code": "FME",
+     "name": "FRESEN.MED.CARE AG INH ON",
+     "weight": 0.43,
+     "secid": "185.FME"
+    },
+    {
+     "code": "BEI",
+     "name": "BEIERSDORF AG",
+     "weight": 0.38,
+     "secid": "185.BEI"
+    },
+    {
+     "code": "BNR",
+     "name": "BRENNTAG SEO.N",
+     "weight": 0.35,
+     "secid": "185.BNR"
+    },
+    {
+     "code": "ZAL",
+     "name": "ZALANDO SE",
+     "weight": 0.34,
+     "secid": "185.ZAL"
+    },
+    {
+     "code": "G24",
+     "name": "SCOUT24 SEO.N",
+     "weight": 0.3,
+     "secid": "185.G24"
+    }
+   ]
+  }
+ },
+ {
+  "id": "cac",
+  "name": "法国CAC40",
+  "en": "CAC 40",
+  "publisher": "泛欧交易所 Euronext",
+  "inception": "1987-12-31",
+  "count": 39,
+  "desc": "法国 40 家市值最大、流动性最好的上市公司。",
+  "constituents": [
+   {
+    "name": "施耐德电气",
+    "ticker": "SU",
+    "secid": "186.SU"
+   },
+   {
+    "name": "TotalEnergies SE",
+    "ticker": "TTE",
+    "secid": "186.TTE"
+   },
+   {
+    "name": "路易威登",
+    "ticker": "MC",
+    "secid": "186.MC"
+   },
+   {
+    "name": "空中客车集团",
+    "ticker": "AIR",
+    "secid": "186.AIR"
+   },
+   {
+    "name": "法国巴黎银行",
+    "ticker": "BNP",
+    "secid": "186.BNP"
+   },
+   {
+    "name": "液化空气",
+    "ticker": "AI",
+    "secid": "186.AI"
+   },
+   {
+    "name": "赛峰",
+    "ticker": "SAF",
+    "secid": "186.SAF"
+   },
+   {
+    "name": "欧莱雅",
+    "ticker": "OR",
+    "secid": "186.OR"
+   },
+   {
+    "name": "赛诺菲",
+    "ticker": "SAN",
+    "secid": "186.SAN"
+   },
+   {
+    "name": "安盛",
+    "ticker": "CS",
+    "secid": "186.CS"
+   },
+   {
+    "name": "万喜集团",
+    "ticker": "DG",
+    "secid": "186.DG"
+   },
+   {
+    "name": "法国兴业银行",
+    "ticker": "GLE",
+    "secid": "186.GLE"
+   },
+   {
+    "name": "依视路国际",
+    "ticker": "EL",
+    "secid": "186.EL"
+   },
+   {
+    "name": "Engie集团",
+    "ticker": "ENGI",
+    "secid": "186.ENGI"
+   },
+   {
+    "name": "爱玛仕",
+    "ticker": "RMS",
+    "secid": "186.RMS"
+   },
+   {
+    "name": "达能",
+    "ticker": "BN",
+    "secid": "186.BN"
+   },
+   {
+    "name": "意法半导体",
+    "ticker": "STMPA",
+    "secid": "186.STMPA"
+   },
+   {
+    "name": "罗格朗公司",
+    "ticker": "LR",
+    "secid": "186.LR"
+   },
+   {
+    "name": "圣戈班集团",
+    "ticker": "SGO",
+    "secid": "186.SGO"
+   },
+   {
+    "name": "Orange公司",
+    "ticker": "ORA",
+    "secid": "186.ORA"
+   },
+   {
+    "name": "米其林",
+    "ticker": "ML",
+    "secid": "186.ML"
+   },
+   {
+    "name": "法国威立雅环境集团",
+    "ticker": "VIE",
+    "secid": "186.VIE"
+   },
+   {
+    "name": "泰雷兹",
+    "ticker": "HO",
+    "secid": "186.HO"
+   },
+   {
+    "name": "阳狮集团",
+    "ticker": "PUB",
+    "secid": "186.PUB"
+   },
+   {
+    "name": "开云集团（Kering）",
+    "ticker": "KER",
+    "secid": "186.KER"
+   },
+   {
+    "name": "Credit Agricole",
+    "ticker": "ACA",
+    "secid": "186.ACA"
+   },
+   {
+    "name": "凯捷",
+    "ticker": "CAP",
+    "secid": "186.CAP"
+   },
+   {
+    "name": "保乐力加",
+    "ticker": "RI",
+    "secid": "186.RI"
+   },
+   {
+    "name": "Unibail-Rodamco",
+    "ticker": "URW",
+    "secid": "186.URW"
+   },
+   {
+    "name": "达索系统",
+    "ticker": "DSY",
+    "secid": "186.DSY"
+   },
+   {
+    "name": "家乐福",
+    "ticker": "CA",
+    "secid": "186.CA"
+   },
+   {
+    "name": "Euronext",
+    "ticker": "ENX",
+    "secid": "186.ENX"
+   },
+   {
+    "name": "Stellantis NV",
+    "ticker": "STLAP",
+    "secid": "186.STLAP"
+   },
+   {
+    "name": "Eiffage",
+    "ticker": "FGR",
+    "secid": "186.FGR"
+   },
+   {
+    "name": "法国布伊格集团",
+    "ticker": "EN",
+    "secid": "186.EN"
+   },
+   {
+    "name": "雅高酒店集团",
+    "ticker": "AC",
+    "secid": "186.AC"
+   },
+   {
+    "name": "Bureau Verita",
+    "ticker": "BVI",
+    "secid": "186.BVI"
+   },
+   {
+    "name": "Eurofins Scientific SE",
+    "ticker": "ERF",
+    "secid": "186.ERF"
+   },
+   {
+    "name": "雷诺",
+    "ticker": "RNO",
+    "secid": "186.RNO"
+   }
+  ],
+  "partial": false,
+  "secid": "100.FCHI",
+  "weights": {
+   "asOf": "2026-06-30",
+   "source": "华安法国CAC40ETF（513080）2026年中期报告 · 全持仓",
+   "items": [
+    {
+     "code": "SU",
+     "name": "施耐德电气",
+     "weight": 8.05,
+     "secid": "186.SU"
+    },
+    {
+     "code": "TTE",
+     "name": "TotalEnergies SE",
+     "weight": 6.98,
+     "secid": "186.TTE"
+    },
+    {
+     "code": "MC",
+     "name": "路易威登",
+     "weight": 5.82,
+     "secid": "186.MC"
+    },
+    {
+     "code": "AIR",
+     "name": "空中客车集团",
+     "weight": 5.61,
+     "secid": "186.AIR"
+    },
+    {
+     "code": "BNP",
+     "name": "法国巴黎银行",
+     "weight": 5.38,
+     "secid": "186.BNP"
+    },
+    {
+     "code": "AI",
+     "name": "液化空气",
+     "weight": 5.3,
+     "secid": "186.AI"
+    },
+    {
+     "code": "SAF",
+     "name": "赛峰",
+     "weight": 5.26,
+     "secid": "186.SAF"
+    },
+    {
+     "code": "OR",
+     "name": "欧莱雅",
+     "weight": 4.39,
+     "secid": "186.OR"
+    },
+    {
+     "code": "SAN",
+     "name": "赛诺菲",
+     "weight": 4.29,
+     "secid": "186.SAN"
+    },
+    {
+     "code": "CS",
+     "name": "安盛",
+     "weight": 3.95,
+     "secid": "186.CS"
+    },
+    {
+     "code": "DG",
+     "name": "万喜集团",
+     "weight": 3.29,
+     "secid": "186.DG"
+    },
+    {
+     "code": "GLE",
+     "name": "法国兴业银行",
+     "weight": 2.73,
+     "secid": "186.GLE"
+    },
+    {
+     "code": "EL",
+     "name": "依视路国际",
+     "weight": 2.6,
+     "secid": "186.EL"
+    },
+    {
+     "code": "ENGI",
+     "name": "Engie集团",
+     "weight": 2.51,
+     "secid": "186.ENGI"
+    },
+    {
+     "code": "RMS",
+     "name": "爱玛仕",
+     "weight": 2.44,
+     "secid": "186.RMS"
+    },
+    {
+     "code": "BN",
+     "name": "达能",
+     "weight": 2.21,
+     "secid": "186.BN"
+    },
+    {
+     "code": "STMPA",
+     "name": "意法半导体",
+     "weight": 2.02,
+     "secid": "186.STMPA"
+    },
+    {
+     "code": "LR",
+     "name": "罗格朗公司",
+     "weight": 1.91,
+     "secid": "186.LR"
+    },
+    {
+     "code": "SGO",
+     "name": "圣戈班集团",
+     "weight": 1.69,
+     "secid": "186.SGO"
+    },
+    {
+     "code": "ORA",
+     "name": "Orange公司",
+     "weight": 1.4,
+     "secid": "186.ORA"
+    },
+    {
+     "code": "ML",
+     "name": "米其林",
+     "weight": 1.13,
+     "secid": "186.ML"
+    },
+    {
+     "code": "VIE",
+     "name": "法国威立雅环境集团",
+     "weight": 1.07,
+     "secid": "186.VIE"
+    },
+    {
+     "code": "HO",
+     "name": "泰雷兹",
+     "weight": 1.03,
+     "secid": "186.HO"
+    },
+    {
+     "code": "PUB",
+     "name": "阳狮集团",
+     "weight": 1.03,
+     "secid": "186.PUB"
+    },
+    {
+     "code": "KER",
+     "name": "开云集团（Kering）",
+     "weight": 0.89,
+     "secid": "186.KER"
+    },
+    {
+     "code": "ACA",
+     "name": "Credit Agricole",
+     "weight": 0.79,
+     "secid": "186.ACA"
+    },
+    {
+     "code": "CAP",
+     "name": "凯捷",
+     "weight": 0.63,
+     "secid": "186.CAP"
+    },
+    {
+     "code": "RI",
+     "name": "保乐力加",
+     "weight": 0.62,
+     "secid": "186.RI"
+    },
+    {
+     "code": "URW",
+     "name": "Unibail-Rodamco",
+     "weight": 0.6,
+     "secid": "186.URW"
+    },
+    {
+     "code": "DSY",
+     "name": "达索系统",
+     "weight": 0.59,
+     "secid": "186.DSY"
+    },
+    {
+     "code": "CA",
+     "name": "家乐福",
+     "weight": 0.55,
+     "secid": "186.CA"
+    },
+    {
+     "code": "ENX",
+     "name": "Euronext",
+     "weight": 0.53,
+     "secid": "186.ENX"
+    },
+    {
+     "code": "STLAP",
+     "name": "Stellantis NV",
+     "weight": 0.5,
+     "secid": "186.STLAP"
+    },
+    {
+     "code": "FGR",
+     "name": "Eiffage",
+     "weight": 0.47,
+     "secid": "186.FGR"
+    },
+    {
+     "code": "EN",
+     "name": "法国布伊格集团",
+     "weight": 0.46,
+     "secid": "186.EN"
+    },
+    {
+     "code": "AC",
+     "name": "雅高酒店集团",
+     "weight": 0.45,
+     "secid": "186.AC"
+    },
+    {
+     "code": "BVI",
+     "name": "Bureau Verita",
+     "weight": 0.44,
+     "secid": "186.BVI"
+    },
+    {
+     "code": "ERF",
+     "name": "Eurofins Scientific SE",
+     "weight": 0.39,
+     "secid": "186.ERF"
+    },
+    {
+     "code": "RNO",
+     "name": "雷诺",
+     "weight": 0.24,
+     "secid": "186.RNO"
+    }
+   ]
+  }
+ },
+ {
+  "id": "ftse",
+  "name": "英国富时100",
+  "en": "FTSE 100",
+  "publisher": "富时罗素 FTSE Russell",
+  "inception": "1984-01-03",
+  "count": 100,
+  "desc": "伦敦证券交易所 100 家市值最大的公司，是英国股市的基准。",
+  "constituents": [
+   {
+    "name": "阿斯利康",
+    "ticker": "AZN",
+    "secid": "155.AZN"
+   },
+   {
+    "name": "壳牌",
+    "ticker": "SHEL",
+    "secid": "155.SHEL"
+   },
+   {
+    "name": "汇丰控股",
+    "ticker": "HSBA",
+    "secid": "155.HSBA"
+   },
+   {
+    "name": "联合利华",
+    "ticker": "ULVR",
+    "secid": "155.ULVR"
+   },
+   {
+    "name": "力拓",
+    "ticker": "RIO",
+    "secid": "155.RIO"
+   },
+   {
+    "name": "英美烟草",
+    "ticker": "BATS",
+    "secid": "155.BATS"
+   },
+   {
+    "name": "葛兰素史克",
+    "ticker": "GSK",
+    "secid": "155.GSK"
+   },
+   {
+    "name": "帝亚吉欧",
+    "ticker": "DGE",
+    "secid": "155.DGE"
+   },
+   {
+    "name": "巴克莱",
+    "ticker": "BARC",
+    "secid": "155.BARC"
+   },
+   {
+    "name": "劳埃德银行",
+    "ticker": "LLOY",
+    "secid": "155.LLOY"
+   }
+  ],
+  "partial": false,
+  "secid": "100.FTSE"
+ },
+ {
+  "id": "sx5e",
+  "name": "欧洲斯托克50",
+  "en": "EURO STOXX 50",
+  "publisher": "STOXX（德意志交易所）",
+  "inception": "1998-02-28",
+  "count": 50,
+  "desc": "欧元区 50 只蓝筹股，覆盖法国、德国、荷兰、西班牙、意大利等国。",
+  "constituents": [
+   {
+    "name": "阿斯麦",
+    "ticker": "ASML",
+    "secid": "105.ASML"
+   },
+   {
+    "name": "路威酩轩",
+    "ticker": "MC",
+    "secid": "186.MC"
+   },
+   {
+    "name": "SAP",
+    "ticker": "SAP",
+    "secid": "185.SAP"
+   },
+   {
+    "name": "西门子",
+    "ticker": "SIE",
+    "secid": "185.SIE"
+   },
+   {
+    "name": "道达尔能源",
+    "ticker": "TTE",
+    "secid": "186.TTE"
+   },
+   {
+    "name": "欧莱雅",
+    "ticker": "OR",
+    "secid": "186.OR"
+   },
+   {
+    "name": "空中客车",
+    "ticker": "AIR",
+    "secid": "186.AIR"
+   },
+   {
+    "name": "赛诺菲",
+    "ticker": "SAN",
+    "secid": "186.SAN"
+   },
+   {
+    "name": "安联",
+    "ticker": "ALV",
+    "secid": "185.ALV"
+   },
+   {
+    "name": "施耐德电气",
+    "ticker": "SU",
+    "secid": "186.SU"
+   }
+  ],
+  "partial": false,
+  "secid": "100.SX5E"
+ },
+ {
+  "id": "ibex",
+  "name": "西班牙IBEX35",
+  "en": "IBEX 35",
+  "publisher": "马德里证券交易所 BME",
+  "inception": "1992-01-14",
+  "count": 35,
+  "desc": "西班牙 35 家流动性最好的上市公司。东方财富没有西班牙本地个股清单，这里用 ADR 覆盖主要成分股。",
+  "constituents": [
+   {
+    "name": "桑坦德银行",
+    "ticker": "SAN",
+    "secid": "106.SAN"
+   },
+   {
+    "name": "西班牙对外银行",
+    "ticker": "BBVA",
+    "secid": "106.BBVA"
+   },
+   {
+    "name": "西班牙电信",
+    "ticker": "TEF",
+    "secid": "106.TEF"
+   },
+   {
+    "name": "伊维尔德罗拉",
+    "ticker": "IBE",
+    "secid": "185.IBE1"
+   }
+  ],
+  "partial": true,
+  "secid": "100.IBEX"
+ },
+ {
+  "id": "mib",
+  "name": "意大利富时MIB",
+  "en": "FTSE MIB",
+  "publisher": "富时罗素 / 意大利交易所",
+  "inception": "2009-06-01",
+  "count": 40,
+  "desc": "意大利 40 家大型上市公司。东方财富没有意大利本地个股清单，这里用 ADR / 德国挂牌覆盖主要成分股。",
+  "constituents": [
+   {
+    "name": "埃尼石油",
+    "ticker": "ENI",
+    "secid": "185.ENI"
+   },
+   {
+    "name": "意大利国家电力",
+    "ticker": "ENEL",
+    "secid": "185.ENL"
+   },
+   {
+    "name": "法拉利",
+    "ticker": "RACE",
+    "secid": "106.RACE"
+   },
+   {
+    "name": "Stellantis",
+    "ticker": "STLA",
+    "secid": "106.STLA"
+   }
+  ],
+  "partial": true,
+  "secid": "100.MIB"
+ },
+ {
+  "id": "asx200",
+  "name": "澳大利亚S&P/ASX200",
+  "en": "S&P/ASX 200",
+  "publisher": "标普道琼斯 / 澳交所 ASX",
+  "inception": "2000-04-03",
+  "count": 200,
+  "desc": "澳大利亚 200 家市值最大的公司。东方财富没有澳洲本地个股清单，这里用 ADR 覆盖主要成分股。",
+  "constituents": [
+   {
+    "name": "必和必拓",
+    "ticker": "BHP",
+    "secid": "106.BHP"
+   },
+   {
+    "name": "力拓",
+    "ticker": "RIO",
+    "secid": "106.RIO"
+   },
+   {
+    "name": "西太平洋银行",
+    "ticker": "WBC",
+    "secid": "106.WBK"
+   }
+  ],
+  "partial": true,
+  "secid": "100.AS51"
+ },
+ {
+  "id": "nifty",
+  "name": "印度NIFTY 50",
+  "en": "NIFTY 50",
+  "publisher": "NSE Indices（印度国家证券交易所）",
+  "inception": "1995-04-22",
+  "count": 50,
+  "desc": "印度 50 家市值最大、流动性最好的公司。东方财富没有印度本地个股清单，这里用 ADR 覆盖主要成分股。",
+  "constituents": [
+   {
+    "name": "印孚瑟斯",
+    "ticker": "INFY",
+    "secid": "106.INFY"
+   },
+   {
+    "name": "印度工业信贷投资银行",
+    "ticker": "IBN",
+    "secid": "106.IBN"
+   },
+   {
+    "name": "HDFC银行",
+    "ticker": "HDB",
+    "secid": "106.HDB"
+   }
+  ],
+  "partial": true,
+  "secid": "100.SENSEX"
+ },
+ {
+  "id": "ibov",
+  "name": "巴西IBOVESPA",
+  "en": "IBOVESPA",
+  "publisher": "B3（巴西证券交易所）",
+  "inception": "1968-01-02",
+  "count": 85,
+  "desc": "巴西约 85 家最具流动性的上市公司。东方财富没有巴西本地个股清单，这里用 ADR 覆盖主要成分股。",
+  "constituents": [
+   {
+    "name": "巴西石油",
+    "ticker": "PBR",
+    "secid": "106.PBR"
+   },
+   {
+    "name": "淡水河谷",
+    "ticker": "VALE",
+    "secid": "106.VALE"
+   },
+   {
+    "name": "伊塔乌联合银行",
+    "ticker": "ITUB",
+    "secid": "106.ITUB"
+   },
+   {
+    "name": "Nu Holdings",
+    "ticker": "NU",
+    "secid": "106.NU"
+   },
+   {
+    "name": "MercadoLibre",
+    "ticker": "MELI",
+    "secid": "106.MELI"
+   },
+   {
+    "name": "安贝夫",
+    "ticker": "ABEV",
+    "secid": "106.ABEV"
+   },
+   {
+    "name": "布拉德斯科银行",
+    "ticker": "BBD",
+    "secid": "106.BBD"
+   }
+  ],
+  "partial": true,
+  "secid": "100.BVSP"
+ }
+]

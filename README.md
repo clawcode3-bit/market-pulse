@@ -34,6 +34,21 @@ node server.js
 PORT=8080 HOST=0.0.0.0 node server.js
 ```
 
+## 理念
+
+行情工具大多在争夺注意力：推送、弹窗、涨停提醒、荐股。Market Pulse 想反着来——把噪音关掉，把时间尺度拉长，把数据口径写清楚，让判断回到使用者手里。
+
+- **看今天，也看长期**：首页是行情，重心在历史；后复权、十年区间、回撤、相关性、季节性。
+- **数据诚实**：估算值标“约”，覆盖不全标“部分覆盖”，没有的东西不假装有。
+- **工具属于使用者**：零依赖、本地运行、自选存 `localStorage`；没有账号、云端和埋点。
+- **不替你做决定**：不荐股、不给目标价、不预测，只把数字和它们的来龙去脉摆在一起。
+
+它不是交易终端，也不是资讯聚合器，更像一张自己的工作台：几个顺手的工具，放在该在的位置。
+
+[完整理念与项目简介 →](docs/PHILOSOPHY.md)
+
+> In English: a self-hosted, zero-dependency dashboard for studying markets over years, not refreshing quotes every minute. It shows its sources and gaps, and never tells you what to buy.
+
 ## 行情总览
 
 | 模块 | 说明 |

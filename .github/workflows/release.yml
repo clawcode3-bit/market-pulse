@@ -1,0 +1,46 @@
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    name: Publish release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Check tag matches package.json
+        run: |
+          tag="${GITHUB_REF_NAME#v}"
+          pkg="$(node -p "require('./package.json').version")"
+          echo "tag=${tag} package=${pkg}"
+          if [ "${tag%%-*}" != "${pkg}" ]; then
+            echo "::error::tag ${GITHUB_REF_NAME} does not match package.json version ${pkg}"
+            exit 1
+          fi
+
+      - name: Quick sanity check
+        run: |
+          node --check server.js
+          node -e "JSON.parse(require('node:fs').readFileSync('data/indices.json','utf8'))"
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          args=(--generate-notes --title "${GITHUB_REF_NAME}")
+          case "${GITHUB_REF_NAME}" in
+            *-*) args+=(--prerelease) ;;
+          esac
+          gh release create "${GITHUB_REF_NAME}" "${args[@]}"

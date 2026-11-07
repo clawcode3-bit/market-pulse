@@ -260,6 +260,17 @@ cloudflared tunnel --url http://127.0.0.1:5173
 - 自选与研究标的保存在本地浏览器 `localStorage`，不跨设备同步。
 - 历史规律不代表未来表现，本项目仅供个人研究，不构成投资建议。
 
+## 发布
+
+推送 `v*` 标签会自动创建 GitHub Release（自动生成 changelog，`-rc` 等后缀会标为 prerelease）：
+
+```bash
+git tag v0.2.0
+git push origin v0.2.0
+```
+
+`package.json` 的 `version` 需要与 tag 一致，否则 Release workflow 会失败。
+
 ## 贡献
 
 欢迎 issue / PR。提交前请确认：

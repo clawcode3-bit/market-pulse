@@ -5,6 +5,12 @@
 
 ## [Unreleased]
 
+## [0.1.3] - 2026-11-07
+
+### Fixed
+
+- Release workflow 改为通过 GitHub API 读取 annotated tag 正文，不再依赖 runner 本地存在 tag 对象
+
 ## [0.1.2] - 2026-11-07
 
 ### Changed

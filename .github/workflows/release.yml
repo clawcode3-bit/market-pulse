@@ -45,9 +45,15 @@ jobs:
           esac
           gh release create "${GITHUB_REF_NAME}" "${args[@]}"
 
-          # 把 tag 注释正文合并到自动生成的 changelog 前面
-          tag_body="$(git tag -l --format='%(contents:body)' "${GITHUB_REF_NAME}")"
-          if [ -n "${tag_body}" ]; then
-            current="$(gh release view "${GITHUB_REF_NAME}" --json body -q .body)"
-            gh release edit "${GITHUB_REF_NAME}" --notes "${tag_body}"$'\n\n'"${current}"
+          # 把带注释 tag 的正文合并到自动 changelog 前面
+          # 用 API 读取 tag 对象，避免 checkout 后本地没有 tag 的情况
+          obj_type="$(gh api "repos/${GITHUB_REPOSITORY}/git/ref/tags/${GITHUB_REF_NAME}" -q .object.type)"
+          if [ "${obj_type}" = "tag" ]; then
+            tag_sha="$(gh api "repos/${GITHUB_REPOSITORY}/git/ref/tags/${GITHUB_REF_NAME}" -q .object.sha)"
+            tag_msg="$(gh api "repos/${GITHUB_REPOSITORY}/git/tags/${tag_sha}" -q .message)"
+            tag_body="${tag_msg#*$'\n'}"
+            if [ -n "${tag_body}" ] && [ "${tag_body}" != "${tag_msg}" ]; then
+              current="$(gh release view "${GITHUB_REF_NAME}" --json body -q .body)"
+              gh release edit "${GITHUB_REF_NAME}" --notes "${tag_body}"$'\n\n'"${current}"
+            fi
           fi

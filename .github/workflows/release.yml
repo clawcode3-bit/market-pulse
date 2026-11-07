@@ -44,3 +44,10 @@ jobs:
             *-*) args+=(--prerelease) ;;
           esac
           gh release create "${GITHUB_REF_NAME}" "${args[@]}"
+
+          # 把 tag 注释正文合并到自动生成的 changelog 前面
+          tag_body="$(git tag -l --format='%(contents:body)' "${GITHUB_REF_NAME}")"
+          if [ -n "${tag_body}" ]; then
+            current="$(gh release view "${GITHUB_REF_NAME}" --json body -q .body)"
+            gh release edit "${GITHUB_REF_NAME}" --notes "${tag_body}"$'\n\n'"${current}"
+          fi

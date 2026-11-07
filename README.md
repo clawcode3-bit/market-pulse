@@ -262,14 +262,18 @@ cloudflared tunnel --url http://127.0.0.1:5173
 
 ## 发布
 
-推送 `v*` 标签会自动创建 GitHub Release（自动生成 changelog，`-rc` 等后缀会标为 prerelease）：
+推送 `v*` 标签会自动创建 GitHub Release：
 
 ```bash
-git tag v0.2.0
+git tag -a v0.2.0 -m "Market Pulse v0.2.0" -m "- 新增 xxx
+- 修复 yyy"
 git push origin v0.2.0
 ```
 
-`package.json` 的 `version` 需要与 tag 一致，否则 Release workflow 会失败。
+- tag 的注释正文会成为 Release 开头，后面自动附上 GitHub 生成的 changelog
+- tag 带 `-rc` / `-beta` 后缀会自动标为 prerelease
+- `package.json` 的 `version` 必须与 tag 一致，否则 workflow 会失败
+- 详细变更记录维护在 [CHANGELOG.md](CHANGELOG.md)
 
 ## 贡献
 
